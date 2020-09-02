@@ -9,8 +9,8 @@ import SteveS from "../components/testimonials/steveS";
 import JimP from "../components/testimonials/jimP";
 import JanetL from "../components/testimonials/janetL";
 import MaryA from "../components/testimonials/maryA";
-import Footer from "../components/footer"
-
+import Contact from "../components/testimonials/contact";
+import Footer from "../components/footer";
 
 export default function Services() {
   return (
@@ -29,9 +29,8 @@ export default function Services() {
       <JimP />
       <JanetL />
       <MaryA />
-      <h1>IMAGE 4</h1>
+      <Contact />
       <Footer />
-
     </>
   );
 }
