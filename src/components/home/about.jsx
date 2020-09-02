@@ -23,8 +23,9 @@ export default function About() {
       </Typography>
       
       <Typography variant="h1" gutterBottom>
-        IMAGE
+        IMAGE 2
       </Typography>
+      {/* <img src={require("../../images/DSC0341.jpg")} alt="ski image"/> */}
       <Typography variant="body1" gutterBottom>
         The core of our services revolves around business planning with a focus
         in the technology and office solutions industry. Whether the mission is

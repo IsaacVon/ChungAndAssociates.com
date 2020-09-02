@@ -14,7 +14,7 @@ export default function Contact() {
 
   return (
     <div className={classes.root}>
-      <h1>Background Image</h1>
+      <h1>Background Image 9</h1>
       <Typography variant="body1" gutterBottom>
         For more information please feel free to contact us.
       </Typography>

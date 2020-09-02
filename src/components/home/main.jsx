@@ -15,7 +15,7 @@ export default function Main() {
   return (
     <div className={classes.root}>
       <Typography variant="h1" gutterBottom>
-        IMAGE
+        IMAGE 1
       </Typography>{" "}
       <Typography variant="h3" gutterBottom>
         LOGO

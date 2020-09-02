@@ -15,7 +15,7 @@ export default function Services() {
   return (
     <div className={classes.root}>
       <Typography variant="h1" gutterBottom>
-        IMAGE
+        IMAGE 3
       </Typography>{" "}
       <Typography variant="h6" gutterBottom>
       Services We Offer.

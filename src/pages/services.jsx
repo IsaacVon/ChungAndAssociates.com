@@ -17,15 +17,15 @@ export default function Services() {
     <>
       <h1>-- testimonials - What people are saying --</h1>
       <ChipC />
-      <h1>IMAGE 1</h1>
+      <h1>IMAGE 6</h1>
       <MikeR />
       <JohnL />
       <JeffE />
-      <h1>IMAGE 2</h1>
+      <h1>IMAGE 7</h1>
       <PrestonW />
       <BillF />
       <SteveS />
-      <h1>IMAGE 3</h1>
+      <h1>IMAGE 8</h1>
       <JimP />
       <JanetL />
       <MaryA />
