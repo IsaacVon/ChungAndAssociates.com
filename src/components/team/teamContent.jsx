@@ -1,20 +1,12 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles({
-  root: {
-    width: "100%",
-    maxWidth: 500,
-  },
-});
+import ImageCard from "../../components/imageCard";
 
 export default function TeamContent() {
-  const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <Typography variant="header4" gutterBottom>
+    <>
+      <Typography variant="h4" gutterBottom>
         The Team
       </Typography>
       <Typography variant="body1" gutterBottom>
@@ -32,9 +24,11 @@ export default function TeamContent() {
         in 2005 and served as Senior VP and CFO for their flagship retail
         business for Southern California.{" "}
       </Typography>
-      <Typography variant="h1" gutterBottom>
-        IMAGE 5
-      </Typography>
+      <ImageCard
+        title="desert"
+        height="252px"
+        image={require("../../images/5.jpg")}
+      />
       <Typography variant="body1" gutterBottom>
         Liennette formed Chung & Associates Inc. in late 2012 to assisting
         clients in building quality organizations. Our clients include thirteen
@@ -54,6 +48,6 @@ export default function TeamContent() {
       <Typography variant="body1" gutterBottom>
         Associated Partners Riordan and Associates Sudbay & Associates
       </Typography>
-    </div>
+    </>
   );
 }

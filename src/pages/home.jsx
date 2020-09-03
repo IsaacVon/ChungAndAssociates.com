@@ -17,7 +17,6 @@ export default function Home() {
 
   return (
     <div className={classes.root}>
-      <h1>-- HOME --</h1>
       <Main />
       <About />
       <Services />

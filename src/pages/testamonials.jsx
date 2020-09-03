@@ -21,13 +21,12 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Services() {
+export default function Testamonials() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
       {" "}
-      <h1>-- testimonials - What people are saying --</h1>
       <ChipC />
       <ImageCard
         title="desert"
