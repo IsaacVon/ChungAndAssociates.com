@@ -11,26 +11,50 @@ import JanetL from "../components/testimonials/janetL";
 import MaryA from "../components/testimonials/maryA";
 import Contact from "../components/testimonials/contact";
 import Footer from "../components/footer";
+import { makeStyles } from "@material-ui/core/styles";
+import ImageCard from "../components/imageCard";
+
+const useStyles = makeStyles({
+  root: {
+    width: "100%",
+    maxWidth: 500,
+  },
+});
 
 export default function Services() {
+  const classes = useStyles();
+
   return (
-    <>
+    <div className={classes.root}>
+      {" "}
       <h1>-- testimonials - What people are saying --</h1>
       <ChipC />
-      <h1>IMAGE 6</h1>
+      <ImageCard
+        title="desert"
+        height="252px"
+        image={require("../images/6.jpg")}
+      />
       <MikeR />
       <JohnL />
       <JeffE />
-      <h1>IMAGE 7</h1>
+      <ImageCard
+        title="snow"
+        height="249px"
+        image={require("../images/7.jpg")}
+      />
       <PrestonW />
       <BillF />
       <SteveS />
-      <h1>IMAGE 8</h1>
+      <ImageCard
+        title="surf"
+        height="600px"
+        image={require("../images/8.jpg")}
+      />
       <JimP />
       <JanetL />
       <MaryA />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }

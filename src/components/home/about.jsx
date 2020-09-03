@@ -1,19 +1,10 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles({
-  root: {
-    width: "100%",
-    maxWidth: 500,
-  },
-});
+import ImageCard from "../imageCard";
 
 export default function About() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
+    <>
       <Typography variant="h4" gutterBottom>
         This is Who We Are
       </Typography>
@@ -21,11 +12,13 @@ export default function About() {
         We work with entrepreneurs to mobilize their resources and bring out the
         full potential of their businesses.
       </Typography>
-      
-      <Typography variant="h1" gutterBottom>
-        IMAGE 2
-      </Typography>
-      {/* <img src={require("../../images/DSC0341.jpg")} alt="ski image"/> */}
+
+      <ImageCard
+        title="bamboo forest"
+        height="161px"
+        image={require("../../images/2.jpg")}
+      />
+
       <Typography variant="body1" gutterBottom>
         The core of our services revolves around business planning with a focus
         in the technology and office solutions industry. Whether the mission is
@@ -36,6 +29,6 @@ export default function About() {
         infrastructure to continuously scale the organization towards growth and
         profit.{" "}
       </Typography>
-    </div>
+    </>
   );
 }
