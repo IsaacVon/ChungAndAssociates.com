@@ -6,9 +6,6 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
   menuButton: {
     marginRight: theme.spacing(2),
   },
@@ -17,11 +14,26 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ButtonAppBar() {
+
+export default function ButtonAppBar({ path }) {
   const classes = useStyles();
 
+  const decideNavColor = () => {
+    if(path === "/testamonials") return "testamonials"
+    if(path === "/team") return "yellow" // white transparent
+    if(path === "/") return "#73D3E1"
+  }
+
+  const navColor = decideNavColor()
+  console.log (navColor)
+
   return (
-    <div className={classes.root}>
+    <div
+      style={{
+        flexGrow: 1,
+        backgroundColor: navColor,
+      }}
+    >
       <AppBar
         position="static"
         style={{ background: "transparent", boxShadow: "none" }}

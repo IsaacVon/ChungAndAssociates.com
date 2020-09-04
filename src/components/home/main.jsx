@@ -1,20 +1,20 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import ImageCard from "../imageCard";
-
+import logo from "../../logos/chung-logo.svg";
 
 export default function Main() {
-
   return (
     <>
-      {/* Set this card to background, with the logo  */}
       <ImageCard
-        title="office"
-        height="600px"
+        title="Liennette"
+        height="100vw"
         image={require("../../images/1.jpg")}
       />
-      <Typography variant="h3" gutterBottom>
-        LOGO
+      <img src={logo} alt="Logo"/>
+
+      <Typography variant="h6" gutterBottom>
+        Building Quality Organizations.
       </Typography>
       <Typography variant="body1" gutterBottom>
         Chung and Associates is dedicated to building quality organizations. We

@@ -20,11 +20,12 @@ export default function Team() {
       <ImageCard
         title="image 4"
         height="252px"
-        image={require("../images/3.jpg")}
+        image={require("../images/4.jpg")}
       />
-
-      <TeamContent />
-      <Footer />
+      <div style={{ background: "#00AEEF" }}>
+        <TeamContent />
+        <Footer />
+      </div>
     </div>
   );
 }

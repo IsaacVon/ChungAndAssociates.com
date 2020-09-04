@@ -7,8 +7,8 @@ const theme = createMuiTheme({
       main: "#00DBFF",
     },
     secondary: {
-      main: "#48F523",
-    },
+      main: "#987F5D", // Gold text on "about.jsx"
+    }
   },
 });
 

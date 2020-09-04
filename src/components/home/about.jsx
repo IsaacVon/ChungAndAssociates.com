@@ -4,11 +4,11 @@ import ImageCard from "../imageCard";
 
 export default function About() {
   return (
-    <>
+    <div>
       <Typography variant="h4" gutterBottom>
         This is Who We Are
       </Typography>
-      <Typography variant="h6" gutterBottom>
+      <Typography color="secondary" variant="h6" gutterBottom>
         We work with entrepreneurs to mobilize their resources and bring out the
         full potential of their businesses.
       </Typography>
@@ -19,7 +19,7 @@ export default function About() {
         image={require("../../images/2.jpg")}
       />
 
-      <Typography variant="body1" gutterBottom>
+      <Typography variant="body1">
         The core of our services revolves around business planning with a focus
         in the technology and office solutions industry. Whether the mission is
         to advance the Company’s growth or enhance its performance, venture into
@@ -29,6 +29,6 @@ export default function About() {
         infrastructure to continuously scale the organization towards growth and
         profit.{" "}
       </Typography>
-    </>
+    </div>
   );
 }

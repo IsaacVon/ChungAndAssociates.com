@@ -1,30 +1,22 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import { makeStyles } from "@material-ui/core/styles";
 import ImageCard from "../imageCard";
 
-const useStyles = makeStyles({
-  root: {
-    width: "100%",
-    maxWidth: 500,
-  },
-});
 
 export default function Services() {
-  const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <>
       <ImageCard
         title="office"
         height="287px"
         image={require("../../images/3.jpg")}
       />
 
-      <Typography variant="h6" gutterBottom>
+      <Typography variant="h6">
         Services We Offer.
       </Typography>
-      <Typography variant="body1" gutterBottom>
+      <Typography variant="body1" >
         • Performance Assessment • Business Planning & Oversight • Financial
         Modeling & Benchmark Development • Financial Statement Compilation &
         Review • Organization Structure, Process Design & Implementation •
@@ -34,6 +26,6 @@ export default function Services() {
         Coaching & Development • Next Generation Development • Succession
         Planning • Professional Outsourcing & Support
       </Typography>
-    </div>
+    </>
   );
 }

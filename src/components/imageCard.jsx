@@ -11,6 +11,7 @@ export default function ImageCard({ image, height, title }) {
         boxShadow: "none",
       }}
     >
+      
       <CardMedia
         style={{
           height,

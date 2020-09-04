@@ -53,7 +53,8 @@ export default function Testamonials() {
       <JanetL />
       <MaryA />
       <Contact />
-      <Footer />
+      <Footer 
+      />
     </div>
   );
 }
