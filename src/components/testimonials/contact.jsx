@@ -1,15 +1,12 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import ImageCard from "../imageCard";
+import image9 from "../../images/9.jpg";
 
 export default function Contact() {
   return (
     <>
-      <ImageCard
-        title="desert"
-        height="252px"
-        image={require("../../images/9.jpg")}
-      />
+      <img width="100%" src={image9} alt="desert" />
+
       <Typography variant="body1" gutterBottom>
         For more information please feel free to contact us.
       </Typography>

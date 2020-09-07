@@ -1,9 +1,8 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import ImageCard from "../../components/imageCard";
+import image5 from "../../images/5.jpg";
 
 export default function TeamContent() {
-
   return (
     <>
       <Typography variant="h4" gutterBottom>
@@ -24,11 +23,9 @@ export default function TeamContent() {
         in 2005 and served as Senior VP and CFO for their flagship retail
         business for Southern California.{" "}
       </Typography>
-      <ImageCard
-        title="desert"
-        height="252px"
-        image={require("../../images/5.jpg")}
-      />
+
+      <img width="100%" src={image5} alt="Office" />
+
       <Typography variant="body1" gutterBottom>
         Liennette formed Chung & Associates Inc. in late 2012 to assisting
         clients in building quality organizations. Our clients include thirteen

@@ -1,8 +1,8 @@
 import React from "react";
-import ImageCard from "../components/imageCard";
 import { makeStyles } from "@material-ui/core/styles";
 import TeamContent from "../components/team/teamContent";
 import Footer from "../components/footer";
+import image4 from "../images/4.jpg";
 
 const useStyles = makeStyles({
   root: {
@@ -17,11 +17,9 @@ export default function Team() {
   return (
     <div className={classes.root}>
       {/* background image */}
-      <ImageCard
-        title="image 4"
-        height="252px"
-        image={require("../images/4.jpg")}
-      />
+
+      <img width="100%" src={image4} alt="Team" />
+
       <div style={{ background: "#00AEEF" }}>
         <TeamContent />
         <Footer />

@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import ImageCard from "../imageCard";
+import image2 from "../../images/2.jpg";
 
 export default function About() {
   return (
@@ -13,11 +13,7 @@ export default function About() {
         full potential of their businesses.
       </Typography>
 
-      <ImageCard
-        title="bamboo forest"
-        height="161px"
-        image={require("../../images/2.jpg")}
-      />
+      <img width="100%" src={image2} alt="Bamboo" />
 
       <Typography variant="body1">
         The core of our services revolves around business planning with a focus

@@ -1,17 +1,13 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import ImageCard from "../imageCard";
 import logo from "../../logos/chung-logo.svg";
+import image1 from "../../images/1.jpg";
 
 export default function Main() {
   return (
     <>
-      <ImageCard
-        title="Liennette"
-        height="100vw"
-        image={require("../../images/1.jpg")}
-      />
-      <img src={logo} alt="Logo"/>
+      <img width="100%" src={image1} alt="Liennette" />
+      <img width="100%" src={logo} alt="Logo" />
 
       <Typography variant="h6" gutterBottom>
         Building Quality Organizations.

@@ -1,22 +1,14 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import ImageCard from "../imageCard";
-
+import image3 from "../../images/3.jpg";
 
 export default function Services() {
-
   return (
     <>
-      <ImageCard
-        title="office"
-        height="287px"
-        image={require("../../images/3.jpg")}
-      />
+      <img width="100%" src={image3} alt="Office" />
 
-      <Typography variant="h6">
-        Services We Offer.
-      </Typography>
-      <Typography variant="body1" >
+      <Typography variant="h6">Services We Offer.</Typography>
+      <Typography variant="body1">
         • Performance Assessment • Business Planning & Oversight • Financial
         Modeling & Benchmark Development • Financial Statement Compilation &
         Review • Organization Structure, Process Design & Implementation •

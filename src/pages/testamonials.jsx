@@ -12,7 +12,9 @@ import MaryA from "../components/testimonials/maryA";
 import Contact from "../components/testimonials/contact";
 import Footer from "../components/footer";
 import { makeStyles } from "@material-ui/core/styles";
-import ImageCard from "../components/imageCard";
+import image6 from "../images/6.jpg";
+import image7 from "../images/7.jpg";
+import image8 from "../images/8.jpg";
 
 const useStyles = makeStyles({
   root: {
@@ -28,33 +30,20 @@ export default function Testamonials() {
     <div className={classes.root}>
       {" "}
       <ChipC />
-      <ImageCard
-        title="desert"
-        height="252px"
-        image={require("../images/6.jpg")}
-      />
+      <img width="100%" src={image6} alt="desert" />
       <MikeR />
       <JohnL />
       <JeffE />
-      <ImageCard
-        title="snow"
-        height="249px"
-        image={require("../images/7.jpg")}
-      />
+      <img width="100%" src={image7} alt="snow" />
       <PrestonW />
       <BillF />
       <SteveS />
-      <ImageCard
-        title="surf"
-        height="600px"
-        image={require("../images/8.jpg")}
-      />
+      <img width="100%" src={image8} alt="surf" />
       <JimP />
       <JanetL />
       <MaryA />
       <Contact />
-      <Footer 
-      />
+      <Footer />
     </div>
   );
 }
