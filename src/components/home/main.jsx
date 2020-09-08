@@ -9,16 +9,16 @@ export default function Main() {
       <img width="100%" src={image1} alt="Liennette" />
       <img width="100%" src={logo} alt="Logo" />
 
-      <Typography variant="h6" gutterBottom>
+      <Typography style={{ textAlign: "center" }} variant="h6" gutterBottom>
         Building Quality Organizations.
       </Typography>
-      <Typography variant="body1" gutterBottom>
+      <Typography variant="body1" >
         Chung and Associates is dedicated to building quality organizations. We
         assist our clients in strategic planning, financial oversight, and
         capital selection to continuously realize the next stage of their
         vision.
       </Typography>
-      <Typography variant="caption" gutterBottom>
+      <Typography variant="caption" >
         MMXX Chung and Associates, LLC. All rights reserved.{" "}
       </Typography>
     </>

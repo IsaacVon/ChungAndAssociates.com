@@ -20,7 +20,7 @@ export default function ButtonAppBar({ path }) {
 
   const decideNavColor = () => {
     if(path === "/testamonials") return "testamonials"
-    if(path === "/team") return "yellow" // white transparent
+    if(path === "/team") return "rgba(255, 255, 255, 0.5)" // white transparent
     if(path === "/") return "#73D3E1"
   }
 

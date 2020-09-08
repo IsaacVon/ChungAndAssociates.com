@@ -17,10 +17,8 @@ export default function Team() {
   return (
     <div className={classes.root}>
       {/* background image */}
-
       <img width="100%" src={image4} alt="Team" />
-
-      <div style={{ background: "#00AEEF" }}>
+      <div style={{ color: "white", background: "#00AEEF" }}>
         <TeamContent />
         <Footer />
       </div>
