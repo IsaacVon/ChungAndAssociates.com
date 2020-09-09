@@ -6,17 +6,7 @@
 }
 
 .testamonialReview {
-  font-size: 15px;
-  font-weight: 300;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 158%;
-}
-
-/* Might not get used */
-.testamonialReviewAdditional {
-  margin-top: 15px;
+  margin-top: 5px;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
