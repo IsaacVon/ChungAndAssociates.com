@@ -3,8 +3,8 @@ import Typography from "@material-ui/core/Typography";
 
 export default function JohnL() {
   return (
-    <div style={{ margin: " 00px 30px 00px 30px", padding:" 25px 0px 25px 0px" }}>
-      <Typography style={{ fontSize: "15px", fontWeight: "300" }}>
+    <div className="testamonialContentContainer">
+      <Typography class="testamonialReview">
         We’ve been working with Liennette Chung for the past 7 years. The first
         time Liennette Chung said to me that numbers are a language, I just
         brushed it off as CPA talk. Later I would find out she had a special
@@ -16,38 +16,18 @@ export default function JohnL() {
         and bottom-line profit better than anyone I’ve ever met. In addition to
         that she is visionary, see the big picture and is able to communicate
         that to everyone in terms they understand.
-      </Typography>{" "}
-      <Typography
-        style={{ marginTop: "15px", fontSize: "15px", fontWeight: "300" }}
-      >
+        <p></p>
         Liennette is a great read on people. Most key roles within our
         organization are hired in collaboration with Liennette. She’s a great
         communicator and can instantly gain acceptance with your team. She is an
         extremely talented consultant and I consider Liennette a member of our
         executive team and family.
       </Typography>
-      <Typography
-        style={{
-          marginTop: "15px",
-          fontSize: "14px",
-          fontWeight: "bold",
-          font: "Rufina",
-        }}
-      >
-        <span
-          style={{
-            fontSize: "18px",
-            fontWeight: "900",
-            color: "#81D8D0",
-          }}
-        >
-          ■{" "}
-        </span>
+      <Typography class="testamonialName">
+        <span className="testamonialIconBlue">■ </span>
         John Lowery
       </Typography>
-      <Typography
-        style={{ marginLeft: "17px", fontSize: "14px", font: "Rufina" }}
-      >
+      <Typography class="testamonialTitle">
         President & Owner / Applied Imaging, Inc.
       </Typography>
     </div>

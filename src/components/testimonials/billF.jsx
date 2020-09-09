@@ -1,14 +1,11 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-// import "../../App.css"
+import "../../App.css";
 
 export default function BillF() {
   return (
-    <div
-      // className="testamonial" // why isnt
-      style={{ margin: " 00px 30px 00px 30px", padding: " 25px 0px 25px 0px" }}
-    >
-      <Typography style={{ fontSize: "15px", fontWeight: "300" }}>
+    <div className="testamonialContentContainer">
+      <Typography class="testamonialReview">
         Liennette Chung has worked with Fraser as a virtual CFO to our
         organization and trusted advisor me and the leadership for since 2012.
         Her knowledge on acquisitions, industry financial model and organic
@@ -18,28 +15,11 @@ export default function BillF() {
         that are invaluable. Together with Liennette, our Organization have more
         than doubled in size and bottom line. I trust Liennette wholeheartedly.
       </Typography>{" "}
-      <Typography
-        style={{
-          marginTop: "15px",
-          fontSize: "14px",
-          fontWeight: "bold",
-          font: "Rufina",
-        }}
-      >
-        <span
-          style={{
-            fontSize: "18px",
-            fontWeight: "900",
-            color: "#81D8D0",
-          }}
-        >
-          ■{" "}
-        </span>
+      <Typography class="testamonialName">
+        <span className="testamonialIconBlue">■ </span>
         Bill Fraser
       </Typography>
-      <Typography
-        style={{ marginLeft: "17px", fontSize: "14px", font: "Rufina" }}
-      >
+      <Typography class="testamonialTitle">
         President & Owner / Fraser AIS, Inc.{" "}
       </Typography>
     </div>

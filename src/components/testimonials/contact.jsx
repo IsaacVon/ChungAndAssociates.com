@@ -4,11 +4,11 @@ import Button from "@material-ui/core/Button";
 
 export default function Contact() {
   return (
-    <div style={{ textAlign: "center", marginBottom: "75px" }}>
+    <div style={{ textAlign: "center", marginBottom: "58px" }}>
       <Typography style={{ fontSize: "14px" }}>
         For more information please
       </Typography>
-      <Typography style={{ fontSize: "14px", marginBottom: "50px" }}>
+      <Typography style={{ fontSize: "14px", marginBottom: "55px" }}>
         feel free to contact us.
       </Typography>
       <Button

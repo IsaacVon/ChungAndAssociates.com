@@ -5,11 +5,14 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import theme from "./theme";
 import { ThemeProvider } from "@material-ui/core";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <App />
+      <ParallaxProvider>
+        <App />
+      </ParallaxProvider>
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")

@@ -1,6 +1,7 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import image2 from "../../images/2.jpg";
+import { Parallax } from "react-scroll-parallax";
 
 export default function About() {
   return (
@@ -43,15 +44,17 @@ export default function About() {
         style={{
           margin: " 15px 0px 10px 0px",
           overflow: "hidden",
-          maxHeight: "191px",
+          maxHeight: "90%",
         }}
       >
-        <img
-          style={{ margin: "-30px 0px 00px 00px" }}
-          width="100%"
-          src={image2}
-          alt="Bamboo"
-        />
+        <Parallax y={[-40, 0]}>
+          <img
+            style={{ margin: "-30px 20px 0px -20px" }}
+            width="120%"
+            src={image2}
+            alt="Bamboo"
+          />
+        </Parallax>
       </div>
 
       <Typography

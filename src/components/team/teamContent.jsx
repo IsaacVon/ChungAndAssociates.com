@@ -1,31 +1,36 @@
 import React from "react";
+import "../../App.css";
 import Typography from "@material-ui/core/Typography";
 import image5 from "../../images/5.jpg";
+import { Parallax } from "react-scroll-parallax";
 
 export default function TeamContent() {
   return (
     <>
-      <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
-        <span
-          style={{
-            fontSize: "25px",
-            fontWeight: "300",
-            lineHeight: "29px",
-          }}
-        >
-          The
-        </span>
-        <span
-          style={{
-            fontSize: "25px",
-            fontWeight: "900",
-            lineHeight: "29px",
-          }}
-        >
-          {" "}
-          Team.
-        </span>
-      </Typography>
+      <div className="test">
+        test div test div test div test div test div test div test div
+        <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
+          <span
+            style={{
+              fontSize: "25px",
+              fontWeight: "300",
+              lineHeight: "29px",
+            }}
+          >
+            The
+          </span>
+          <span
+            style={{
+              fontSize: "25px",
+              fontWeight: "900",
+              lineHeight: "29px",
+            }}
+          >
+            {" "}
+            Team.
+          </span>
+        </Typography>
+      </div>
       <Typography
         style={{ margin: "28px", fontWeight: "normal", fontSize: "15px" }}
       >
@@ -43,8 +48,9 @@ export default function TeamContent() {
         in 2005 and served as Senior VP and CFO for their flagship retail
         business for Southern California.{" "}
       </Typography>
-
-      <img width="100%" src={image5} alt="Office" />
+      <Parallax y={[-25, 0]}>
+        <img width="100%" src={image5} alt="Office" />
+      </Parallax>
 
       <Typography
         style={{ margin: "28px", fontWeight: "normal", fontSize: "15px" }}
@@ -65,13 +71,13 @@ export default function TeamContent() {
         University of California Los Angeles (UCLA).
       </Typography>
 
-      <hr style={{ margin: "0px 28px 18px 28px", borderWidth: "0px", height: "1px", backgroundColor:"#FFFFFF" }}></hr>
+      <hr className="hrTeam"></hr>
       <Typography
         style={{
           textAlign: "center",
           fontWeight: "300",
           fontSize: "17px",
-          margin: "0px 0px 15px 0px"
+          margin: "0px 0px 15px 0px",
         }}
       >
         Associated Partners
