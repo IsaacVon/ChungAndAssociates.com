@@ -5,7 +5,21 @@ import image3 from "../../images/3.jpg";
 export default function Services() {
   return (
     <>
-      <img width="100%" src={image3} alt="Office" />
+      <div
+        style={{
+          margin: " 15px 0px 10px 0px",
+          overflow: "hidden",
+          maxHeight: "287px",
+        }}
+      >
+        <img
+          style={{ margin: "-10px 83px 0px -83px" }}
+          // width="540px"
+          width="145%"
+          src={image3}
+          alt="Office"
+        />
+      </div>
 
       <Typography style={{ textAlign: "center", marginTop: "25px" }}>
         <span

@@ -39,8 +39,20 @@ export default function About() {
         We work with entrepreneurs to mobilize their resources and bring out the
         full potential of their businesses.
       </Typography>
-
-      <img width="100%" src={image2} alt="Bamboo" />
+      <div
+        style={{
+          margin: " 15px 0px 10px 0px",
+          overflow: "hidden",
+          maxHeight: "191px",
+        }}
+      >
+        <img
+          style={{ margin: "-30px 0px 00px 00px" }}
+          width="100%"
+          src={image2}
+          alt="Bamboo"
+        />
+      </div>
 
       <Typography
         style={{ margin: "28px", fontWeight: "300", fontSize: "15px" }}
