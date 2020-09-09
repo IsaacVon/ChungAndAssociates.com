@@ -61,27 +61,72 @@ export default function Testamonials() {
       <ChipC />
       <img width="100%" src={image6} alt="desert" />
       <MikeR />
+
       <div style={{ background: "#E4FAFF" }}>
+        <hr
+          style={{
+            borderWidth: "0px",
+            height: "3px",
+            backgroundColor: "#989898",
+          }}
+        ></hr>
+
         <JohnL />
+
+        <hr
+          style={{
+            borderWidth: "0px",
+            height: "3px",
+            backgroundColor: "#989898",
+          }}
+        ></hr>
       </div>
       <JeffE />
       <img width="100%" src={image7} alt="snow" />
       <PrestonW />
       <div style={{ background: "#E4FAFF" }}>
+        <hr
+          style={{
+            borderWidth: "0px",
+            height: "3px",
+            backgroundColor: "#989898",
+          }}
+        ></hr>
         <BillF />
+        <hr
+          style={{
+            borderWidth: "0px",
+            height: "3px",
+            backgroundColor: "#989898",
+          }}
+        ></hr>
       </div>
       <SteveS />
       <img width="100%" src={image8} alt="surf" />
       <JimP />
       <div style={{ background: "#E9EDFD" }}>
+        <hr
+          style={{
+            borderWidth: "0px",
+            height: "3px",
+            backgroundColor: "#989898",
+          }}
+        ></hr>
         <JanetL />
+        <hr
+          style={{
+            borderWidth: "0px",
+            height: "3px",
+            backgroundColor: "#989898",
+          }}
+        ></hr>
       </div>
       <MaryA />
       <img width="100%" src={image9} alt="desert" />
 
       <div style={{ color: "white", background: "#00AEEF" }}>
-      <Contact />
-      <Footer />
+        <Contact />
+        <Footer />
       </div>
     </div>
   );
