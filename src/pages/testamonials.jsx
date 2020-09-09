@@ -59,7 +59,15 @@ export default function Testamonials() {
       </Typography>
 
       <ChipC />
-      <img width="100%" src={image6} alt="desert" />
+      <div
+        style={{
+          margin: " 15px 0px 10px 0px",
+          overflow: "hidden",
+          maxHeight: "252px",
+        }}
+      >
+        <img width="100%" src={image6} alt="desert" />
+      </div>
       <MikeR />
 
       <div style={{ background: "#E4FAFF" }}>
@@ -82,7 +90,15 @@ export default function Testamonials() {
         ></hr>
       </div>
       <JeffE />
-      <img width="100%" src={image7} alt="snow" />
+      <div
+        style={{
+          margin: " 15px 0px 10px 0px",
+          overflow: "hidden",
+          maxHeight: "252px",
+        }}
+      >
+        <img width="100%" src={image7} alt="snow" />
+      </div>
       <PrestonW />
       <div style={{ background: "#E4FAFF" }}>
         <hr
@@ -102,7 +118,20 @@ export default function Testamonials() {
         ></hr>
       </div>
       <SteveS />
-      <img width="100%" src={image8} alt="surf" />
+      <div
+        style={{
+          margin: " 15px 0px 10px 0px",
+          overflow: "hidden",
+          maxHeight: "380px",
+        }}
+      >
+        <img
+          style={{ margin: "-300px 50px 00px -50px" }}
+          width="500px"
+          src={image8}
+          alt="surf"
+        />
+      </div>
       <JimP />
       <div style={{ background: "#E9EDFD" }}>
         <hr
