@@ -1,18 +1,30 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import image9 from "../../images/9.jpg";
+import Button from "@material-ui/core/Button";
 
 export default function Contact() {
   return (
-    <>
-      <img width="100%" src={image9} alt="desert" />
-
-      <Typography variant="body1" gutterBottom>
-        For more information please feel free to contact us.
+    <div style={{ textAlign: "center", marginBottom: "75px" }}>
+      <Typography style={{ fontSize: "14px" }}>
+        For more information please
       </Typography>
-      <Typography variant="h4" gutterBottom>
-        Contacts@Chungandassociates.com{" "}
+      <Typography style={{ fontSize: "14px", marginBottom: "50px" }}>
+        feel free to contact us.
       </Typography>
-    </>
+      <Button
+        href="mailto: Contacts@Chungandassociates.com"
+        variant="outlined"
+        style={{
+          color: "white",
+          borderColor: "white",
+          borderRadius: 1,
+          textTransform: "none",
+          fontSize: "17px",
+          fontWeight: "500",
+        }}
+      >
+        Contacts@Chungandassociates.com
+      </Button>
+    </div>
   );
 }

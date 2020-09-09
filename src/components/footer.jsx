@@ -11,7 +11,7 @@ export default function Footer() {
         243 Newport Ave. | Long beach CA 90803
       </Typography>
       <Typography
-        style={{ fontSize: "11px ", fontWeight: "300", marginTop: "15px" }}
+        style={{ fontSize: "11px ", fontWeight: "300", marginTop: "20px" }}
       >
         MMXX Chung and Associates, LLC. All rights reserved.{" "}
       </Typography>

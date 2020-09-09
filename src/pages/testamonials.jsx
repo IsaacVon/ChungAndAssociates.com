@@ -15,6 +15,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import image6 from "../images/6.jpg";
 import image7 from "../images/7.jpg";
 import image8 from "../images/8.jpg";
+import image9 from "../images/9.jpg";
+import Typography from "@material-ui/core/Typography";
+import logo from "../logos/chung-logo.svg";
 
 const useStyles = makeStyles({
   root: {
@@ -26,24 +29,60 @@ const useStyles = makeStyles({
 export default function Testamonials() {
   const classes = useStyles();
 
+  // Margin for images
+  // Margin for people
+
   return (
     <div className={classes.root}>
-      {" "}
+      <img style={{ margin: "30px 20px 0px 20px" }} src={logo} alt="Logo" />
+
+      <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
+        <span
+          style={{
+            fontSize: "25px",
+            fontWeight: "300",
+            lineHeight: "29px",
+          }}
+        >
+          What
+        </span>
+        <span
+          style={{
+            fontSize: "25px",
+            fontWeight: "900",
+            lineHeight: "29px",
+          }}
+        >
+          {" "}
+          People Are Saying.
+        </span>
+      </Typography>
+
       <ChipC />
       <img width="100%" src={image6} alt="desert" />
       <MikeR />
-      <JohnL />
+      <div style={{ background: "#E4FAFF" }}>
+        <JohnL />
+      </div>
       <JeffE />
       <img width="100%" src={image7} alt="snow" />
       <PrestonW />
-      <BillF />
+      <div style={{ background: "#E4FAFF" }}>
+        <BillF />
+      </div>
       <SteveS />
       <img width="100%" src={image8} alt="surf" />
       <JimP />
-      <JanetL />
+      <div style={{ background: "#E9EDFD" }}>
+        <JanetL />
+      </div>
       <MaryA />
+      <img width="100%" src={image9} alt="desert" />
+
+      <div style={{ color: "white", background: "#00AEEF" }}>
       <Contact />
       <Footer />
+      </div>
     </div>
   );
 }

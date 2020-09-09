@@ -1,20 +1,10 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import { makeStyles } from "@material-ui/core/styles";
-
-const useStyles = makeStyles({
-  root: {
-    width: "100%",
-    maxWidth: 500,
-  },
-});
 
 export default function MikeR() {
-  const classes = useStyles();
-
   return (
-    <div className={classes.root}>
-      <Typography variant="body1" gutterBottom>
+    <div style={{ margin: " 20px 30px 00px 30px", padding: " 20px 0px 20px 0px" }}>
+      <Typography style={{ fontSize: "15px", fontWeight: "300" }}>
         Liennette Chung was hired as the CFO for one of my clients in 2005. I
         was involved in the hiring process. Her qualifications were outstanding
         as she had a broad background In making high dollar financial decisions.
@@ -28,17 +18,47 @@ export default function MikeR() {
         and greatly impacted their profitability. She has maximum respect from
         all level of individuals and with all the companies we work with. I have
         learned much from Liennette not only in the financial realm but also
-        about total business decisions and investments. She's has a strong read
-        on people and is extremely insightful. Our clients often defer to
-        Liennette in hiring and developing their executive team. Little did I
-        know when I met Liennette 15 years ago the tremendous impact she would
-        make in my life and eventually the tremendous impact she would have on
-        our clients, their families and businesses. It has been a growth
-        producing and fun ride. I look forward to many more years being
-        associated with Liennette.{" "}
+        about total business decisions and investments.
+      </Typography>{" "}
+      <Typography
+        style={{ marginTop: "15px", fontSize: "15px", fontWeight: "300" }}
+      >
+        She's has a strong read on people and is extremely insightful. Our
+        clients often defer to Liennette in hiring and developing their
+        executive team.
+      </Typography>{" "}
+      <Typography
+        style={{ marginTop: "15px", fontSize: "15px", fontWeight: "300" }}
+      >
+        Little did I know when I met Liennette 15 years ago the tremendous
+        impact she would make in my life and eventually the tremendous impact
+        she would have on our clients, their families and businesses. It has
+        been a growth producing and fun ride. I look forward to many more years
+        being associated with Liennette.
       </Typography>
-      <Typography variant="h4" gutterBottom>
-        Mike Riordan President / Riordan and Associates, Inc.
+      <Typography
+        style={{
+          marginTop: "15px",
+          fontSize: "14px",
+          fontWeight: "bold",
+          font: "Rufina",
+        }}
+      >
+        <span
+          style={{
+            fontSize: "18px",
+            fontWeight: "900",
+            color: "#81D8D0",
+          }}
+        >
+          ■{" "}
+        </span>
+        Mike Riordan
+      </Typography>
+      <Typography
+        style={{ marginLeft: "17px", fontSize: "14px", font: "Rufina" }}
+      >
+        President / Riordan and Associates, Inc.
       </Typography>
     </div>
   );

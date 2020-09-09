@@ -5,10 +5,30 @@ import image5 from "../../images/5.jpg";
 export default function TeamContent() {
   return (
     <>
-      <Typography variant="h4" gutterBottom>
-        The Team
+      <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
+        <span
+          style={{
+            fontSize: "25px",
+            fontWeight: "300",
+            lineHeight: "29px",
+          }}
+        >
+          The
+        </span>
+        <span
+          style={{
+            fontSize: "25px",
+            fontWeight: "900",
+            lineHeight: "29px",
+          }}
+        >
+          {" "}
+          Team.
+        </span>
       </Typography>
-      <Typography variant="body1" gutterBottom>
+      <Typography
+        style={{ margin: "28px", fontWeight: "normal", fontSize: "15px" }}
+      >
         Liennette started her career with PricewaterhouseCoopers (PwC) and lead
         the practice both locally in Los Angeles as well as globally in Hong
         Kong. Her client base included Blue Cross Blue Shield, AIG Corporation,
@@ -26,7 +46,9 @@ export default function TeamContent() {
 
       <img width="100%" src={image5} alt="Office" />
 
-      <Typography variant="body1" gutterBottom>
+      <Typography
+        style={{ margin: "28px", fontWeight: "normal", fontSize: "15px" }}
+      >
         Liennette formed Chung & Associates Inc. in late 2012 to assisting
         clients in building quality organizations. Our clients include thirteen
         of the top twenty-five office dealerships in America. She also served as
@@ -42,8 +64,36 @@ export default function TeamContent() {
         International Economics and 2) East Asian Language & Culture from the
         University of California Los Angeles (UCLA).
       </Typography>
-      <Typography variant="body1" gutterBottom>
-        Associated Partners Riordan and Associates Sudbay & Associates
+
+      <hr style={{ margin: "0px 28px 18px 28px", borderWidth: "0px", height: "1px", backgroundColor:"#FFFFFF" }}></hr>
+      <Typography
+        style={{
+          textAlign: "center",
+          fontWeight: "300",
+          fontSize: "17px",
+          margin: "0px 0px 15px 0px"
+        }}
+      >
+        Associated Partners
+      </Typography>
+      <Typography
+        style={{
+          textAlign: "center",
+          fontWeight: "900",
+          fontSize: "17px",
+        }}
+      >
+        Riordan and Associates
+      </Typography>
+      <Typography
+        style={{
+          textAlign: "center",
+          fontWeight: "900",
+          fontSize: "17px",
+          marginBottom: "50px",
+        }}
+      >
+        Sudbay & Associates
       </Typography>
     </>
   );

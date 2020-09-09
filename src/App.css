@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.testamonial {
+  margin: "00px 30px 00px 30px";
+  padding: "25px 0px 25px 0px"
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

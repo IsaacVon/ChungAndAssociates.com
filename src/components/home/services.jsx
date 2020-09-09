@@ -33,24 +33,25 @@ export default function Services() {
             marginTop: "15px",
             fontSize: "12px",
             lineHeight: "203%",
-            paddingInlineStart: "35px",
+            paddingInlineStart: "20px",
             marginBottom: "28px",
+            listStyle: "none",
           }}
         >
-          <li>Performance Assessment</li>
-          <li>Business Planning & Oversight</li>
-          <li>Financial Modeling & Benchmark Development</li>
-          <li>Financial Statement Compilation & Review</li>
-          <li>Organization Structure, Process Design & Implementation</li>
-          <li>Operations & Controls Assessment & Attestation</li>
-          <li>Acquisition Review & Valuation</li>
-          <li>Due Diligence for Acquisition</li>
-          <li>Mergers Implementation & Business Consolidation</li>
-          <li>Resource & Human Capital Alignment</li>
-          <li>Leadership Coaching & Development</li>
-          <li>Next Generation Development</li>
-          <li>Succession Planning</li>
-          <li>Professional Outsourcing & Support</li>
+          <li>• Performance Assessment</li>
+          <li>• Business Planning & Oversight</li>
+          <li>• Financial Modeling & Benchmark Development</li>
+          <li>• Financial Statement Compilation & Review</li>
+          <li>• Organization Structure, Process Design & Implementation</li>
+          <li>• Operations & Controls Assessment & Attestation</li>
+          <li>• Acquisition Review & Valuation</li>
+          <li>• Due Diligence for Acquisition</li>
+          <li>• Mergers Implementation & Business Consolidation</li>
+          <li>• Resource & Human Capital Alignment</li>
+          <li>• Leadership Coaching & Development</li>
+          <li>• Next Generation Development</li>
+          <li>• Succession Planning</li>
+          <li>• Professional Outsourcing & Support</li>
         </ul>
       </Typography>
     </>
