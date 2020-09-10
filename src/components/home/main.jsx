@@ -10,13 +10,13 @@ export default function Main() {
       <img width="100%" src={image1} alt="Liennette" />
       <img className="logo1" src={logo} alt="Logo" />
       <div style={{ paddingBottom: "25px" }}>
-        <Typography
-          style={{ textAlign: "center", fontSize: "17px ", fontWeight: "300" }}
+        <div
+          className="tagLine"
         >
           Building Quality Organizations.
-        </Typography>
+        </div>
         <Typography
-          style={{ fontSize: "15px", margin: "24px", marginTop: "35px" }}
+          style={{ fontSize: "15px", margin: "24px", marginTop: "0px" }}
         >
           <span
             style={{
@@ -35,7 +35,7 @@ export default function Main() {
             their vision.
           </span>
         </Typography>
-        <Typography
+        <div
           style={{
             fontSize: "11px ",
             fontWeight: "300",
@@ -44,7 +44,7 @@ export default function Main() {
           }}
         >
           MMXX Chung and Associates, LLC. All rights reserved.{" "}
-        </Typography>
+        </div>
       </div>
     </>
   );

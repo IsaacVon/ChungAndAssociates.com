@@ -1,3 +1,32 @@
+/* navbar */
+.navbarDropdown {
+  background-color: #f0feff;
+
+}
+
+/* 2 word with half bold; half not */
+.bold {
+  font-weight: 900;
+}
+
+.light {
+  font-weight: 300;
+}
+
+
+/* Logo */
+
+.logo1 {
+  margin: 30px 20px 0px 20px;
+}
+
+.tagLine {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
 /* /testamonials */
 
 .testamonialContentContainer {
@@ -62,9 +91,7 @@
   margin-top: auto;
 }
 
-.logo1 {
-  margin: 30px 20px 0px 20px;
-}
+
 
 .imgDiv1 {
   margin: 15px 0px 10px 0px;

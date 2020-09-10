@@ -21,12 +21,11 @@ const useStyles = makeStyles({
 
 function App() {
   const classes = useStyles();
-  const path = window.location.pathname;
 
   return (
     <Router history={history}>
       <div className={classes.root}>
-        <Navbar path={path} />
+        <Navbar/>
         <Switch>
           <Route path="/team" exact component={Team} />
           <Route path="/testamonials" exact component={Testamonials} />
