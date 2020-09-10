@@ -1,10 +1,9 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 
 export default function JimP() {
   return (
     <div className="testamonialContentContainer">
-      <Typography class="testamonialReview">
+      <div className="testamonialReview">
         Having worked with Liennette Chung for more than ten years in a virtual
         CFO role, she has been an incredible resource in coaching our Leadership
         Team as we implemented various strategic initiatives to grow our
@@ -17,12 +16,12 @@ export default function JimP() {
         Chung’s resume is an impressive one. Her attention to detail,
         professional approach to helping businesses and wealth of knowledge make
         her an ideal partner as a consultant and virtual CFO.
-      </Typography>{" "}
-      <Typography class="testamonialName">
+      </div>{" "}
+      <div className="testamonialName">
         <span className="testamonialIconBlue">■ </span>
         Jim Pierce{" "}
-      </Typography>
-      <Typography class="testamonialTitle">COO / Fraser AIS, Inc. </Typography>
+      </div>
+      <div className="testamonialTitle">COO / Fraser AIS, Inc. </div>
     </div>
   );
 }

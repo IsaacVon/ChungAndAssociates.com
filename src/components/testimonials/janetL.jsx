@@ -1,22 +1,21 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 
 export default function JanetL() {
   return (
     <div className="testamonialContentContainer">
-      <Typography class="testamonialReview">
+      <div className="testamonialReview">
         Liennette understands the imaging business and is successfully guiding
         us through the chaos of growth. She has given us the necessary tools to
         propel our business to the next level! She is sharp, direct, and pushes
         us forward.
-      </Typography>{" "}
-      <Typography class="testamonialName">
+      </div>{" "}
+      <div className="testamonialName">
         <span className="testamonialIconPurple">■ </span>
         Janet Langarek{" "}
-      </Typography>
-      <Typography class="testamonialTitle">
+      </div>
+      <div className="testamonialTitle">
         VP of Operations / Applied Imaging, Inc.{" "}
-      </Typography>
+      </div>
     </div>
   );
 }

@@ -88,7 +88,7 @@ export default function Testamonials() {
       </div>
       <SteveS />
       <div className="imgDiv2">
-        <Parallax y={[-30, 0]}>
+        <Parallax y={[-90, 0]}>
           <img
             style={{ margin: "-300px 50px 00px -50px" }}
             width="500px"

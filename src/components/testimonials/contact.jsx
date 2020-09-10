@@ -1,16 +1,13 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 
 export default function Contact() {
   return (
     <div style={{ textAlign: "center", marginBottom: "58px" }}>
-      <Typography style={{ fontSize: "14px" }}>
-        For more information please
-      </Typography>
-      <Typography style={{ fontSize: "14px", marginBottom: "55px" }}>
+      <div style={{ fontSize: "14px" }}>For more information please</div>
+      <div style={{ fontSize: "14px", marginBottom: "55px" }}>
         feel free to contact us.
-      </Typography>
+      </div>
       <Button
         href="mailto: Contacts@Chungandassociates.com"
         variant="outlined"

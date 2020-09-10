@@ -1,11 +1,10 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import "../../App.css";
 
 export default function BillF() {
   return (
     <div className="testamonialContentContainer">
-      <Typography class="testamonialReview">
+      <div className="testamonialReview">
         Liennette Chung has worked with Fraser as a virtual CFO to our
         organization and trusted advisor me and the leadership for since 2012.
         Her knowledge on acquisitions, industry financial model and organic
@@ -14,14 +13,14 @@ export default function BillF() {
         Leadership team who provides direct and succinct feedback and insights
         that are invaluable. Together with Liennette, our Organization have more
         than doubled in size and bottom line. I trust Liennette wholeheartedly.
-      </Typography>{" "}
-      <Typography class="testamonialName">
+      </div>{" "}
+      <div className="testamonialName">
         <span className="testamonialIconBlue">■ </span>
         Bill Fraser
-      </Typography>
-      <Typography class="testamonialTitle">
+      </div>
+      <div className="testamonialTitle">
         President & Owner / Fraser AIS, Inc.{" "}
-      </Typography>
+      </div>
     </div>
   );
 }
