@@ -1,5 +1,4 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import image3 from "../../images/3.jpg";
 import { Parallax } from "react-scroll-parallax";
 
@@ -13,7 +12,7 @@ export default function Services() {
           maxHeight: "287px",
         }}
       >
-        <Parallax y={[-80, 0]} >
+        <Parallax y={[-80, 0]}>
           <img
             style={{ margin: "-10px 83px 0px -83px" }}
             width="145%"
@@ -23,7 +22,7 @@ export default function Services() {
         </Parallax>
       </div>
 
-      <Typography style={{ textAlign: "center", marginTop: "25px" }}>
+      <div style={{ textAlign: "center", marginTop: "25px" }}>
         <span
           style={{
             fontSize: "25px",
@@ -43,10 +42,9 @@ export default function Services() {
         >
           We Offer.
         </span>
-      </Typography>
+      </div>
 
-       
-      <Typography>
+      <div>
         <ul
           style={{
             marginTop: "15px",
@@ -72,7 +70,7 @@ export default function Services() {
           <li>• Succession Planning</li>
           <li>• Professional Outsourcing & Support</li>
         </ul>
-      </Typography>
+      </div>
     </>
   );
 }

@@ -1,20 +1,11 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import logo from "../../logos/chung-logo.svg";
-import image1 from "../../images/1.jpg";
 import "../../App.css";
 
 export default function Main() {
   return (
     <>
-      <img width="100%" src={image1} alt="Liennette" />
-      <img className="logo1" src={logo} alt="Logo" />
       <div style={{ paddingBottom: "25px" }}>
-        <div
-          className="tagLine"
-        >
-          Building Quality Organizations.
-        </div>
         <Typography
           style={{ fontSize: "15px", margin: "24px", marginTop: "0px" }}
         >

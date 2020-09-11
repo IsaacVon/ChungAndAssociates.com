@@ -7,30 +7,28 @@ import { Parallax } from "react-scroll-parallax";
 export default function TeamContent() {
   return (
     <>
-      <div className="test">
-        test div test div test div test div test div test div test div
-        <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
-          <span
-            style={{
-              fontSize: "25px",
-              fontWeight: "300",
-              lineHeight: "29px",
-            }}
-          >
-            The
-          </span>
-          <span
-            style={{
-              fontSize: "25px",
-              fontWeight: "900",
-              lineHeight: "29px",
-            }}
-          >
-            {" "}
-            Team.
-          </span>
-        </Typography>
-      </div>
+      <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
+        <span
+          style={{
+            fontSize: "25px",
+            fontWeight: "300",
+            lineHeight: "29px",
+          }}
+        >
+          The
+        </span>
+        <span
+          style={{
+            fontSize: "25px",
+            fontWeight: "900",
+            lineHeight: "29px",
+          }}
+        >
+          {" "}
+          Team.
+        </span>
+      </Typography>
+
       <Typography
         style={{ margin: "28px", fontWeight: "normal", fontSize: "15px" }}
       >

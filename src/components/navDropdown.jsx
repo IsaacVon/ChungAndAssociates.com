@@ -27,17 +27,7 @@ const useStyles = makeStyles((theme) => ({
 export default function NavDropdown({ navExpander }) {
   const classes = useStyles();
 
-
   const path = window.location.pathname;
-  console.log("path", path)
-
-
-    // /team /testamonials /path
-
-  const ourServicesSelected = () => { 
-
-  }
-
 
   return (
     <div className="navbarDropdown">
@@ -45,13 +35,13 @@ export default function NavDropdown({ navExpander }) {
         component={Link}
         to="/"
         onClick={() => navExpander()}
-        className={classes.standard}
+        className={path === "/" ? classes.selected : classes.standard}
       >
         <span className="light">OUR</span>
         <span className="bold"> SERVICES </span>
       </Button>
       {/* add anchor point */}
-      <Button className={classes.selected}>
+      <Button className={classes.standard}>
         <span className="light">ABOUT</span>
         <span className="bold"> US </span>
       </Button>
@@ -59,7 +49,7 @@ export default function NavDropdown({ navExpander }) {
         component={Link}
         to="/team"
         onClick={() => navExpander()}
-        className={classes.standard}
+        className={path === "/team" ? classes.selected : classes.standard}
       >
         <span className="light">THE</span>
         <span className="bold"> TEAM </span>
@@ -68,16 +58,19 @@ export default function NavDropdown({ navExpander }) {
         component={Link}
         to="/testamonials"
         onClick={() => navExpander()}
-        className={classes.standard}
+        className={
+          path === "/testamonials" ? classes.selected : classes.standard
+        }
       >
         <span className="light">PEOPLE</span>
         <span className="bold"> SAY </span>
       </Button>
-      {/* Add anchor point */}
+      {/* New page */}
       <Button className={classes.standard}>
-        <span className="light">MORE</span>
-        <span className="bold"> INFO </span>
+        <span className="light">CONTACT </span>
+        <span className="bold"> US </span>
       </Button>
+
       <img className="logo1" src={logo} alt="Logo" />
       <div className="tagLine">Building Quality Organizations.</div>
     </div>

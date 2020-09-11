@@ -4,8 +4,9 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
-import Button from "@material-ui/core/Button";
 import NavDropdown from "./navDropdown";
+import image1 from "../images/1.jpg";
+import logo from "../logos/chung-logo.svg";
 
 import "../App.css";
 
@@ -16,25 +17,35 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  home: {
+    flexGrow: 1,
+    backgroundColor: "transparent",
+    // background
+  },
+  team: {
+    flexGrow: 1,
+    backgroundColor: "blue",
+  },
+  testamonials: {
+    flexGrow: 1,
+    backgroundColor: "green",
+  },
+  expanded: {
+    flexGrow: 1,
+    backgroundColor: "#F0FEFF",
+  },
 }));
 
 export default function NavBar() {
   const classes = useStyles();
-
-
   const path = window.location.pathname;
   const [navbarExpanded, toggleNavbar] = useState(false);
 
-  
-  
-  
-  const decideNavColor = () => {
-    if (path === "/testamonials") return "testamonials";
-    if (path === "/team") return "rgba(255, 255, 255, 0.5)"; // white transparent
-    if (path === "/") return "#73D3E1";
+  const navClass = () => {
+    if (path === "/testamonials") return classes.testamonials;
+    if (path === "/team") return classes.team;
+    if (path === "/") return classes.home;
   };
-
-  const navColor = decideNavColor();
 
   const navExpander = () => {
     console.log("navExpander");
@@ -42,15 +53,9 @@ export default function NavBar() {
     if (!navbarExpanded) toggleNavbar(true);
   };
 
-
   if (navbarExpanded)
     return (
-      <div
-        style={{
-          flexGrow: 1,
-          backgroundColor: navColor,
-        }}
-      >
+      <div className={classes.expanded}>
         <AppBar
           position="static"
           style={{ background: "transparent", boxShadow: "none" }}
@@ -67,23 +72,17 @@ export default function NavBar() {
             </IconButton>
           </Toolbar>
         </AppBar>
-
         <NavDropdown navExpander={navExpander} />
+        <div className="imgDiv3">
+          <img src={image1} alt="Liennette" />
+        </div>
       </div>
     );
   if (!navbarExpanded)
     return (
-      <div
-        style={{
-          flexGrow: 1,
-          backgroundColor: navColor,
-        }}
-      >
-        <AppBar
-          position="static"
-          style={{ background: "transparent", boxShadow: "none" }}
-        >
-          <Toolbar>
+      <div className={navClass()}>
+        <div className="navBackground">
+          <div className="navContent">
             <IconButton
               edge="start"
               className={classes.menuButton}
@@ -93,8 +92,10 @@ export default function NavBar() {
             >
               <MenuIcon />
             </IconButton>
-          </Toolbar>
-        </AppBar>
+            <img className="logo1" src={logo} alt="Logo" />
+            <div className="tagLine">Building Quality Organizations.</div>
+          </div>
+        </div>
       </div>
     );
 }
