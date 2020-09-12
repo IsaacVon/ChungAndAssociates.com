@@ -7,13 +7,14 @@ import Team from "./pages/mobile/team";
 import Testamonials from "./pages/mobile/testamonials";
 import { makeStyles } from "@material-ui/core/styles";
 
+import HomeDesktop from "./pages/desktop/homeDesktop";
+
 import NotFound from "./pages/mobile/notFound";
 
 
 const useStyles = makeStyles({
   root: {
     width: "100%",
-    maxWidth: 500,
   },
 
 });
@@ -24,11 +25,11 @@ function App() {
   return (
     <Router history={history}>
       <div className={classes.root}>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Switch>
           <Route path="/team" exact component={Team} />
           <Route path="/testamonials" exact component={Testamonials} />
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact component={HomeDesktop} />
           <Route path="/*" component={NotFound} />
         </Switch>
       </div>

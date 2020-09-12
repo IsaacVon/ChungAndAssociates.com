@@ -211,3 +211,12 @@
   height: 1px;
   background-color: #ffffff;
 }
+
+/* Desktop */
+
+.desktopFooter {
+  text-align: center;
+  padding-bottom: 28px;
+  padding-top: 28px;
+  background-color:#73D3E1;
+}
