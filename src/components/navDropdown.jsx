@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-
 import logo from "../logos/chung-logo.svg";
+import { HashLink } from 'react-router-hash-link';
+
 
 import "../App.css";
 
@@ -41,6 +41,16 @@ export default function NavDropdown({ navExpander }) {
         disableTouchRipple
         component={Link}
         to="/"
+        onClick={() => navExpander()}
+        className={path === "/" ? classes.selected : classes.standard}
+      >
+        <span className="light">HOME</span>
+        <span className="bold"> ADD TO LOGO </span>
+      </Button>
+      <Button
+        disableTouchRipple
+        as={HashLink}
+        to={`${path}#services`}
         onClick={() => navExpander()}
         className={path === "/" ? classes.selected : classes.standard}
       >

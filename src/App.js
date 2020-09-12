@@ -1,14 +1,13 @@
 import React from "react";
 import { Router, Switch, Route } from "react-router-dom";
 import history from "./components/history";
-
 import Navbar from "./components/navBar";
-import Home from "./pages/home";
-import Team from "./pages/team";
-import Testamonials from "./pages/testamonials";
+import Home from "./pages/mobile/home";
+import Team from "./pages/mobile/team";
+import Testamonials from "./pages/mobile/testamonials";
 import { makeStyles } from "@material-ui/core/styles";
 
-import NotFound from "./pages/notFound";
+import NotFound from "./pages/mobile/notFound";
 
 
 const useStyles = makeStyles({

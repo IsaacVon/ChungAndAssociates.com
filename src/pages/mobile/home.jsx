@@ -1,10 +1,10 @@
 import React from "react";
-import Main from "../components/home/main";
-import About from "../components/home/about";
-import Services from "../components/home/services";
+import Main from "../../components/home/main";
+import About from "../../components/home/about";
+import Services from "../../components/home/services";
 import { makeStyles } from "@material-ui/core/styles";
 
-import Footer from "../components/footer";
+import Footer from "../../components/footer";
 
 const useStyles = makeStyles({
   root: {
@@ -25,7 +25,7 @@ export default function Home() {
       <div style={{ background: "#FFFFFF" }}>
         <About />
       </div>
-      <div style={{ background: "#ABE4F0" }}>
+      <div id="services" style={{ background: "#ABE4F0"  }}>
         <Services />
         <Footer />
       </div>

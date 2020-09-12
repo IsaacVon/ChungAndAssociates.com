@@ -1,24 +1,23 @@
 import React from "react";
-import ChipC from "../components/testimonials/chipC";
-import MikeR from "../components/testimonials/mikeR";
-import JohnL from "../components/testimonials/johnL";
-import JeffE from "../components/testimonials/jeffE";
-import PrestonW from "../components/testimonials/prestonW";
-import BillF from "../components/testimonials/billF";
-import SteveS from "../components/testimonials/steveS";
-import JimP from "../components/testimonials/jimP";
-import JanetL from "../components/testimonials/janetL";
-import MaryA from "../components/testimonials/maryA";
-import Contact from "../components/testimonials/contact";
-import Footer from "../components/footer";
+import ChipC from "../../components/testimonials/chipC";
+import MikeR from "../../components/testimonials/mikeR";
+import JohnL from "../../components/testimonials/johnL";
+import JeffE from "../../components/testimonials/jeffE";
+import PrestonW from "../../components/testimonials/prestonW";
+import BillF from "../../components/testimonials/billF";
+import SteveS from "../../components/testimonials/steveS";
+import JimP from "../../components/testimonials/jimP";
+import JanetL from "../../components/testimonials/janetL";
+import MaryA from "../../components/testimonials/maryA";
+import Contact from "../../components/testimonials/contact";
+import Footer from "../../components/footer";
 import { makeStyles } from "@material-ui/core/styles";
-import image6 from "../images/6.jpg";
-import image7 from "../images/7.jpg";
-import image8 from "../images/8.jpg";
+import image6 from "../../images/6.jpg";
+import image7 from "../../images/7.jpg";
+import image8 from "../../images/8.jpg";
 import Typography from "@material-ui/core/Typography";
-import logo from "../logos/chung-logo.svg";
 import { Parallax } from "react-scroll-parallax";
-import "../App.css";
+import "../../App.css";
 
 const useStyles = makeStyles({
   root: {
@@ -35,7 +34,6 @@ export default function Testamonials() {
 
   return (
     <div className={classes.root}>
-
       <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
         <span
           style={{
