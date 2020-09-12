@@ -1,37 +1,100 @@
 /* navbar */
 .navbarDropdown {
   background-color: #f0feff;
+  margin: 15px 0px 5px 0px;
+}
 
+.dropDownLogo {
+  margin: 20px 0px 5px 0px;
+}
+
+.navbarContainer {
+  padding: 13px 0px 0px 10px;
+}
+
+.navbarContainerTeam {
+  padding: 13px 0px 0px 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbarContainer .MuiGrid-container {
+  align-items: center;
+  margin-top: 15px;
 }
 
 .imgDiv3 {
-  /* margin: 0px 0px 0px 0px; */
   overflow: hidden;
   height: 486px;
-  
 }
 
 .imgDiv3 img {
   position: relative;
-  left: -50%; 
-
-  height: 100%
+  left: -50%;
+  height: 100%;
 }
 
-.navBackground {
+/* Nav Backgrounds */
+
+/* Home */
+.navBackgroundHomeCollapsed {
   background-image: url(./images/1.jpg);
-  alt: waterfall;
-  width: 100%;
+  background-position-x: center;
+  background-size: 180%;
+  background-repeat: no-repeat;
+  background-color: #73d3e1;
+  background-position-y: 35px;
   height: 557px;
-  background-size: cover;
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
-}
-.navContent {
-  margin-top: auto;
 }
 
+.navBackgroundHomeExpanded {
+  background-image: url(./images/1.jpg);
+  background-position-x: center;
+  background-size: 180%;
+  background-repeat: no-repeat;
+  background-color: #73d3e1;
+  background-position-y: -40px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Team */
+.navBackgroundTeamCollapsed {
+  background-image: url(./images/4.jpg);
+  background-position-x: center;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-color: #73d3e1;
+  background-position-y: -40px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navBackgroundTeamExpanded {
+  background-image: url(./images/4.jpg);
+  background-position-x: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #73d3e1;
+  background-position-y: -110px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Testamonials */
+.navBackgroundTestamonialsCollapsed {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.navBackgroundTestamonialsExpanded {
+  background-color: white;
+}
 
 /* 2 word with half bold; half not */
 .bold {
@@ -42,19 +105,16 @@
   font-weight: 300;
 }
 
-
-/* Logo */
-
 .logo1 {
-  margin: 30px 20px 0px 20px;
+  margin: 0px 20px 0px 20px;
 }
 
 .tagLine {
   text-align: center;
   font-size: 17px;
   font-weight: 300;
-  margin-top: 10px;
-  padding-bottom: 30px;
+  margin-top: 7px;
+  padding-bottom: 20px;
 }
 /* /testamonials */
 
@@ -122,8 +182,6 @@
   margin-top: auto;
 }
 
-
-
 .imgDiv1 {
   margin: 15px 0px 10px 0px;
   overflow: hidden;
@@ -135,8 +193,6 @@
   overflow: hidden;
   max-height: 380px;
 }
-
-
 
 .hrTestamonials {
   border-width: 0px;

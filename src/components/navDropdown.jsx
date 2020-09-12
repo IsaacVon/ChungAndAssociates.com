@@ -15,12 +15,18 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "white",
     color: "#73D3E1",
     borderRadius: "0px",
+    "&:hover": {
+      backgroundColor: "white",
+    },
   },
   standard: {
     fontSize: "15px",
     width: "100%",
     backgroundColor: "#F0FEFF",
     borderRadius: "0px",
+    "&:hover": {
+      backgroundColor: "white",
+    },
   },
 }));
 
@@ -32,6 +38,7 @@ export default function NavDropdown({ navExpander }) {
   return (
     <div className="navbarDropdown">
       <Button
+        disableTouchRipple
         component={Link}
         to="/"
         onClick={() => navExpander()}
@@ -41,11 +48,12 @@ export default function NavDropdown({ navExpander }) {
         <span className="bold"> SERVICES </span>
       </Button>
       {/* add anchor point */}
-      <Button className={classes.standard}>
+      <Button disableTouchRipple className={classes.standard}>
         <span className="light">ABOUT</span>
         <span className="bold"> US </span>
       </Button>
       <Button
+        disableTouchRipple
         component={Link}
         to="/team"
         onClick={() => navExpander()}
@@ -55,6 +63,7 @@ export default function NavDropdown({ navExpander }) {
         <span className="bold"> TEAM </span>
       </Button>
       <Button
+        disableTouchRipple
         component={Link}
         to="/testamonials"
         onClick={() => navExpander()}
@@ -66,13 +75,14 @@ export default function NavDropdown({ navExpander }) {
         <span className="bold"> SAY </span>
       </Button>
       {/* New page */}
-      <Button className={classes.standard}>
+      <Button disableTouchRipple className={classes.standard}>
         <span className="light">CONTACT </span>
         <span className="bold"> US </span>
       </Button>
-
-      <img className="logo1" src={logo} alt="Logo" />
-      <div className="tagLine">Building Quality Organizations.</div>
+      <div className="dropDownLogo">
+        <img className="logo1" src={logo} alt="Logo" />
+        <div className="tagLine">Building Quality Organizations.</div>
+      </div>
     </div>
   );
 }

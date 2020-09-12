@@ -35,7 +35,6 @@ export default function Testamonials() {
 
   return (
     <div className={classes.root}>
-      <img className="logo1" src={logo} alt="Logo" />
 
       <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
         <span

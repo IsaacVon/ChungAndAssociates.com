@@ -18,6 +18,7 @@ export default function Home() {
 
   return (
     <div className={classes.root}>
+      
       <div style={{ background: "#73D3E1" }}>
         <Main />
       </div>
