@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 
 export default function Contact() {
+  
   return (
     <div style={{ textAlign: "center", marginBottom: "58px" }}>
       <div style={{ fontSize: "14px" }}>For more information please</div>

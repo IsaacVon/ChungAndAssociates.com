@@ -1,9 +1,19 @@
 import React from "react";
 
-export default function ChipC() {
+export default function ChipC({ desktop }) {
+  console.log("desktop chipC", desktop);
+
   return (
-    <div className="testimonialContentContainer">
-      <div className="testimonialReview">
+    <div
+      className={
+        desktop
+          ? "testimonialContentContainerDesktop"
+          : "testimonialContentContainer"
+      }
+    >
+      <div
+        className={desktop ? "testimonialReviewDesktop" : "testimonialReview"}
+      >
         Liennette has been on a long-term professional relationship with RJ
         Young since 2014. She was first brought in to clarify some business
         uneasiness that we had and soon uncover all the business issues that we

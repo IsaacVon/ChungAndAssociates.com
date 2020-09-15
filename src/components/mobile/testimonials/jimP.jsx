@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function JimP() {
+export default function JimP({desktop}) {
+  console.log("desktop jimP", desktop)
+
   return (
-    <div className="testimonialContentContainer">
-      <div className="testimonialReview">
+    <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>
+      <div className={desktop ? "testimonialReviewDesktop" : "testimonialReview"}>
         Having worked with Liennette Chung for more than ten years in a virtual
         CFO role, she has been an incredible resource in coaching our Leadership
         Team as we implemented various strategic initiatives to grow our

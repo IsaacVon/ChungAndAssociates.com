@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function JanetL() {
+export default function JanetL({ desktop }) {
+  console.log("desktop janetL", desktop)
+
   return (
-    <div className="testimonialContentContainer">
-      <div className="testimonialReview">
+    <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>
+      <div className={desktop ? "testimonialReviewDesktop" : "testimonialReview"}>
         Liennette understands the imaging business and is successfully guiding
         us through the chaos of growth. She has given us the necessary tools to
         propel our business to the next level! She is sharp, direct, and pushes

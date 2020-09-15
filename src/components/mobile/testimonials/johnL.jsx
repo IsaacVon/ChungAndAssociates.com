@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function JohnL() {
+export default function JohnL({desktop}) {
+  console.log("desktop johnL", desktop)
+
   return (
-    <div className="testimonialContentContainer">
-      <div className="testimonialReview">
+    <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>
+      <div className={desktop ? "testimonialReviewDesktop" : "testimonialReview"}>
         <p>
           We’ve been working with Liennette Chung for the past 7 years. The
           first time Liennette Chung said to me that numbers are a language, I

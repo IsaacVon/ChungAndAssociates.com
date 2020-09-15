@@ -6,6 +6,7 @@ import history from "./components/mobile/history";
 import Navbar from "./components/mobile/navBar";
 import Home from "./pages/mobile/home";
 import Testimonials from "./pages/mobile/testimonials";
+import TestimonialsDesktop from "./pages/desktop/testimonials";
 import Team from "./pages/mobile/team";
 import NotFound from "./pages/mobile/notFound";
 
@@ -30,6 +31,7 @@ function App() {
         <Switch>
           <Route path="/team" exact component={Team} />
           <Route path="/testimonials" exact component={Testimonials} />
+          <Route path="/TestimonialsDesktop" exact component={TestimonialsDesktop} />
           <Route path="/services" exact component={Services} />
           <Route path="/" exact component={HomeDesktop} />
           <Route path="/*" component={NotFound} />

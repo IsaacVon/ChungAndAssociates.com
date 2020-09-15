@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function JeffE() {
+export default function JeffE({desktop}) {
+  console.log("desktop jeffE", desktop)
+
   return (
-    <div className="testimonialContentContainer">
-      <div className="testimonialReview">
+    <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>
+      <div className={desktop ? "testimonialReviewDesktop" : "testimonialReview"}>
         I have had the pleasure of working with Liennette for several years on
         multiple projects and my expectations have always been exceeded. Her
         timeliness, attention to detail and genuine concern for providing ROI

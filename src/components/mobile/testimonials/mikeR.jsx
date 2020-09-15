@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function MikeR() {
+export default function MikeR({desktop}) {
+  console.log("desktop mikeR", desktop)
+
   return (
-    <div className="testimonialContentContainer">
-      <div className="testimonialReview">
+    <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>
+      <div className={desktop ? "testimonialReviewDesktop" : "testimonialReview"}>
         <p>
           Liennette Chung was hired as the CFO for one of my clients in 2005. I
           was involved in the hiring process. Her qualifications were

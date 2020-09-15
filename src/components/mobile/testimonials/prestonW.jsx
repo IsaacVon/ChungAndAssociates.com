@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function PrestonW() {
+export default function PrestonW({desktop}) {
+  console.log("desktop prestonW", desktop)
+
   return (
-    <div className="testimonialContentContainer">
-      <div className="testimonialReview">
+    <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>
+      <div className={desktop ? "testimonialReviewDesktop" : "testimonialReview"}>
         <p>
           It’s hard to put into words all that Liennette’s partnership has done
           for us. Every critical business decision was put through the

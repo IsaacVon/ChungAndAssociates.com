@@ -1,10 +1,18 @@
 import React from "react";
 import "../../../App.css";
 
-export default function BillF() {
+export default function BillF({ desktop }) {
   return (
-    <div className="testimonialContentContainer">
-      <div className="testimonialReview">
+    <div
+      className={
+        desktop
+          ? "testimonialContentContainerDesktop"
+          : "testimonialContentContainer"
+      }
+    >
+      <div
+        className={desktop ? "testimonialReviewDesktop" : "testimonialReview"}
+      >
         Liennette Chung has worked with Fraser as a virtual CFO to our
         organization and trusted advisor me and the leadership for since 2012.
         Her knowledge on acquisitions, industry financial model and organic

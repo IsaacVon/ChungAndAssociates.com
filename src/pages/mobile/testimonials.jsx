@@ -56,34 +56,34 @@ export default function Testimonials() {
         </span>
       </Typography>
 
-      <ChipC />
+      <ChipC desktop={false} />
       <div className="imgDiv1">
         <Parallax y={[-10, 0]}>
           <img width="100%" src={image6} alt="desert" />
         </Parallax>
       </div>
-      <MikeR />
+      <MikeR desktop={false} />
 
       <div style={{ background: "#E4FAFF" }}>
         <hr className="hrTestimonials"></hr>
 
-        <JohnL />
+        <JohnL desktop={false} />
 
         <hr className="hrTestimonials"></hr>
       </div>
-      <JeffE />
+      <JeffE desktop={false} />
       <div className="imgDiv1">
         <Parallax y={[-10, 0]}>
           <img width="100%" src={image7} alt="snow" />
         </Parallax>
       </div>
-      <PrestonW />
+      <PrestonW desktop={false} />
       <div style={{ background: "#E4FAFF" }}>
         <hr className="hrTestimonials"></hr>
-        <BillF />
+        <BillF desktop={false} />
         <hr className="hrTestimonials"></hr>
       </div>
-      <SteveS />
+      <SteveS desktop={false} />
       <div className="imgDiv2">
         <Parallax y={[-90, 0]}>
           <img
@@ -94,13 +94,13 @@ export default function Testimonials() {
           />
         </Parallax>
       </div>
-      <JimP />
+      <JimP desktop={false} />
       <div style={{ background: "#E9EDFD" }}>
         <hr className="hrTestimonials"></hr>
-        <JanetL />
+        <JanetL desktop={false} />
         <hr className="hrTestimonials"></hr>
       </div>
-      <MaryA />
+      <MaryA desktop={false} />
 
       <div className="footerBackground">
         <div className="footerContent">

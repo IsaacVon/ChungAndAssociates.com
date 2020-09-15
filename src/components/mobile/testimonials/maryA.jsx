@@ -1,9 +1,12 @@
 import React from "react";
 
-export default function MaryA() {
+export default function MaryA({desktop}) {
+  console.log("desktop maryA", desktop)
+
+
   return (
-    <div className="testimonialContentContainer">
-      <div className="testimonialReview">
+    <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>
+      <div className={desktop ? "testimonialReviewDesktop" : "testimonialReview"}>
         To compare Liennette to others at her professional level is to compare
         an Olympic athlete to a collegiate player in sports. She develops a
         vision of the goal. then develops and executes a successful gameplan.She
