@@ -2,11 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import logo from "../logos/chung-logo.svg";
-import { HashLink } from 'react-router-hash-link';
+import logo from "../../logos/chung-logo.svg";
+import { HashLink } from "react-router-hash-link";
 
-
-import "../App.css";
+import "../../App.css";
 
 const useStyles = makeStyles((theme) => ({
   selected: {

@@ -1,7 +1,8 @@
 import React from "react";
 import { Router, Switch, Route } from "react-router-dom";
-import history from "./components/history";
-import Navbar from "./components/navBar";
+import history from "./components/mobile/history";
+import Navbar from "./components/mobile/navBar";
+import NavbarDesktop from "../src/components/desktop/navBarDesktop"
 import Home from "./pages/mobile/home";
 import Team from "./pages/mobile/team";
 import Testamonials from "./pages/mobile/testamonials";
@@ -26,6 +27,7 @@ function App() {
     <Router history={history}>
       <div className={classes.root}>
         {/* <Navbar/> */}
+        <NavbarDesktop />
         <Switch>
           <Route path="/team" exact component={Team} />
           <Route path="/testamonials" exact component={Testamonials} />

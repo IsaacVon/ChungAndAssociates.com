@@ -36,7 +36,7 @@ export default function Footer() {
         style={{
           color: "black",
           borderColor: "black",
-          borderRadius: 1,
+          borderRadius: 10,
           textTransform: "none",
           fontSize: "17px",
           fontWeight: "500",

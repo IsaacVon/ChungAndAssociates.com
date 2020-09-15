@@ -10,7 +10,7 @@ import JimP from "../../components/testimonials/jimP";
 import JanetL from "../../components/testimonials/janetL";
 import MaryA from "../../components/testimonials/maryA";
 import Contact from "../../components/testimonials/contact";
-import Footer from "../../components/footer";
+import Footer from "../../components/mobile/footer";
 import { makeStyles } from "@material-ui/core/styles";
 import image6 from "../../images/6.jpg";
 import image7 from "../../images/7.jpg";

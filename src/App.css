@@ -214,9 +214,56 @@
 
 /* Desktop */
 
+/* Desktop Home */
+
+.navContentHomeWrapper {
+  /* background-color: lightgreen; */
+  margin: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  overflow: hidden;
+}
+
+.navBackgroundHomeDesktop {
+  background-image: url(./images/1.jpg);
+  background-color: #73d3e1;
+  background-size: 900px;
+  background-position-x: 240px;
+  background-position-y: -70px;
+  background-repeat: no-repeat;
+  /* height: 600px; */
+  height: 600px;
+}
+
+.logoTaglineContainer {
+  padding: 230px 0px 0px 90px;
+  height: 50px;
+}
+
+.logo2 {
+  height: 50px;
+}
+
+.tagLineDesktop {
+  font-size: 17px;
+  font-weight: 300;
+  margin: 20px 0px 0px 140px;
+}
+
 .desktopFooter {
   text-align: center;
   padding-bottom: 28px;
   padding-top: 28px;
-  background-color:#73D3E1;
+  background-color: #73d3e1;
+
+  margin: 10px 10px 10px 10px;
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }

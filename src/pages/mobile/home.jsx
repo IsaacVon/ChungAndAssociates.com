@@ -4,7 +4,7 @@ import About from "../../components/home/about";
 import Services from "../../components/home/services";
 import { makeStyles } from "@material-ui/core/styles";
 
-import Footer from "../../components/footer";
+import Footer from "../../components/mobile/footer";
 
 const useStyles = makeStyles({
   root: {

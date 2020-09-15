@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import TeamContent from "../../components/team/teamContent";
-import Footer from "../../components/footer";
+import Footer from "../../components/mobile/footer";
 
 const useStyles = makeStyles({
   root: {

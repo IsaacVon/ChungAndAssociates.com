@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 export default function About() {
   return (
     <div>
-      <div style={{ textAlign: "center", marginTop: "38px" }}>
+      <div style={{ textAlign: "center", marginTop: "45px" }}>
         <span
           style={{
             fontSize: "25px",
@@ -25,16 +25,15 @@ export default function About() {
           We Are
         </span>
       </div>
-      <Grid container>
+      <Grid style={{ margin: "30px 0px "}} container>
         <Grid item xs={6}>
           <div
             style={{
-              width: "500px",
+              float: "right",
               textAlign: "right",
-              margin: "25px",
-              marginTop: "20px",
+              width: "500px",
+              marginRight: "30px",
               fontSize: "54px",
-              marginBottom: "28px",
               color: "#73D3E1",
             }}
           >
@@ -45,10 +44,14 @@ export default function About() {
         <Grid item xs={6}>
           <div
             style={{
-              lineHeight: "215%",
-              margin: "28px",
+              float: "left",
+              textAlign: "left",
+              width: "500px",
+              marginLeft: "30px",
+
               fontWeight: "300",
               fontSize: "18px",
+              lineHeight: "215%",
             }}
           >
             <p>
