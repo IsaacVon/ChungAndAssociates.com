@@ -5,7 +5,7 @@ import "../../App.css";
 const path = window.location.pathname;
 
 const footerStyle = () => {
-  if (path === "/testamonials") return "desktopFooterBlue";
+  if (path === "/testimonials") return "desktopFooterBlue";
   if (path === "/team") return "desktopFooterBlue";
   if (path === "/services") return "desktopFooterWhite";
   if (path === "/gallery") return "desktopFooterBlue";
@@ -13,7 +13,7 @@ const footerStyle = () => {
 };
 
 export default function Footer() {
-  console.log("path", path)
+  console.log("path", path);
 
   return (
     <div className={footerStyle()}>

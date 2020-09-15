@@ -2,8 +2,8 @@ import React from "react";
 
 export default function JohnL() {
   return (
-    <div className="testamonialContentContainer">
-      <div className="testamonialReview">
+    <div className="testimonialContentContainer">
+      <div className="testimonialReview">
         <p>
           We’ve been working with Liennette Chung for the past 7 years. The
           first time Liennette Chung said to me that numbers are a language, I
@@ -26,11 +26,11 @@ export default function JohnL() {
           our executive team and family.
         </p>
       </div>
-      <div className="testamonialName">
-        <span className="testamonialIconBlue">■ </span>
+      <div className="testimonialName">
+        <span className="testimonialIconBlue">■ </span>
         John Lowery
       </div>
-      <div className="testamonialTitle">
+      <div className="testimonialTitle">
         President & Owner / Applied Imaging, Inc.
       </div>
     </div>

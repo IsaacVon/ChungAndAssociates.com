@@ -5,21 +5,18 @@ import { Router, Switch, Route } from "react-router-dom";
 import history from "./components/mobile/history";
 import Navbar from "./components/mobile/navBar";
 import Home from "./pages/mobile/home";
-import Testamonials from "./pages/mobile/testamonials";
+import Testimonials from "./pages/mobile/testimonials";
 import Team from "./pages/mobile/team";
 import NotFound from "./pages/mobile/notFound";
 
-import NavbarDesktop from "../src/components/desktop/navBarDesktop"
+import NavbarDesktop from "../src/components/desktop/navBarDesktop";
 import HomeDesktop from "./pages/desktop/homeDesktop";
-import Services from "../src/pages/desktop/services"
-
-
+import Services from "../src/pages/desktop/services";
 
 const useStyles = makeStyles({
   root: {
     width: "100%",
   },
-
 });
 
 function App() {
@@ -32,7 +29,7 @@ function App() {
         {/* <NavbarDesktop /> NAVBAR NOW IN HOME PAGE */}
         <Switch>
           <Route path="/team" exact component={Team} />
-          <Route path="/testamonials" exact component={Testamonials} />
+          <Route path="/testimonials" exact component={Testimonials} />
           <Route path="/services" exact component={Services} />
           <Route path="/" exact component={HomeDesktop} />
           <Route path="/*" component={NotFound} />

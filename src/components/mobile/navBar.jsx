@@ -30,19 +30,17 @@ export default function NavBar() {
     if (path === "/team") return "navbarContainerTeam";
     else return "navbarContainer";
   };
-  
+
   const navBackgroundCollapsed = () => {
-    if (path === "/testamonials") return "navBackgroundTestamonialsCollapsed";
+    if (path === "/testimonials") return "navBackgroundTestimonialsCollapsed";
     if (path === "/team") return "navBackgroundTeamCollapsed";
     if (path === "/") return "navBackgroundHomeCollapsed";
+  };
 
-  }; 
-  
   const navBackgroundExpanded = () => {
-    if (path === "/testamonials") return "navBackgroundTestamonialsExpanded";
+    if (path === "/testimonials") return "navBackgroundTestimonialsExpanded";
     if (path === "/team") return "navBackgroundTeamExpanded";
     if (path === "/") return "navBackgroundHomeExpanded";
-
   };
 
   const navExpander = () => {
@@ -75,7 +73,7 @@ export default function NavBar() {
 
           <NavDropdown navExpander={navExpander} />
           {/* <div className="navBackgroundHomeExpanded"></div> */}
-          {/* <div className="navBackgroundTestamonialsExpanded"></div> */}
+          {/* <div className="navBackgroundTestimonialsExpanded"></div> */}
           <div className={navBackgroundExpanded()}></div>
         </div>
       </>

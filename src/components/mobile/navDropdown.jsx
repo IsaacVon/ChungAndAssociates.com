@@ -74,10 +74,10 @@ export default function NavDropdown({ navExpander }) {
       <Button
         disableTouchRipple
         component={Link}
-        to="/testamonials"
+        to="/testimonials"
         onClick={() => navExpander()}
         className={
-          path === "/testamonials" ? classes.selected : classes.standard
+          path === "/testimonials" ? classes.selected : classes.standard
         }
       >
         <span className="light">PEOPLE</span>

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function PrestonW() {
   return (
-    <div className="testamonialContentContainer">
-      <div className="testamonialReview">
+    <div className="testimonialContentContainer">
+      <div className="testimonialReview">
         <p>
           It’s hard to put into words all that Liennette’s partnership has done
           for us. Every critical business decision was put through the
@@ -25,13 +25,11 @@ export default function PrestonW() {
           thanks to Liennette for the years of extraordinary service.
         </p>
       </div>
-      <div className="testamonialName">
-        <span className="testamonialIconBlue">■ </span>
+      <div className="testimonialName">
+        <span className="testimonialIconBlue">■ </span>
         Preston Woolfolk & Hunter Woolfolk
       </div>
-      <div className="testamonialTitle">
-        Co-President / DOCUmation Inc.
-      </div>
+      <div className="testimonialTitle">Co-President / DOCUmation Inc.</div>
     </div>
   );
 }

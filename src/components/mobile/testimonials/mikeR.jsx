@@ -2,8 +2,8 @@ import React from "react";
 
 export default function MikeR() {
   return (
-    <div className="testamonialContentContainer">
-      <div className="testamonialReview">
+    <div className="testimonialContentContainer">
+      <div className="testimonialReview">
         <p>
           Liennette Chung was hired as the CFO for one of my clients in 2005. I
           was involved in the hiring process. Her qualifications were
@@ -34,11 +34,11 @@ export default function MikeR() {
           years being associated with Liennette.
         </p>
       </div>
-      <div className="testamonialName">
-        <span className="testamonialIconBlue">■ </span>
+      <div className="testimonialName">
+        <span className="testimonialIconBlue">■ </span>
         Mike Riordan
       </div>
-      <div className="testamonialTitle">
+      <div className="testimonialTitle">
         President / Riordan and Associates, Inc.
       </div>
     </div>

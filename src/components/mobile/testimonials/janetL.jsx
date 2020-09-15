@@ -2,18 +2,18 @@ import React from "react";
 
 export default function JanetL() {
   return (
-    <div className="testamonialContentContainer">
-      <div className="testamonialReview">
+    <div className="testimonialContentContainer">
+      <div className="testimonialReview">
         Liennette understands the imaging business and is successfully guiding
         us through the chaos of growth. She has given us the necessary tools to
         propel our business to the next level! She is sharp, direct, and pushes
         us forward.
       </div>{" "}
-      <div className="testamonialName">
-        <span className="testamonialIconPurple">■ </span>
+      <div className="testimonialName">
+        <span className="testimonialIconPurple">■ </span>
         Janet Langarek{" "}
       </div>
-      <div className="testamonialTitle">
+      <div className="testimonialTitle">
         VP of Operations / Applied Imaging, Inc.{" "}
       </div>
     </div>

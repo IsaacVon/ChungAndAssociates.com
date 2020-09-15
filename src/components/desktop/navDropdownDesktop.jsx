@@ -8,9 +8,6 @@ import "../../App.css";
 
 const useStyles = makeStyles((theme) => ({
   selected: {
-
-
-    
     fontSize: "15px",
     backgroundColor: "white",
     color: "#73D3E1",
@@ -20,8 +17,6 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   standard: {
-
-
     fontSize: "15px",
     backgroundColor: "#F0FEFF",
     borderRadius: "0px",
@@ -38,7 +33,6 @@ export default function NavDropdown({ navExpander }) {
 
   return (
     <div className="navbarDropdown">
-
       <Button
         disableTouchRipple
         component={Link}
@@ -77,10 +71,10 @@ export default function NavDropdown({ navExpander }) {
       <Button
         disableTouchRipple
         component={Link}
-        to="/testamonials"
+        to="/testimonials"
         onClick={() => navExpander()}
         className={
-          path === "/testamonials" ? classes.selected : classes.standard
+          path === "/testimonials" ? classes.selected : classes.standard
         }
       >
         <span className="light">PEOPLE</span>

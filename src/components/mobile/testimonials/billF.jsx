@@ -3,8 +3,8 @@ import "../../../App.css";
 
 export default function BillF() {
   return (
-    <div className="testamonialContentContainer">
-      <div className="testamonialReview">
+    <div className="testimonialContentContainer">
+      <div className="testimonialReview">
         Liennette Chung has worked with Fraser as a virtual CFO to our
         organization and trusted advisor me and the leadership for since 2012.
         Her knowledge on acquisitions, industry financial model and organic
@@ -14,11 +14,11 @@ export default function BillF() {
         that are invaluable. Together with Liennette, our Organization have more
         than doubled in size and bottom line. I trust Liennette wholeheartedly.
       </div>{" "}
-      <div className="testamonialName">
-        <span className="testamonialIconBlue">■ </span>
+      <div className="testimonialName">
+        <span className="testimonialIconBlue">■ </span>
         Bill Fraser
       </div>
-      <div className="testamonialTitle">
+      <div className="testimonialTitle">
         President & Owner / Fraser AIS, Inc.{" "}
       </div>
     </div>

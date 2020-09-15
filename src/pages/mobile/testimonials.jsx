@@ -26,7 +26,7 @@ const useStyles = makeStyles({
   },
 });
 
-export default function Testamonials() {
+export default function Testimonials() {
   const classes = useStyles();
 
   // Margin for images
@@ -65,11 +65,11 @@ export default function Testamonials() {
       <MikeR />
 
       <div style={{ background: "#E4FAFF" }}>
-        <hr className="hrTestamonials"></hr>
+        <hr className="hrTestimonials"></hr>
 
         <JohnL />
 
-        <hr className="hrTestamonials"></hr>
+        <hr className="hrTestimonials"></hr>
       </div>
       <JeffE />
       <div className="imgDiv1">
@@ -79,9 +79,9 @@ export default function Testamonials() {
       </div>
       <PrestonW />
       <div style={{ background: "#E4FAFF" }}>
-        <hr className="hrTestamonials"></hr>
+        <hr className="hrTestimonials"></hr>
         <BillF />
-        <hr className="hrTestamonials"></hr>
+        <hr className="hrTestimonials"></hr>
       </div>
       <SteveS />
       <div className="imgDiv2">
@@ -96,9 +96,9 @@ export default function Testamonials() {
       </div>
       <JimP />
       <div style={{ background: "#E9EDFD" }}>
-        <hr className="hrTestamonials"></hr>
+        <hr className="hrTestimonials"></hr>
         <JanetL />
-        <hr className="hrTestamonials"></hr>
+        <hr className="hrTestimonials"></hr>
       </div>
       <MaryA />
 
