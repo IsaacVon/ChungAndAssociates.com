@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import image2 from "../../images/2.jpg";
+import image2 from "../../../images/2.jpg";
 import { Parallax } from "react-scroll-parallax";
 
 export default function About() {

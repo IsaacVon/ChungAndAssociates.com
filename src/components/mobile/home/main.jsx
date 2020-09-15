@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import "../../App.css";
+import "../../../App.css";
 
 export default function Main() {
   return (

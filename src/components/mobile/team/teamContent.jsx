@@ -1,7 +1,7 @@
 import React from "react";
-import "../../App.css";
+import "../../../App.css";
 import Typography from "@material-ui/core/Typography";
-import image5 from "../../images/5.jpg";
+import image5 from "../../../images/5.jpg";
 import { Parallax } from "react-scroll-parallax";
 
 export default function TeamContent() {

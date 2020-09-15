@@ -1,6 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import TeamContent from "../../components/team/teamContent";
+import TeamContent from "../../components/mobile/team/teamContent";
 import Footer from "../../components/mobile/footer";
 
 const useStyles = makeStyles({

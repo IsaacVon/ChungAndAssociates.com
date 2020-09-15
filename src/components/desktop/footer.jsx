@@ -2,9 +2,21 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import "../../App.css";
 
+const path = window.location.pathname;
+
+const footerStyle = () => {
+  if (path === "/testamonials") return "desktopFooterBlue";
+  if (path === "/team") return "desktopFooterBlue";
+  if (path === "/services") return "desktopFooterWhite";
+  if (path === "/gallery") return "desktopFooterBlue";
+  if (path === "/") return "desktopFooterBlue";
+};
+
 export default function Footer() {
+  console.log("path", path)
+
   return (
-    <div className="desktopFooter">
+    <div className={footerStyle()}>
       <div style={{ fontSize: "14px" }}>
         For more information, please contact us.
       </div>

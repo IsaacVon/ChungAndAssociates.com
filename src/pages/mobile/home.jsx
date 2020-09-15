@@ -1,7 +1,7 @@
 import React from "react";
-import Main from "../../components/home/main";
-import About from "../../components/home/about";
-import Services from "../../components/home/services";
+import Main from "../../components/mobile/home/main";
+import About from "../../components/mobile/home/about";
+import Services from "../../components/mobile/home/services";
 import { makeStyles } from "@material-ui/core/styles";
 
 import Footer from "../../components/mobile/footer";
@@ -18,14 +18,13 @@ export default function Home() {
 
   return (
     <div className={classes.root}>
-      
       <div style={{ background: "#73D3E1" }}>
         <Main />
       </div>
       <div style={{ background: "#FFFFFF" }}>
         <About />
       </div>
-      <div id="services" style={{ background: "#ABE4F0"  }}>
+      <div id="services" style={{ background: "#ABE4F0" }}>
         <Services />
         <Footer />
       </div>

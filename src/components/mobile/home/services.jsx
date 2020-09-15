@@ -1,5 +1,5 @@
 import React from "react";
-import image3 from "../../images/3.jpg";
+import image3 from "../../../images/3.jpg";
 import { Parallax } from "react-scroll-parallax";
 
 export default function Services() {

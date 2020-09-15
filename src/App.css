@@ -253,7 +253,22 @@
   margin: 20px 0px 0px 140px;
 }
 
-.desktopFooter {
+.desktopFooterWhite {
+  text-align: center;
+  padding-bottom: 28px;
+  padding-top: 28px;
+  background-color:#FFFFFF;
+
+  margin: 10px 10px 10px 10px;
+
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.desktopFooterBlue {
   text-align: center;
   padding-bottom: 28px;
   padding-top: 28px;
@@ -266,4 +281,50 @@
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+}
+
+/* Desktop Services */
+
+.serviceBackground {
+  position: relative;
+  background-image: url(./images/3.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+  margin: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.serviceContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 100px 100px 20px 100px;
+  white-space: nowrap;
+  color: white;
+}
+
+.servicesWeOffer {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 32px;
+  vertical-align: middle;
+}
+
+.serviceList {
+  font-size: 18px;
+  line-height: 21px;
+  list-style: none;
+}
+
+.serviceLogoContainer {
+  padding: 30px;
+  height: 50px;
 }

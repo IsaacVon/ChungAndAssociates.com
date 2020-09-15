@@ -10,14 +10,15 @@ import Grid from "@material-ui/core/Grid";
 
 const useStyles = makeStyles((theme) => ({
   menuButton: {
-    marginTop: "1px",
-    marginLeft: "7px",
-    outerHeight: "300px",
-    padding: "0px",
+    float: "right",
+    marginTop: "10px",
+    marginRight: "30px",
   },
   expanded: {
     flexGrow: 1,
     backgroundColor: "#F0FEFF",
+    width: "200px",
+    float: "right",
   },
 }));
 
@@ -52,47 +53,41 @@ export default function NavBar() {
     return (
       <>
         <div className={classes.expanded}>
-          <div className={"navbarContainer"}>
-            <Grid container>
-              <Grid item xs={1}>
-                <IconButton
-                  edge="start"
-                  className={classes.menuButton}
-                  color="inherit"
-                  aria-label="menu"
-                  onClick={() => navExpander()}
-                >
-                  <MenuIcon
-                    style={{ transform: "rotate(90deg)" }}
-                    fontSize="large"
-                  />
-                </IconButton>
-              </Grid>
+          <Grid container>
+            <Grid item xs={1}>
+              <IconButton
+                edge="start"
+                className={classes.menuButton}
+                color="inherit"
+                aria-label="menu"
+                onClick={() => navExpander()}
+              >
+                <MenuIcon
+                  style={{ transform: "rotate(90deg)" }}
+                  fontSize="large"
+                />
+              </IconButton>
             </Grid>
-          </div>
-
-          <NavDropdown navExpander={navExpander} />
-          {/* <div className="navBackgroundHomeExpanded"></div> */}
-          {/* <div className="navBackgroundTestamonialsExpanded"></div> */}
-          <div className={navBackgroundExpanded()}></div>
+          </Grid>
         </div>
+
+        <NavDropdown navExpander={navExpander} />
       </>
     );
   if (!navbarExpanded)
     return (
-      <div className="navContentHomeWrapper">
-
-        <div className="navBackgroundHomeDesktop">
-
-          <div className="logoTaglineContainer">
-            <img className="logo2" src={logo} alt="Logo" />
-            <div className="tagLineDesktop">
-              Building Quality Organizations.
-            </div>
-          </div>
-          
+      <>
+        <div className={"navbarContainer"}>
+          <IconButton
+            edge="start"
+            className={classes.menuButton}
+            color="inherit"
+            aria-label="menu"
+            onClick={() => navExpander()}
+          >
+            <MenuIcon fontSize="large" />
+          </IconButton>
         </div>
-
-      </div>
+      </>
     );
 }

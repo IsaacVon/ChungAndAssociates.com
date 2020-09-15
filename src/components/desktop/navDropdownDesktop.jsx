@@ -2,16 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import logo from "../../logos/chung-logo.svg";
-import { HashLink } from 'react-router-hash-link';
-
+import { HashLink } from "react-router-hash-link";
 
 import "../../App.css";
 
 const useStyles = makeStyles((theme) => ({
   selected: {
+
+
+    
     fontSize: "15px",
-    width: "100%",
     backgroundColor: "white",
     color: "#73D3E1",
     borderRadius: "0px",
@@ -20,8 +20,9 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   standard: {
+
+
     fontSize: "15px",
-    width: "100%",
     backgroundColor: "#F0FEFF",
     borderRadius: "0px",
     "&:hover": {
@@ -37,6 +38,7 @@ export default function NavDropdown({ navExpander }) {
 
   return (
     <div className="navbarDropdown">
+
       <Button
         disableTouchRipple
         component={Link}
@@ -89,10 +91,6 @@ export default function NavDropdown({ navExpander }) {
         <span className="light">CONTACT </span>
         <span className="bold"> US </span>
       </Button>
-      <div className="dropDownLogo">
-        <img className="logo1" src={logo} alt="Logo" />
-        <div className="tagLine">Building Quality Organizations.</div>
-      </div>
     </div>
   );
 }
