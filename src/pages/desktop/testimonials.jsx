@@ -10,7 +10,7 @@ import JimP from "../../components/mobile/testimonials/jimP";
 import JanetL from "../../components/mobile/testimonials/janetL";
 import MaryA from "../../components/mobile/testimonials/maryA";
 import Contact from "../../components/mobile/testimonials/contact";
-import Footer from "../../components/mobile/footer";
+import Footer from "../../components/desktop/footer";
 import { makeStyles } from "@material-ui/core/styles";
 import image6 from "../../images/6.jpg";
 import image7 from "../../images/7.jpg";
@@ -38,10 +38,12 @@ export default function TestimonialsDesktop() {
     <div className={classes.root}>
       <NavBar />
       <div className="serviceLogoContainer">
-        <img className="logo2" src={logo} alt="Logo" />
-        <div className="tagLineDesktop">Building Quality Organizations.</div>
+        <div>
+          <img className="logo2" src={logo} alt="Logo" />
+          <div className="tagLineDesktop">Building Quality Organizations.</div>
+        </div>
       </div>
-      <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
+      <Typography style={{ textAlign: "center", paddingTop: "83px" }}>
         <span
           style={{
             fontSize: "25px",
@@ -107,14 +109,13 @@ export default function TestimonialsDesktop() {
         <SteveS desktop={true} />
       </div>
       <div className="imgDiv4">
-        <Parallax y={[-90, 0]}>
-          <img
-            style={{ margin: "-1300px 0px 0px 0px" }}
-            width="100%"
-            src={image8}
-            alt="surf"
+        <img
+          style={{ margin: "-900px 0px 0px 0px" }}
+          width="100%"
+          src={image8}
+          alt="surf"
           />
-        </Parallax>
+        
       </div>
       <div className="testimonialCardDesktop">
         <JimP desktop={true} />
@@ -130,14 +131,10 @@ export default function TestimonialsDesktop() {
       <div className="testimonialCardDesktop">
         <MaryA desktop={true} />
       </div>
-      <div className="imgDiv4">
-        <div className="footerBackground">
-          <div className="footerContent">
-            <Contact />
-            <Footer />
-          </div>
-        </div>
+      <div className="imgDiv5">
+        <div className="desktopFooterBackground"></div>
       </div>
+      <Footer />
     </div>
   );
 }

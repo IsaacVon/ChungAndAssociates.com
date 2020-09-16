@@ -51,26 +51,19 @@ export default function NavBar() {
   if (navbarExpanded)
     return (
       <>
-        <div className={classes.expanded}>
-          <Grid container>
-            <Grid item xs={1}>
-              <IconButton
-                edge="start"
-                className={classes.menuButton}
-                color="inherit"
-                aria-label="menu"
-                onClick={() => navExpander()}
-              >
-                <MenuIcon
-                  style={{ transform: "rotate(90deg)" }}
-                  fontSize="large"
-                />
-              </IconButton>
-            </Grid>
-          </Grid>
+        <IconButton
+          edge="start"
+          className={classes.menuButton}
+          color="inherit"
+          aria-label="menu"
+          onClick={() => navExpander()}
+        >
+          <MenuIcon fontSize="large" style={{ transform: "rotate(90deg)" }} />
+        </IconButton>
+        <div className="desktopNavBackground">
+          <div className={"navbarContainer"}></div>
+          <NavDropdown navExpander={navExpander} />
         </div>
-
-        <NavDropdown navExpander={navExpander} />
       </>
     );
   if (!navbarExpanded)

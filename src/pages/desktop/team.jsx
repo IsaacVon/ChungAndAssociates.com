@@ -33,8 +33,7 @@ export default function Services() {
             <div className="teamImageWrapper">
               <img
                 className="team"
-                // style={{ margin: "-120px 0px 0px 0px" }}
-                width="125%"
+                width="570px"
                 src={image4}
                 alt="conference"
               />
@@ -43,7 +42,7 @@ export default function Services() {
             <div className="teamImageWrapper">
               <img
                 className="office"
-                height="103%"
+                height="620px"
                 src={image5}
                 alt="conference"
               />

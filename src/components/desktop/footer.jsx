@@ -6,6 +6,7 @@ const path = window.location.pathname;
 
 const footerStyle = () => {
   if (path === "/testimonials") return "desktopFooterBlue";
+  if (path === "/TestimonialsDesktop") return "desktopFooterBlue";
   if (path === "/team") return "desktopFooterBlue";
   if (path === "/services") return "desktopFooterWhite";
   if (path === "/gallery") return "desktopFooterBlue";
