@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function ChipC({ desktop }) {
-  console.log("desktop chipC", desktop);
 
   return (
     <div

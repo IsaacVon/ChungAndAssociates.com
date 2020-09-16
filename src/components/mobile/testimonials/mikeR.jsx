@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function MikeR({desktop}) {
-  console.log("desktop mikeR", desktop)
 
   return (
     <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>

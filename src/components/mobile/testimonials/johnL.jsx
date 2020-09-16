@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function JohnL({desktop}) {
-  console.log("desktop johnL", desktop)
 
   return (
     <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>

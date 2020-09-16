@@ -47,14 +47,14 @@ export default function About() {
           maxHeight: "90%",
         }}
       >
-        <Parallax y={[-40, 0]}>
+        {/* <Parallax y={[-40, 0]}> */}
           <img
             style={{ margin: "-30px 20px 0px -20px" }}
             width="120%"
             src={image2}
             alt="Bamboo"
           />
-        </Parallax>
+        {/* </Parallax> */}
       </div>
 
       <Typography

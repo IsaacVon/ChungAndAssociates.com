@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function MaryA({desktop}) {
-  console.log("desktop maryA", desktop)
 
 
   return (

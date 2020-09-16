@@ -33,11 +33,8 @@ const isMobile = window.mobileCheck = function() {
 
 function App() {
   const classes = useStyles();
-  
   const mobile = isMobile()
   
-  console.log("mobile", mobile);
-
   if (!mobile) {
     return (
       <Router history={history}>

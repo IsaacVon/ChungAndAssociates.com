@@ -14,7 +14,6 @@ const footerStyle = () => {
 };
 
 export default function Footer() {
-  console.log("path", path);
 
   return (
     <div className={footerStyle()}>

@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function JanetL({ desktop }) {
-  console.log("desktop janetL", desktop)
 
   return (
     <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>

@@ -12,14 +12,14 @@ export default function Services() {
           maxHeight: "287px",
         }}
       >
-        <Parallax y={[-80, 0]}>
+        {/* <Parallax y={[-80, 0]}> */}
           <img
             style={{ margin: "-10px 83px 0px -83px" }}
             width="145%"
             src={image3}
             alt="Office"
           />
-        </Parallax>
+        {/* </Parallax> */}
       </div>
 
       <div style={{ textAlign: "center", marginTop: "25px" }}>

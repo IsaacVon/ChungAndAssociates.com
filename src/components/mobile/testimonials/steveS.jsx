@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function SteveS({ desktop }) {
-  console.log("desktop steveS", desktop);
 
   return (
     <div

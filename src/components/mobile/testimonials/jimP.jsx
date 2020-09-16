@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function JimP({desktop}) {
-  console.log("desktop jimP", desktop)
 
   return (
     <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>

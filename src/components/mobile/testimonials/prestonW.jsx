@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function PrestonW({desktop}) {
-  console.log("desktop prestonW", desktop)
 
   return (
     <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>
