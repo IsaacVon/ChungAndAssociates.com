@@ -259,7 +259,7 @@
   padding-top: 28px;
   background-color: #ffffff;
 
-  margin: 10px 10px 10px 10px;
+  margin: 70px 10px 10px 10px;
 
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -274,7 +274,7 @@
   padding-top: 28px;
   background-color: #73d3e1;
 
-  margin: 10px 10px 10px 10px;
+  margin: 70px 10px 10px 10px;
 
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -325,24 +325,126 @@
 }
 
 .serviceLogoContainer {
+  margin-left: 400px;
   padding: 30px;
   height: 50px;
 }
-
 
 /* Desktop Testimonials */
 
 /* /Testimonials */
 
+.imgDiv4 {
+  margin: 15px 0px 10px 0px;
+  margin: 20px;
+
+  overflow: hidden;
+  max-height: 600px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.testimonialCardDesktop {
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
 .testimonialContentContainerDesktop {
-  margin: 00px 40px 00px 40px;
-  padding: 25px 0px 25px 0px;
-  /* background-color: blue; */
+  margin: 00px 40px;
+  padding: 25px 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  /* background-color: blue;
+  */
 }
 
 .testimonialReviewDesktop {
   /* background-color: lightgreen; */
   margin: 5px 0px 0px 0px;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 158%;
+  text-align: justify;
+}
+
+/* Desktop Gallery */
+
+.photoGrid {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+}
+
+/* Desktop Team */
+
+.teamImages {
+  border-radius: 7px;
+  overflow: hidden;
+  height: 1180px;
+  margin: 130px 20px 0px 40px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.teamImageWrapper {
+  overflow: hidden;
+
+  position: relative;
+  height: 591px;
+}
+
+.team {
+  position: absolute;
+  top: -160px;
+  left: -63px;
+}
+
+.office {
+  position: absolute;
+  left: -280px;
+  bottom: 0;
+}
+
+.teamInfo {
+  margin: 5px 0px 0px 0px;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 215%;
+  text-align: justify;
+}
+
+.teamInfoFooter {
+  margin-top: 150px;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 215%;
+  text-align: center;
+}
+
+.teamWrapper {
+  margin: 80px 40px 0px 0px;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;

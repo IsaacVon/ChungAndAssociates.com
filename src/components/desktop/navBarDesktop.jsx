@@ -4,7 +4,6 @@ import "../../App.css";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import NavDropdown from "./navDropdownDesktop";
-import logo from "../../logos/chung-logo.svg";
 
 import Grid from "@material-ui/core/Grid";
 

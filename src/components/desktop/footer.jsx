@@ -17,27 +17,13 @@ export default function Footer() {
 
   return (
     <div className={footerStyle()}>
-      <div style={{ fontSize: "14px" }}>
+      <div style={{ fontSize: "18px", marginTop: "50px", fontWeight: "300" }}>
         For more information, please contact us.
       </div>
 
-      <div style={{ fontSize: "13px ", fontWeight: "300" }}>
-        <span
-          style={{
-            fontSize: "22px",
-            fontWeight: "500",
-            lineHeight: "29px",
-          }}
-        >
-          Chung & Associates, LLC
-        </span>
-        <span
-          style={{
-            fontSize: "22px",
-            fontWeight: "300",
-            lineHeight: "29px",
-          }}
-        >
+      <div style={{ fontSize: "20px ", marginTop: "50px" }}>
+        <span style={{ fontWeight: "500" }}>Chung & Associates, LLC</span>
+        <span style={{ fontWeight: "300" }}>
           {" "}
           | 243 Newport Ave, Long beach CA 90803{" "}
         </span>
@@ -49,6 +35,7 @@ export default function Footer() {
           color: "black",
           borderColor: "black",
           borderRadius: 10,
+          marginTop: "15px",
           textTransform: "none",
           fontSize: "17px",
           fontWeight: "500",
@@ -56,7 +43,7 @@ export default function Footer() {
       >
         Contacts@Chungandassociates.com
       </Button>
-      <div style={{ fontSize: "11px ", fontWeight: "300", marginTop: "40px" }}>
+      <div style={{ fontSize: "11px ", fontWeight: "300", marginTop: "80px", marginBottom: "10px" }}>
         MMXX Chung and Associates, LLC. All rights reserved.{" "}
       </div>
     </div>

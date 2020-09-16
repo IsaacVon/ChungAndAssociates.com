@@ -18,7 +18,7 @@ export default function Home() {
           margin: " 0px 10px 0px 10px",
           overflow: "hidden",
           height: "370px",
-          borderRadius: "20px",
+          borderRadius: "7px",
         }}
       >
         <Parallax y={[-30, 30]}>

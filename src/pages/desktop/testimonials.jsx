@@ -17,6 +17,9 @@ import image7 from "../../images/7.jpg";
 import image8 from "../../images/8.jpg";
 import Typography from "@material-ui/core/Typography";
 import { Parallax } from "react-scroll-parallax";
+import NavBar from "../../components/desktop/navBarDesktop";
+import logo from "../../logos/chung-logo.svg";
+
 import "../../App.css";
 
 const useStyles = makeStyles({
@@ -33,6 +36,11 @@ export default function TestimonialsDesktop() {
 
   return (
     <div className={classes.root}>
+      <NavBar />
+      <div className="serviceLogoContainer">
+        <img className="logo2" src={logo} alt="Logo" />
+        <div className="tagLineDesktop">Building Quality Organizations.</div>
+      </div>
       <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
         <span
           style={{
@@ -54,57 +62,80 @@ export default function TestimonialsDesktop() {
           People Are Saying.
         </span>
       </Typography>
-
-      <ChipC desktop={true} />
-      <div className="imgDiv1">
-        <Parallax y={[-10, 0]}>
+      <div className="testimonialCardDesktop">
+        <ChipC desktop={true} />
+      </div>
+      <div className="imgDiv4">
+        <Parallax y={[-60, 0]}>
           <img width="100%" src={image6} alt="desert" />
         </Parallax>
       </div>
-      <MikeR desktop={true} />
-
-      <div style={{ background: "#E4FAFF" }}>
-        <hr className="hrTestimonials"></hr>
-
-        <JohnL desktop={true} />
-
-        <hr className="hrTestimonials"></hr>
+      <div className="testimonialCardDesktop">
+        <MikeR desktop={true} />
       </div>
-      <JeffE desktop={true} />
-      <div className="imgDiv1">
-        <Parallax y={[-10, 0]}>
+
+      <div
+        className="testimonialCardDesktop"
+        style={{
+          background: "#e4faff",
+        }}
+      >
+        <JohnL desktop={true} />
+      </div>
+      <div className="testimonialCardDesktop">
+        <JeffE desktop={true} />
+      </div>
+
+      <div className="imgDiv4">
+        <Parallax y={[-60, 0]}>
           <img width="100%" src={image7} alt="snow" />
         </Parallax>
       </div>
-      <PrestonW desktop={true} />
-      <div style={{ background: "#E4FAFF" }}>
-        <hr className="hrTestimonials"></hr>
-        <BillF desktop={true} />
-        <hr className="hrTestimonials"></hr>
+      <div className="testimonialCardDesktop">
+        <PrestonW desktop={true} />
       </div>
-      <SteveS desktop={true} />
-      <div className="imgDiv2">
+
+      <div
+        className="testimonialCardDesktop"
+        style={{
+          background: "#E4FAFF",
+        }}
+      >
+        <BillF desktop={true} />
+      </div>
+      <div className="testimonialCardDesktop">
+        <SteveS desktop={true} />
+      </div>
+      <div className="imgDiv4">
         <Parallax y={[-90, 0]}>
           <img
-            style={{ margin: "-300px 50px 00px -50px" }}
-            width="500px"
+            style={{ margin: "-1300px 0px 0px 0px" }}
+            width="100%"
             src={image8}
             alt="surf"
           />
         </Parallax>
       </div>
-      <JimP desktop={true} />
-      <div style={{ background: "#E9EDFD" }}>
-        <hr className="hrTestimonials"></hr>
-        <JanetL desktop={true} />
-        <hr className="hrTestimonials"></hr>
+      <div className="testimonialCardDesktop">
+        <JimP desktop={true} />
       </div>
-      <MaryA desktop={true} />
-
-      <div className="footerBackground">
-        <div className="footerContent">
-          <Contact />
-          <Footer />
+      <div
+        className="testimonialCardDesktop"
+        style={{
+          background: "#E9EDFD",
+        }}
+      >
+        <JanetL desktop={true} />
+      </div>
+      <div className="testimonialCardDesktop">
+        <MaryA desktop={true} />
+      </div>
+      <div className="imgDiv4">
+        <div className="footerBackground">
+          <div className="footerContent">
+            <Contact />
+            <Footer />
+          </div>
         </div>
       </div>
     </div>
