@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/chungandassociates/static/css/main.bd9886f8.chunk.css",
+    "main.js": "/chungandassociates/static/js/main.06874549.chunk.js",
+    "main.js.map": "/chungandassociates/static/js/main.06874549.chunk.js.map",
+    "runtime-main.js": "/chungandassociates/static/js/runtime-main.c922754b.js",
+    "runtime-main.js.map": "/chungandassociates/static/js/runtime-main.c922754b.js.map",
+    "static/js/2.2cd4eeca.chunk.js": "/chungandassociates/static/js/2.2cd4eeca.chunk.js",
+    "static/js/2.2cd4eeca.chunk.js.map": "/chungandassociates/static/js/2.2cd4eeca.chunk.js.map",
+    "index.html": "/chungandassociates/index.html",
+    "precache-manifest.ba8a135e95753babd7a6693a17554383.js": "/chungandassociates/precache-manifest.ba8a135e95753babd7a6693a17554383.js",
+    "service-worker.js": "/chungandassociates/service-worker.js",
+    "static/css/main.bd9886f8.chunk.css.map": "/chungandassociates/static/css/main.bd9886f8.chunk.css.map",
+    "static/js/2.2cd4eeca.chunk.js.LICENSE.txt": "/chungandassociates/static/js/2.2cd4eeca.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/chungandassociates/static/media/9.c869ecb0.jpg",
+    "static/media/1.jpeg": "/chungandassociates/static/media/1.f722e84f.jpeg",
+    "static/media/2.jpg": "/chungandassociates/static/media/2.9da1a9e3.jpg",
+    "static/media/2.jpeg": "/chungandassociates/static/media/2.b4cb5718.jpeg",
+    "static/media/3.jpg": "/chungandassociates/static/media/3.083d708e.jpg",
+    "static/media/3.jpeg": "/chungandassociates/static/media/3.ffa70980.jpeg",
+    "static/media/4.jpeg": "/chungandassociates/static/media/4.9734ea0c.jpeg",
+    "static/media/4.jpg": "/chungandassociates/static/media/4.dcdfa969.jpg",
+    "static/media/5.jpg": "/chungandassociates/static/media/5.d8abe7fd.jpg",
+    "static/media/5.jpeg": "/chungandassociates/static/media/5.ea7970f9.jpeg",
+    "static/media/6.jpeg": "/chungandassociates/static/media/6.07de03c1.jpeg",
+    "static/media/6.jpg": "/chungandassociates/static/media/6.c36ee9ee.jpg",
+    "static/media/7.jpg": "/chungandassociates/static/media/7.2ec9c5a8.jpg",
+    "static/media/7.jpeg": "/chungandassociates/static/media/7.fa4a2bd4.jpeg",
+    "static/media/8.jpeg": "/chungandassociates/static/media/8.19cc417c.jpeg",
+    "static/media/8.jpg": "/chungandassociates/static/media/8.7c1f8b1d.jpg",
+    "static/media/9.png": "/chungandassociates/static/media/9.c7713cb2.png",
+    "static/media/chung-logo.svg": "/chungandassociates/static/media/chung-logo.bc5ce5d1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c922754b.js",
+    "static/js/2.2cd4eeca.chunk.js",
+    "static/css/main.bd9886f8.chunk.css",
+    "static/js/main.06874549.chunk.js"
+  ]
+}
