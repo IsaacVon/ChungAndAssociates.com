@@ -10,7 +10,7 @@ export default function ServiceMain() {
     <>
       <div className="serviceBackground">
       <div className="backgroundGradient">
-        <NavBar />
+        {/* <NavBar /> */}
         <div className="serviceLogoContainer">
           <img className="logo2" src={logo} alt="Logo" />
           <div className="tagLineDesktop">Building Quality Organizations.</div>

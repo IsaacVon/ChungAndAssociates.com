@@ -10,8 +10,8 @@ import Grid from "@material-ui/core/Grid";
 const useStyles = makeStyles((theme) => ({
   menuButton: {
     float: "right",
-    marginTop: "10px",
-    marginRight: "30px",
+    marginTop: "20px",
+    marginRight: "20px",
   },
   expanded: {
     flexGrow: 1,
@@ -24,18 +24,8 @@ const useStyles = makeStyles((theme) => ({
 export default function NavBar() {
   const classes = useStyles();
   const path = window.location.pathname;
-  const [navbarExpanded, toggleNavbar] = useState(false);
+  const [navbarExpanded, toggleNavbar] = useState(true);
 
-  const navOpacity = () => {
-    if (path === "/team") return "navbarContainerTeam";
-    else return "navbarContainer";
-  };
-
-  const navBackgroundCollapsed = () => {
-    if (path === "/testimonials") return "navBackgroundTestimonialsCollapsed";
-    if (path === "/team") return "navBackgroundTeamCollapsed";
-    if (path === "/") return "navBackgroundHomeCollapsed";
-  };
 
   const navBackgroundExpanded = () => {
     if (path === "/testimonials") return "navBackgroundTestimonialsExpanded";
@@ -51,25 +41,7 @@ export default function NavBar() {
   if (navbarExpanded)
     return (
       <>
-        <IconButton
-          edge="start"
-          className={classes.menuButton}
-          color="inherit"
-          aria-label="menu"
-          onClick={() => navExpander()}
-        >
-          <MenuIcon fontSize="large" style={{ transform: "rotate(90deg)" }} />
-        </IconButton>
         <div className="desktopNavBackground">
-          <div className={"navbarContainer"}></div>
-          <NavDropdown navExpander={navExpander} />
-        </div>
-      </>
-    );
-  if (!navbarExpanded)
-    return (
-      <>
-        <div className={"navbarContainer"}>
           <IconButton
             edge="start"
             className={classes.menuButton}
@@ -77,9 +49,24 @@ export default function NavBar() {
             aria-label="menu"
             onClick={() => navExpander()}
           >
-            <MenuIcon fontSize="large" />
+            <MenuIcon fontSize="large" style={{ transform: "rotate(90deg)" }} />
           </IconButton>
+          <NavDropdown navExpander={navExpander} />
         </div>
+      </>
+    );
+  if (!navbarExpanded)
+    return (
+      <>
+        <IconButton
+          edge="start"
+          className={classes.menuButton}
+          color="inherit"
+          aria-label="menu"
+          onClick={() => navExpander()}
+        >
+          <MenuIcon fontSize="large" />
+        </IconButton>
       </>
     );
 }

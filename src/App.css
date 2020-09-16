@@ -335,7 +335,8 @@
 .serviceLogoContainer {
   position: relative;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 10px;
+  padding-top: 25px;
   /* margin-left: 20px; */
 }
 
@@ -466,27 +467,8 @@
   text-align: justify;
 }
 
-/* Desktop Navbar */
 
-.desktopNavDropdown {
-  background-color: white;
-  margin: 20px 0px 0px 0px;
-  text-align: center;
-}
-
-.desktopNavBackground {
-  background-color: white;
-  margin-top: 10px;
-  height: 40%;
-  width: 200px;
-  float: right;
-  margin-right: 0px;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-}
+/* Desktop Footer */
 
 .desktopFooterBackground {
   background-image: url(./images//9.jpg);
@@ -500,7 +482,6 @@
 
 .imgDiv5 {
   margin: 0px 10px;
-  color: blue;
   overflow: hidden;
   height: 2126px;
   border-radius: 7px;
@@ -509,3 +490,25 @@
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
 }
+
+/* Desktop Navbar */
+
+.desktopNavDropdown {
+  margin: 100px 0px 0px 0px;
+  text-align: center;
+}
+
+.desktopNavBackground {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 100%;
+  width: 200px;
+  float: right;
+  margin-right: 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+

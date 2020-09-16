@@ -9,20 +9,22 @@ import "../../App.css";
 const useStyles = makeStyles((theme) => ({
   selected: {
     fontSize: "15px",
-    backgroundColor: "F0FEFF",
-    color: "#73D3E1",
-    borderRadius: "0px",
+    width: "80%",
+    lineHeight: "2.5",
+    backgroundColor: "rgba(255, 255, 255, 0.5)",
+    borderRadius: "8px",
     "&:hover": {
       backgroundColor: "white",
     },
   },
   standard: {
     fontSize: "15px",
-    backgroundColor: "white",
-    color: "#73D3E1",
-    borderRadius: "0px",
+    width: "80%",
+    lineHeight: "2.5",
+    marginTop: "40px",
+    borderRadius: "8px",
     "&:hover": {
-      backgroundColor: "white",
+      backgroundColor: "rgba(255, 255, 255, 0.5)",
     },
   },
 }));
@@ -52,18 +54,16 @@ export default function NavDropdown({ navExpander }) {
           <span className="bold"> US </span>
         </Button>
 
-        <div style={{ width: "100%" }}>
-          <Button
-            disableTouchRipple
-            component={Link}
-            to="/team"
-            onClick={() => navExpander()}
-            className={path === "/team" ? classes.selected : classes.standard}
-          >
-            <span className="light">THE</span>
-            <span className="bold"> TEAM </span>
-          </Button>
-        </div>
+        <Button
+          disableTouchRipple
+          component={Link}
+          to="/team"
+          onClick={() => navExpander()}
+          className={path === "/team" ? classes.selected : classes.standard}
+        >
+          <span className="light">THE</span>
+          <span className="bold"> TEAM </span>
+        </Button>
 
         <Button
           disableTouchRipple

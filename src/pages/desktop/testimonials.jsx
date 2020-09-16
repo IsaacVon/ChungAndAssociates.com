@@ -36,7 +36,7 @@ export default function TestimonialsDesktop() {
 
   return (
     <div className={classes.root}>
-      <NavBar />
+      {/* <NavBar /> */}
       <div className="serviceLogoContainer">
         <div>
           <img className="logo2" src={logo} alt="Logo" />

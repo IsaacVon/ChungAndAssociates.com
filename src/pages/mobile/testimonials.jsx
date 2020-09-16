@@ -58,9 +58,9 @@ export default function Testimonials() {
 
       <ChipC desktop={false} />
       <div className="imgDiv1">
-        <Parallax y={[-10, 0]}>
+        {/* <Parallax y={[-10, 0]}> */}
           <img width="100%" src={image6} alt="desert" />
-        </Parallax>
+        {/* </Parallax> */}
       </div>
       <MikeR desktop={false} />
 
@@ -73,9 +73,9 @@ export default function Testimonials() {
       </div>
       <JeffE desktop={false} />
       <div className="imgDiv1">
-        <Parallax y={[-10, 0]}>
+        {/* <Parallax y={[-10, 0]}> */}
           <img width="100%" src={image7} alt="snow" />
-        </Parallax>
+        {/* </Parallax> */}
       </div>
       <PrestonW desktop={false} />
       <div style={{ background: "#E4FAFF" }}>
@@ -85,14 +85,14 @@ export default function Testimonials() {
       </div>
       <SteveS desktop={false} />
       <div className="imgDiv2">
-        <Parallax y={[-90, 0]}>
+        {/* <Parallax y={[-90, 0]}> */}
           <img
             style={{ margin: "-300px 50px 00px -50px" }}
             width="500px"
             src={image8}
             alt="surf"
           />
-        </Parallax>
+        {/* </Parallax> */}
       </div>
       <JimP desktop={false} />
       <div style={{ background: "#E9EDFD" }}>
