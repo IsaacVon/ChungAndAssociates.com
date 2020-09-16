@@ -287,13 +287,19 @@
 
 /* Desktop Services */
 
+.backgroundGradient {
+  background-color: blue;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 17.71%, rgba(255, 255, 255, 0) 100%);
+  height: 347px;
+}
+
 .serviceBackground {
   position: relative;
   background-image: url(./images/3.jpg);
-  background-size: 110%;
+  background-size: 2000px;
   background-repeat: no-repeat;
   background-position: center;
-  height: 800px;
+  height: 1000px;
   margin: 10px;
   border-radius: 20px;
   -webkit-border-radius: 20px;

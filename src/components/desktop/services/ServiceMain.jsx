@@ -9,6 +9,7 @@ export default function ServiceMain() {
   return (
     <>
       <div className="serviceBackground">
+      <div className="backgroundGradient">
         <NavBar />
         <div className="serviceLogoContainer">
           <img className="logo2" src={logo} alt="Logo" />
@@ -36,6 +37,7 @@ export default function ServiceMain() {
             <li>• Professional Outsourcing & Support</li>
           </ul>
         </div>
+      </div>
       </div>
     </>
   );
