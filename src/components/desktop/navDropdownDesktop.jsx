@@ -18,6 +18,17 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: "white",
     },
   },
+  selectedServices: {
+    fontSize: "15px",
+    width: "100%",
+    lineHeight: "2.5",
+    marginTop: "20px",
+    backgroundColor: "rgb(142, 142, 149, 0.3)",
+    borderRadius: "0px",
+    "&:hover": {
+      backgroundColor: "white",
+    },
+  },
   standard: {
     fontSize: "15px",
     width: "100%",
@@ -34,6 +45,7 @@ export default function NavDropdown({ navExpander }) {
   const classes = useStyles();
 
   const path = window.location.pathname;
+  let hash = window.location.hash;
 
   return (
     <>
@@ -43,14 +55,16 @@ export default function NavDropdown({ navExpander }) {
           component={Link}
           to={"/services"}
           onClick={() => navExpander()}
-          className={path === "/" ? classes.selected : classes.standard}
+          className={
+            path === "/services" ? classes.selectedServices : classes.standard
+          }
         >
           <span className="light">OUR</span>
           <span className="bold"> SERVICES </span>
         </Button>
         <Button
           disableTouchRipple
-          className={classes.standard}
+          className={hash === "#aboutUs" ? classes.selected : classes.standard}
           component={NavLink}
           smooth
           to={"/#aboutUs"}
@@ -85,11 +99,15 @@ export default function NavDropdown({ navExpander }) {
         {/* New page */}
         <Button
           disableTouchRipple
-          className={classes.standard}
+          className={
+            hash === "#contactUs" ? classes.selected : classes.standard
+          }
           component={NavLink}
           smooth
           to={"/#contactUs"}
-        >          <span className="light">CONTACT </span>
+        >
+          {" "}
+          <span className="light">CONTACT </span>
           <span className="bold"> US </span>
         </Button>
       </div>

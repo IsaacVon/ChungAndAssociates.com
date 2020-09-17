@@ -45,9 +45,6 @@ export default function NavDropdown({ navExpander }) {
     });
   };
 
-  console.log("path", path)
-  console.log("hash", hash)
-
   return (
     <div className="navbarDropdown">
       <Button
