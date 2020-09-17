@@ -15,6 +15,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import image6 from "../../images/6.jpg";
 import image7 from "../../images/7.jpg";
 import image8 from "../../images/8.jpg";
+import image9 from "../../images/9.jpg";
+
 import Typography from "@material-ui/core/Typography";
 import { Parallax } from "react-scroll-parallax";
 import NavBar from "../../components/desktop/navBarDesktop";
@@ -36,12 +38,14 @@ export default function TestimonialsDesktop() {
 
   return (
     <div className={classes.root}>
-      {/* <NavBar /> */}
       <div className="serviceLogoContainer">
         <div>
           <img className="logo2" src={logo} alt="Logo" />
           <div className="tagLineDesktop">Building Quality Organizations.</div>
         </div>
+      </div>
+      <div className="navbarPositioner">
+        <NavBar />
       </div>
       <Typography style={{ textAlign: "center", paddingTop: "83px" }}>
         <span
@@ -69,7 +73,7 @@ export default function TestimonialsDesktop() {
       </div>
       <div className="imgDiv4">
         {/* <Parallax y={[-60, 0]}> */}
-          <img width="100%" src={image6} alt="desert" />
+        <img className="desert" width="100%" src={image6} alt="desert" />
         {/* </Parallax> */}
       </div>
       <div className="testimonialCardDesktop">
@@ -90,7 +94,7 @@ export default function TestimonialsDesktop() {
 
       <div className="imgDiv4">
         {/* <Parallax y={[-60, 0]}> */}
-          <img width="100%" src={image7} alt="snow" />
+        <img className="snow" width="100%" src={image7} alt="snow" />
         {/* </Parallax> */}
       </div>
       <div className="testimonialCardDesktop">
@@ -109,13 +113,7 @@ export default function TestimonialsDesktop() {
         <SteveS desktop={true} />
       </div>
       <div className="imgDiv4">
-        <img
-          style={{ margin: "-900px 0px 0px 0px" }}
-          width="100%"
-          src={image8}
-          alt="surf"
-          />
-        
+        <img className="surf" width="100%" src={image8} alt="surf" />
       </div>
       <div className="testimonialCardDesktop">
         <JimP desktop={true} />
@@ -132,7 +130,7 @@ export default function TestimonialsDesktop() {
         <MaryA desktop={true} />
       </div>
       <div className="imgDiv5">
-        <div className="desktopFooterBackground"></div>
+        <img className="waterfall" width="100%" src={image9} alt="waterfall" />
       </div>
       <Footer />
     </div>

@@ -44,7 +44,7 @@ export default function NavBar() {
     if (path === "/*") return "navBackgroundHomeCollapsed";
   };
 
-  console.log("path for navbar home", path)
+  console.log("path for navbar home", path);
   const navBackgroundExpanded = () => {
     if (path === "/testamonials") return "navBackgroundTestamonialsExpanded";
     if (path === "/team") return "navBackgroundTeamExpanded";
@@ -61,29 +61,32 @@ export default function NavBar() {
   if (navbarExpanded)
     return (
       <>
-        <div className={classes.expanded}>
-          <div className={"navbarContainer2"}>
-            <Grid container>
-              <Grid item xs={1}>
-                <IconButton
-                  edge="start"
-                  className={classes.menuButton}
-                  color="inherit"
-                  aria-label="menu"
-                  onClick={() => navExpander()}
-                >
-                  <MenuIcon
-                    style={{ transform: "rotate(90deg)" }}
-                    fontSize="large"
-                  />
-                </IconButton>
+        <div className="navSticky">
+          <div className={classes.expanded}>
+            <div className={"navbarContainer2"}>
+              <Grid container>
+                <Grid item xs={1}>
+                  <IconButton
+                    edge="start"
+                    className={classes.menuButton}
+                    color="inherit"
+                    aria-label="menu"
+                    onClick={() => navExpander()}
+                  >
+                    <MenuIcon
+                      style={{ transform: "rotate(90deg)" }}
+                      fontSize="large"
+                    />
+                  </IconButton>
+                </Grid>
               </Grid>
-            </Grid>
-          </div>
+            </div>
 
-          <NavDropdown navExpander={navExpander} />
-          <div className={navBackgroundExpanded()}></div>
+            <NavDropdown navExpander={navExpander} />
+          </div>
         </div>
+        <div style={{ height: "360px" }}>Dingus</div>
+        <div className={navBackgroundExpanded()}></div>
       </>
     );
   if (!navbarExpanded)

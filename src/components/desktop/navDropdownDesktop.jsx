@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "15px",
     width: "100%",
     lineHeight: "2.5",
+    marginTop: "20px",
     backgroundColor: "rgba(255, 255, 255, 0.5)",
     borderRadius: "0px",
     "&:hover": {
@@ -21,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "15px",
     width: "100%",
     lineHeight: "2.5",
-    marginTop: "40px",
+    marginTop: "20px",
     borderRadius: "0px",
     "&:hover": {
       backgroundColor: "rgba(255, 255, 255, 0.5)",

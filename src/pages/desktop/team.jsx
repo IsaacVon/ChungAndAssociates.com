@@ -21,12 +21,13 @@ export default function Services() {
 
   return (
     <>
-      {/* <NavBar /> */}
       <div className="serviceLogoContainer">
         <img className="logo2" src={logo} alt="Logo" />
         <div className="tagLineDesktop">Building Quality Organizations.</div>
       </div>
-
+      <div className="navbarPositioner">
+        <NavBar />
+      </div>
       <Grid container spacing={2}>
         <Grid item xs={6}>
           <div className="teamImages">
@@ -116,7 +117,13 @@ export default function Services() {
             </div>
             <div className="teamInfoFooter">
               Associated Partners
-              <div style={{ fontSize: "19px", fontWeight: "600", marginTop:"10px" }}>
+              <div
+                style={{
+                  fontSize: "19px",
+                  fontWeight: "600",
+                  marginTop: "10px",
+                }}
+              >
                 Riordan and Associates | Sudbay & Associates
               </div>
             </div>

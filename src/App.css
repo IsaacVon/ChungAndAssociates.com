@@ -14,6 +14,7 @@
   width: 100%;
   padding: 13px 0px 0px 10px;
 }
+
 .navbarContainer2 {
   padding: 13px 0px 0px 10px;
 }
@@ -282,6 +283,52 @@
   bottom: 30vw;
 }
 
+.surf {
+  position: relative;
+  bottom: 73vw;
+}
+
+.snow {
+  position: relative;
+  bottom: 6vw;
+}
+
+.desert {
+  position: relative;
+  bottom: 3vw;
+}
+
+.waterfall {
+  position: relative;
+  bottom: 7vw;
+}
+
+.imgDiv5 {
+  margin: 0px 10px;
+  overflow: hidden;
+  /* max-height: 2126px; */
+  height: 120vw;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.imgDiv4 {
+  margin: 15px 0px 10px 0px;
+  margin: 20px;
+
+  overflow: hidden;
+  height: 50vw;
+  max-height: 600px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
 @media only screen and (max-width: 600px) {
   .navBackgroundHomeDesktop {
     /* background-color: green; */
@@ -356,6 +403,10 @@
     /* background-color: blue; */
     background-position: 270px -70px;
   }
+  .desert {
+    position: relative;
+    bottom: 5vw;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -363,6 +414,16 @@
   .navBackgroundHomeDesktop {
     /* background-color: purple; */
     background-position: 380px -70px;
+  }
+  .surf {
+    bottom: 78vw;
+  }
+  .snow {
+    bottom: 12vw;
+  }
+  .desert {
+    position: relative;
+    bottom: 8vw;
   }
 }
 
@@ -377,12 +438,35 @@
   .bambooHome {
     bottom: 40vw;
   }
+  .surf {
+    bottom: 82vw;
+  }
+  .snow {
+    bottom: 19vw;
+  }
+  .desert {
+    position: relative;
+    bottom: 19vw;
+  }
 }
 
 @media only screen and (min-width: 1700px) {
   .navBackgroundHomeDesktop {
     /* background-color: orange; */
     background-position: 700px -70px;
+  }
+  .bambooHome {
+    bottom: 40vw;
+  }
+  .surf {
+    bottom: 86vw;
+  }
+  .snow {
+    bottom: 19vw;
+  }
+  .desert {
+    position: relative;
+    bottom: 21vw;
   }
 }
 
@@ -488,19 +572,6 @@
 /* Desktop Testimonials */
 
 /* /Testimonials */
-
-.imgDiv4 {
-  margin: 15px 0px 10px 0px;
-  margin: 20px;
-
-  overflow: hidden;
-  max-height: 600px;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-}
 
 .testimonialCardDesktop {
   border-radius: 20px;
@@ -623,18 +694,13 @@
   flex-direction: column;
 }
 
-.imgDiv5 {
-  margin: 0px 10px;
-  overflow: hidden;
-  height: 2126px;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
-}
-
 /* Desktop Navbar */
+
+.navSticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .desktopNavDropdown {
   margin: 100px 0px 0px 0px;
@@ -645,6 +711,40 @@
   background-color: rgba(255, 255, 255, 0.4);
   height: 100%;
   width: 200px;
+  float: right;
+  margin-right: 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.navbarPositioner {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.navBackgroundTeamExpandedDesktop {
+  background-color: rgba(115, 211, 225, 0.8);
+  height: 100%;
+  width: 200px;
+  height: 473px;
+  float: right;
+  margin-right: 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.navBackgroundServicesExpandedDesktop {
+  background: rgba(255, 255, 255, 0.8);
+  height: 100%;
+  width: 200px;
+  height: 473px;
   float: right;
   margin-right: 0px;
   border-radius: 20px;
