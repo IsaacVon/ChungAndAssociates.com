@@ -22,7 +22,9 @@ export default function Services() {
   return (
     <>
       <div className="serviceLogoContainer">
-        <img className="logo2" src={logo} alt="Logo" />
+        <a href="/">
+          <img className="logo2" src={logo} alt="Logo" />
+        </a>
         <div className="tagLineDesktop">Building Quality Organizations.</div>
       </div>
       <div className="navbarPositioner">

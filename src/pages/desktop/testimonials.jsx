@@ -40,7 +40,9 @@ export default function TestimonialsDesktop() {
     <div className={classes.root}>
       <div className="serviceLogoContainer">
         <div>
-          <img className="logo2" src={logo} alt="Logo" />
+          <a href="/">
+            <img className="logo2" src={logo} alt="Logo" />
+          </a>
           <div className="tagLineDesktop">Building Quality Organizations.</div>
         </div>
       </div>
