@@ -10,7 +10,7 @@ export default function ServiceMain() {
         <div className="backgroundGradient">
           {/* <NavBar /> */}
           <div className="serviceLogoContainer">
-            <a href="/">
+            <a href="/chungandassociates/">
               <img className="logo2" src={logo} alt="Logo" />
             </a>
             <div className="tagLineDesktop">

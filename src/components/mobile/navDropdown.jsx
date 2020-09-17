@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import logo from "../../logos/chung-logo.svg";
-import { HashLink } from "react-router-hash-link";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 
 import "../../App.css";
+import Testimonials from "../../pages/mobile/testimonials";
 
 const useStyles = makeStyles((theme) => ({
   selected: {
@@ -32,25 +33,49 @@ const useStyles = makeStyles((theme) => ({
 export default function NavDropdown({ navExpander }) {
   const classes = useStyles();
 
-  const path = window.location.pathname;
+  let path = window.location.pathname;
+  let hash = window.location.hash;
+
+  const scrollWithOffset = (el, offset) => {
+    const elementPosition = el.offsetTop - offset;
+    window.scroll({
+      top: elementPosition,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+
+  console.log("path", path)
+  console.log("hash", hash)
 
   return (
     <div className="navbarDropdown">
       <Button
         disableTouchRipple
-        as={HashLink}
-        to={`${path}#services`}
+        className={hash === "#services" ? classes.selected : classes.standard}
+        component={NavLink}
+        to={"/#services"}
+        scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "end" })}
         onClick={() => navExpander()}
-        className={path === "/" ? classes.selected : classes.standard}
       >
         <span className="light">OUR</span>
         <span className="bold"> SERVICES </span>
       </Button>
-      {/* add anchor point */}
-      <Button disableTouchRipple className={classes.standard}>
+
+      <Button
+        disableTouchRipple
+        className={hash === "#aboutUs" ? classes.selected : classes.standard}
+        component={NavLink}
+        // smooth
+        to={"/#aboutUs"}
+        scroll={(el) => scrollWithOffset(el, 140)}
+        onClick={() => navExpander()}
+      >
+        {" "}
         <span className="light">ABOUT</span>
         <span className="bold"> US </span>
       </Button>
+
       <Button
         disableTouchRipple
         component={Link}
@@ -67,14 +92,22 @@ export default function NavDropdown({ navExpander }) {
         to="/testimonials"
         onClick={() => navExpander()}
         className={
-          path === "/testimonials" ? classes.selected : classes.standard
+          hash ? classes.standard : (path === "/testimonials" ? classes.selected : classes.standard)
         }
       >
         <span className="light">PEOPLE</span>
         <span className="bold"> SAY </span>
       </Button>
-      {/* New page */}
-      <Button disableTouchRipple className={classes.standard}>
+      <Button
+        disableTouchRipple
+        className={hash === "#contactUs" ? classes.selected : classes.standard}
+        component={NavLink}
+        // smooth
+        to={"/testimonials#contactUs"}
+        scroll={(el) => scrollWithOffset(el, 140)}
+        onClick={() => navExpander()}
+      >
+        {" "}
         <span className="light">CONTACT </span>
         <span className="bold"> US </span>
       </Button>

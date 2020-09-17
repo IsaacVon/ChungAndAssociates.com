@@ -59,7 +59,7 @@ export default function Testimonials() {
       <ChipC desktop={false} />
       <div className="imgDiv1">
         {/* <Parallax y={[-10, 0]}> */}
-          <img width="100%" src={image6} alt="desert" />
+        <img width="100%" src={image6} alt="desert" />
         {/* </Parallax> */}
       </div>
       <MikeR desktop={false} />
@@ -74,7 +74,7 @@ export default function Testimonials() {
       <JeffE desktop={false} />
       <div className="imgDiv1">
         {/* <Parallax y={[-10, 0]}> */}
-          <img width="100%" src={image7} alt="snow" />
+        <img width="100%" src={image7} alt="snow" />
         {/* </Parallax> */}
       </div>
       <PrestonW desktop={false} />
@@ -86,12 +86,12 @@ export default function Testimonials() {
       <SteveS desktop={false} />
       <div className="imgDiv2">
         {/* <Parallax y={[-90, 0]}> */}
-          <img
-            style={{ margin: "-300px 50px 00px -50px" }}
-            width="500px"
-            src={image8}
-            alt="surf"
-          />
+        <img
+          style={{ margin: "-300px 50px 00px -50px" }}
+          width="500px"
+          src={image8}
+          alt="surf"
+        />
         {/* </Parallax> */}
       </div>
       <JimP desktop={false} />
@@ -102,7 +102,7 @@ export default function Testimonials() {
       </div>
       <MaryA desktop={false} />
 
-      <div className="footerBackground">
+      <div id="contactUs" className="footerBackground">
         <div className="footerContent">
           <Contact />
           <Footer />

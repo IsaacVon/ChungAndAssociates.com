@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-import { HashLink } from "react-router-hash-link";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 
 import "../../App.css";
 
@@ -48,9 +48,13 @@ export default function NavDropdown({ navExpander }) {
           <span className="light">OUR</span>
           <span className="bold"> SERVICES </span>
         </Button>
-        {/* add anchor point */}
-
-        <Button disableTouchRipple className={classes.standard}>
+        <Button
+          disableTouchRipple
+          className={classes.standard}
+          component={NavLink}
+          smooth
+          to={"/#aboutUs"}
+        >
           <span className="light">ABOUT</span>
           <span className="bold"> US </span>
         </Button>
@@ -79,8 +83,13 @@ export default function NavDropdown({ navExpander }) {
           <span className="bold"> SAY </span>
         </Button>
         {/* New page */}
-        <Button disableTouchRipple className={classes.standard}>
-          <span className="light">CONTACT </span>
+        <Button
+          disableTouchRipple
+          className={classes.standard}
+          component={NavLink}
+          smooth
+          to={"/#contactUs"}
+        >          <span className="light">CONTACT </span>
           <span className="bold"> US </span>
         </Button>
       </div>

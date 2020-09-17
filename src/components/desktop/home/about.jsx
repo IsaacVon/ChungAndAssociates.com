@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 export default function About() {
   return (
     <div>
-      <div style={{ textAlign: "center", marginTop: "45px" }}>
+      <div style={{ textAlign: "center", paddingTop: "45px" }}>
         <span
           style={{
             fontSize: "25px",

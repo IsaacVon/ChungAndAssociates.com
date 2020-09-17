@@ -1,4 +1,7 @@
 import React from "react";
+
+import { HashLink as Link } from 'react-router-hash-link';
+
 import ChipC from "../../components/mobile/testimonials/chipC";
 import MikeR from "../../components/mobile/testimonials/mikeR";
 import JohnL from "../../components/mobile/testimonials/johnL";
@@ -40,7 +43,7 @@ export default function TestimonialsDesktop() {
     <div className={classes.root}>
       <div className="serviceLogoContainer">
         <div>
-          <a href="/">
+          <a href="/chungandassociates/">
             <img className="logo2" src={logo} alt="Logo" />
           </a>
           <div className="tagLineDesktop">Building Quality Organizations.</div>
@@ -111,7 +114,7 @@ export default function TestimonialsDesktop() {
       >
         <BillF desktop={true} />
       </div>
-      <div className="testimonialCardDesktop">
+      <div id="hashtest" className="testimonialCardDesktop">
         <SteveS desktop={true} />
       </div>
       <div className="imgDiv4">

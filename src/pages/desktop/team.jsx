@@ -22,7 +22,7 @@ export default function Services() {
   return (
     <>
       <div className="serviceLogoContainer">
-        <a href="/">
+        <a href="/chungandassociates/">
           <img className="logo2" src={logo} alt="Logo" />
         </a>
         <div className="tagLineDesktop">Building Quality Organizations.</div>

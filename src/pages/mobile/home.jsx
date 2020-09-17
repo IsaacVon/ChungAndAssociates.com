@@ -21,11 +21,13 @@ export default function Home() {
       <div style={{ background: "#73D3E1" }}>
         <Main />
       </div>
-      <div style={{ background: "#FFFFFF" }}>
+      <div id="aboutUs" style={{ background: "#FFFFFF" }}>
         <About />
       </div>
       <div id="services" style={{ background: "#ABE4F0" }}>
-        <Services />
+        <div id="services">
+          <Services />
+        </div>
         <Footer />
       </div>
     </div>

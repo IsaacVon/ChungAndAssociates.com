@@ -12,10 +12,15 @@ const useStyles = makeStyles((theme) => ({
     float: "right",
     marginTop: "20px",
     marginRight: "20px",
+    disableFocusRipple: "true",
+    "&:hover": {
+      color: "#006666",
+      backgroundColor: "transparent"
+    }
   },
   expanded: {
     flexGrow: 1,
-    backgroundColor: "#F0FEFF",
+    backgroundColor: "#003366",
     width: "200px",
     float: "right",
   },
@@ -30,7 +35,7 @@ export default function NavBar() {
     if (path === "/services") return "navBackgroundServicesExpandedDesktop";
     if (path === "/testimonials") return "navBackgroundTeamExpandedDesktop";
     if (path === "/team") return "navBackgroundTeamExpandedDesktop";
-    if (path === "/chungandassociates") return "desktopNavBackground";
+    if (path === "/chungandassociates/") return "desktopNavBackground";
     if (path === "/") return "desktopNavBackground";
   };
 
