@@ -31,7 +31,8 @@ export default function About() {
             style={{
               float: "right",
               textAlign: "right",
-              width: "500px",
+              maxWidth: "500px",
+              width: "40vw",
               marginRight: "30px",
               fontSize: "54px",
               color: "#73D3E1",
@@ -46,7 +47,8 @@ export default function About() {
             style={{
               float: "left",
               textAlign: "left",
-              width: "500px",
+              maxWidth: "500px",
+              width: "40vw",
               marginLeft: "30px",
 
               fontWeight: "300",

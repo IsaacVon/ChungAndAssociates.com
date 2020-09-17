@@ -16,13 +16,15 @@ export default function Home() {
         style={{
           margin: " 0px 10px 0px 10px",
           overflow: "hidden",
-          height: "370px",
+          minHeight:"200px",
+          height: "35vw",
+          maxHeight: "600px",
           borderRadius: "7px",
         }}
       >
-        <Parallax y={[-30, 30]}>
+        <Parallax y={[-20, 20]}>
           <img
-            style={{ margin: "-320px 0px 0px 0px" }}
+            className="bambooHome"
             width="120%"
             src={image2}
             alt="Bamboo"

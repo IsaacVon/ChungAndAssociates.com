@@ -33,6 +33,7 @@ export default function NavBar() {
     if (path === "/team") return "navbarContainerTeam";
     if (path === "/testimonials") return "navbarContainerTestimonials";
     if (path === "/") return "navbarContainerHome";
+    if (path === "/chungandassociates/") return "navbarContainerHome";
   };
 
   const navBackgroundCollapsed = () => {

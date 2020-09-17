@@ -79,7 +79,9 @@ export default function NavDropdown({ navExpander }) {
         <span className="bold"> US </span>
       </Button>
       <div className="dropDownLogo">
-        <img className="logo1" src={logo} alt="Logo" />
+        <a href="/">
+          <img className="logo1" src={logo} alt="Logo" />
+        </a>
         <div className="tagLine">Building Quality Organizations.</div>
       </div>
     </div>
