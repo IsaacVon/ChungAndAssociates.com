@@ -5,6 +5,11 @@ import "../../App.css";
 const path = window.location.pathname;
 
 const footerStyle = () => {
+  // For github
+  if (path === "/chungandassociates") return "desktopFooterBlue";
+  if (path === "/*") return "desktopFooterWhite";
+
+
   if (path === "/testimonials") return "desktopFooterBlue";
   if (path === "/TestimonialsDesktop") return "desktopFooterBlue";
   if (path === "/team") return "desktopFooterBlue";
@@ -16,7 +21,8 @@ const footerStyle = () => {
 export default function Footer() {
 
   return (
-    <div className={footerStyle()}>
+    // <div className={footerStyle()}>
+    <div className="desktopFooterBlue">
       <div style={{ fontSize: "18px", marginTop: "50px", fontWeight: "300" }}>
         For more information, please contact us.
       </div>

@@ -68,9 +68,9 @@ export default function TestimonialsDesktop() {
         <ChipC desktop={true} />
       </div>
       <div className="imgDiv4">
-        <Parallax y={[-60, 0]}>
+        {/* <Parallax y={[-60, 0]}> */}
           <img width="100%" src={image6} alt="desert" />
-        </Parallax>
+        {/* </Parallax> */}
       </div>
       <div className="testimonialCardDesktop">
         <MikeR desktop={true} />
@@ -89,9 +89,9 @@ export default function TestimonialsDesktop() {
       </div>
 
       <div className="imgDiv4">
-        <Parallax y={[-60, 0]}>
+        {/* <Parallax y={[-60, 0]}> */}
           <img width="100%" src={image7} alt="snow" />
-        </Parallax>
+        {/* </Parallax> */}
       </div>
       <div className="testimonialCardDesktop">
         <PrestonW desktop={true} />

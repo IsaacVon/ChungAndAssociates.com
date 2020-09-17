@@ -9,20 +9,20 @@ import "../../App.css";
 const useStyles = makeStyles((theme) => ({
   selected: {
     fontSize: "15px",
-    width: "80%",
+    width: "100%",
     lineHeight: "2.5",
     backgroundColor: "rgba(255, 255, 255, 0.5)",
-    borderRadius: "8px",
+    borderRadius: "0px",
     "&:hover": {
       backgroundColor: "white",
     },
   },
   standard: {
     fontSize: "15px",
-    width: "80%",
+    width: "100%",
     lineHeight: "2.5",
     marginTop: "40px",
-    borderRadius: "8px",
+    borderRadius: "0px",
     "&:hover": {
       backgroundColor: "rgba(255, 255, 255, 0.5)",
     },

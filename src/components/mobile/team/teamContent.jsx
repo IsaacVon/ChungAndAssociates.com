@@ -46,9 +46,9 @@ export default function TeamContent() {
         in 2005 and served as Senior VP and CFO for their flagship retail
         business for Southern California.{" "}
       </Typography>
-      <Parallax y={[-25, 0]}>
+      {/* <Parallax y={[-25, 0]}> */}
         <img width="100%" src={image5} alt="Office" />
-      </Parallax>
+      {/* </Parallax> */}
 
       <Typography
         style={{ margin: "28px", fontWeight: "normal", fontSize: "15px" }}

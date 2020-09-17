@@ -38,16 +38,6 @@ export default function NavDropdown({ navExpander }) {
     <div className="navbarDropdown">
       <Button
         disableTouchRipple
-        component={Link}
-        to="/"
-        onClick={() => navExpander()}
-        className={path === "/" ? classes.selected : classes.standard}
-      >
-        <span className="light">HOME</span>
-        <span className="bold"> ADD TO LOGO </span>
-      </Button>
-      <Button
-        disableTouchRipple
         as={HashLink}
         to={`${path}#services`}
         onClick={() => navExpander()}

@@ -34,7 +34,7 @@ export default function Testimonials() {
 
   return (
     <div className={classes.root}>
-      <Typography style={{ textAlign: "center", paddingTop: "33px" }}>
+      <Typography style={{ textAlign: "center", paddingTop: "100px" }}>
         <span
           style={{
             fontSize: "25px",

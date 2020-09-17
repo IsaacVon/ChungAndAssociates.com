@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import { makeStyles } from "@material-ui/core/styles";
+
 import "../../App.css";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -28,21 +31,25 @@ export default function NavBar() {
 
   const navOpacity = () => {
     if (path === "/team") return "navbarContainerTeam";
-    else return "navbarContainer";
+    if (path === "/testimonials") return "navbarContainerTestimonials";
+    if (path === "/") return "navbarContainerHome";
   };
-  
+
   const navBackgroundCollapsed = () => {
     if (path === "/testamonials") return "navBackgroundTestamonialsCollapsed";
     if (path === "/team") return "navBackgroundTeamCollapsed";
     if (path === "/") return "navBackgroundHomeCollapsed";
+    if (path === "/chungandassociates/") return "navBackgroundHomeCollapsed";
+    if (path === "/*") return "navBackgroundHomeCollapsed";
+  };
 
-  }; 
-  
+  console.log("path for navbar home", path)
   const navBackgroundExpanded = () => {
     if (path === "/testamonials") return "navBackgroundTestamonialsExpanded";
     if (path === "/team") return "navBackgroundTeamExpanded";
     if (path === "/") return "navBackgroundHomeExpanded";
-
+    if (path === "/chungandassociates/") return "navBackgroundHomeExpanded";
+    if (path === "/*") return "navBackgroundHomeExpanded";
   };
 
   const navExpander = () => {
@@ -54,7 +61,7 @@ export default function NavBar() {
     return (
       <>
         <div className={classes.expanded}>
-          <div className={"navbarContainer"}>
+          <div className={"navbarContainer2"}>
             <Grid container>
               <Grid item xs={1}>
                 <IconButton
@@ -74,8 +81,6 @@ export default function NavBar() {
           </div>
 
           <NavDropdown navExpander={navExpander} />
-          {/* <div className="navBackgroundHomeExpanded"></div> */}
-          {/* <div className="navBackgroundTestamonialsExpanded"></div> */}
           <div className={navBackgroundExpanded()}></div>
         </div>
       </>
@@ -98,7 +103,9 @@ export default function NavBar() {
                 </IconButton>
               </Grid>
               <Grid item xs={11}>
-                <img className="logo1" src={logo} alt="Logo" />
+                <a href="/">
+                  <img className="logo1" src={logo} alt="Logo" />
+                </a>
               </Grid>
             </Grid>
             <div className="tagLine">Building Quality Organizations.</div>

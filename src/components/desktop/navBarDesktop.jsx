@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
 export default function NavBar() {
   const classes = useStyles();
   const path = window.location.pathname;
-  const [navbarExpanded, toggleNavbar] = useState(true);
+  const [navbarExpanded, toggleNavbar] = useState(false);
 
 
   const navBackgroundExpanded = () => {
