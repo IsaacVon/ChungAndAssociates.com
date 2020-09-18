@@ -24,7 +24,7 @@ export default function Contact() {
       <div className="contactContainer">
         <div className="contactUsDesktop">
           <div className="serviceLogoContainer">
-            <a href="/chungandassociates/">
+            <a href="/">
               <img className="logo2" src={logo} alt="Logo" />
             </a>
             <div className="tagLineDesktop">
