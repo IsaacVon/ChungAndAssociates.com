@@ -48,15 +48,15 @@ function App() {
 
   if (!mobile) {
     return (
-      <Router history={history} >
+      <Router history={history}>
         <div className={classes.root}>
           <Switch>
-            <Route path='/team' exact component={TeamDesktop} />
-            <Route path='/contact' exact component={ContactDesktop} />
-            <Route path='/testimonials' exact component={TestimonialsDesktop} />
-            <Route path='/gallery' exact component={Gallery} />
-            <Route path='/services'  exact component={Services} />
-            <Route path='/'  exact component={HomeDesktop} />
+            <Route path="/team" exact component={TeamDesktop} />
+            <Route path="/contact" exact component={ContactDesktop} />
+            <Route path="/testimonials" exact component={TestimonialsDesktop} />
+            <Route path="/gallery" exact component={Gallery} />
+            <Route path="/services" exact component={Services} />
+            <Route path="/" exact component={HomeDesktop} />
             <Route path="/*" component={HomeDesktop} />
 
             {/* <Route path="/*" component={NotFound} /> */}
@@ -75,7 +75,7 @@ function App() {
             <Route path="/team" exact component={Team} />
             <Route path="/testimonials" exact component={Testimonials} />
             <Route path="/" exact component={Home} />
-            <Route path='/contact' exact component={Contact} />
+            <Route path="/contact" exact component={Contact} />
 
             {/* <Route path="/*" component={NotFound} /> */}
             <Route path="/*" component={Home} />
