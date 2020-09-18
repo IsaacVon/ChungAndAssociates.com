@@ -97,11 +97,9 @@ export default function NavDropdown({ navExpander }) {
       </Button>
       <Button
         disableTouchRipple
-        className={hash === "#contactUs" ? classes.selected : classes.standard}
-        component={NavLink}
-        // smooth
-        to={"/testimonials#contactUs"}
-        scroll={(el) => scrollWithOffset(el, 140)}
+        className={path === "/contact" ? classes.selected : classes.standard}
+        component={Link}
+        to={"/contact"}
         onClick={() => navExpander()}
       >
         {" "}

@@ -6,8 +6,7 @@ const path = window.location.pathname;
 
 const footerStyle = () => {
   // For github
-  if (path === "/chungandassociates") return "desktopFooterBlue";
-  if (path === "/*") return "desktopFooterWhite";
+
 
 
   if (path === "/testimonials") return "desktopFooterBlue";
@@ -16,13 +15,17 @@ const footerStyle = () => {
   if (path === "/services") return "desktopFooterWhite";
   if (path === "/gallery") return "desktopFooterBlue";
   if (path === "/") return "desktopFooterBlue";
+
+
+  if (path === "/*") return "desktopFooterBlue";
+  if (path === "/chungandassociates/") return "desktopFooterBlue";
 };
 
 export default function Footer() {
 
   return (
-    // <div className={footerStyle()}>
-    <div className="desktopFooterBlue">
+    <div className={footerStyle()}>
+    {/* <div className="desktopFooterBlue"> */}
       <div style={{ fontSize: "18px", marginTop: "50px", fontWeight: "300" }}>
         For more information, please contact us.
       </div>

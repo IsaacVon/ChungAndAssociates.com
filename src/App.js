@@ -9,10 +9,12 @@ import Navbar from "./components/mobile/navBar";
 import Home from "./pages/mobile/home";
 import Testimonials from "./pages/mobile/testimonials";
 import Team from "./pages/mobile/team";
+import Contact from "./pages/mobile/contact";
 import NotFound from "./pages/mobile/notFound";
 
 // Desktop Pages
 import TeamDesktop from "./pages/desktop/team";
+import ContactDesktop from "./pages/desktop/contact";
 import HomeDesktop from "./pages/desktop/home";
 import TestimonialsDesktop from "./pages/desktop/testimonials";
 import Services from "../src/pages/desktop/services";
@@ -49,8 +51,8 @@ function App() {
       <Router history={history} >
         <div className={classes.root}>
           <Switch>
-            {/* <Route path="/team" exact component={Team} /> */}
             <Route path='/team' exact component={TeamDesktop} />
+            <Route path='/contact' exact component={ContactDesktop} />
             <Route path='/testimonials' exact component={TestimonialsDesktop} />
             <Route path='/gallery' exact component={Gallery} />
             <Route path='/services'  exact component={Services} />
@@ -73,6 +75,8 @@ function App() {
             <Route path="/team" exact component={Team} />
             <Route path="/testimonials" exact component={Testimonials} />
             <Route path="/" exact component={Home} />
+            <Route path='/contact' exact component={Contact} />
+
             {/* <Route path="/*" component={NotFound} /> */}
             <Route path="/*" component={Home} />
           </Switch>

@@ -100,11 +100,11 @@ export default function NavDropdown({ navExpander }) {
         <Button
           disableTouchRipple
           className={
-            hash === "#contactUs" ? classes.selected : classes.standard
+            path === "/contact" ? classes.selected : classes.standard
           }
-          component={NavLink}
-          smooth
-          to={"/#contactUs"}
+          component={Link}
+          
+          to={"/contact"}
         >
           {" "}
           <span className="light">CONTACT </span>

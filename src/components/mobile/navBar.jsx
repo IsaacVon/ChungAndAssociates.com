@@ -37,7 +37,8 @@ export default function NavBar() {
   };
 
   const navBackgroundCollapsed = () => {
-    if (path === "/testamonials") return "navBackgroundTestamonialsCollapsed";
+    if (path === "/testamonials") return "navBackgroundTestimonialsCollapsed";
+    if (path === "/contact") return "navBackgroundContactCollapsed";
     if (path === "/team") return "navBackgroundTeamCollapsed";
     if (path === "/") return "navBackgroundHomeCollapsed";
     if (path === "/chungandassociates/") return "navBackgroundHomeCollapsed";
@@ -47,6 +48,7 @@ export default function NavBar() {
   console.log("path for navbar home", path);
   const navBackgroundExpanded = () => {
     if (path === "/testamonials") return "navBackgroundTestamonialsExpanded";
+    if (path === "/contact") return "navBackgroundContactExpanded";
     if (path === "/team") return "navBackgroundTeamExpanded";
     if (path === "/") return "navBackgroundHomeExpanded";
     if (path === "/chungandassociates/") return "navBackgroundHomeExpanded";
@@ -58,10 +60,22 @@ export default function NavBar() {
     if (!navbarExpanded) toggleNavbar(true);
   };
 
+  const navSticky = () => { 
+    if (path === "/contact") return "navNotSticky";
+    else return "navSticky";
+  }
+
+  const navSpacer = () => { 
+    if (path === "/contact") return "navSpacer2";
+    else return "navSpacer";
+  }
+
+  
+
   if (navbarExpanded)
     return (
       <>
-        <div className="navSticky">
+        <div className={navSticky()}>
           <div className={classes.expanded}>
             <div className={"navbarContainer2"}>
               <Grid container>
@@ -85,7 +99,7 @@ export default function NavBar() {
             <NavDropdown navExpander={navExpander} />
           </div>
         </div>
-        <div style={{ height: "360px" }}>Dingus</div>
+        <div className={navSpacer()}></div>
         <div className={navBackgroundExpanded()}></div>
       </>
     );
