@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "15px",
     width: "100%",
     lineHeight: "2.5",
-    marginTop: "20px",
+    padding: "10px 0px",
     backgroundColor: "rgba(255, 255, 255, 0.5)",
     borderRadius: "0px",
     "&:hover": {
@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "15px",
     width: "100%",
     lineHeight: "2.5",
-    marginTop: "20px",
+    padding: "10px 0px",
     backgroundColor: "rgb(142, 142, 149, 0.3)",
     borderRadius: "0px",
     "&:hover": {
@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "15px",
     width: "100%",
     lineHeight: "2.5",
-    marginTop: "20px",
+    padding: "10px 0px",
     borderRadius: "0px",
     "&:hover": {
       backgroundColor: "rgba(255, 255, 255, 0.5)",
@@ -99,11 +99,18 @@ export default function NavDropdown({ navExpander }) {
         {/* New page */}
         <Button
           disableTouchRipple
-          className={
-            path === "/contact" ? classes.selected : classes.standard
-          }
+          className={path === "/gallery" ? classes.selected : classes.standard}
           component={Link}
-          
+          to={"/gallery"}
+        >
+          {" "}
+          <span className="light">EVENT </span>
+          <span className="bold"> GALLERY </span>
+        </Button>
+        <Button
+          disableTouchRipple
+          className={path === "/contact" ? classes.selected : classes.standard}
+          component={Link}
           to={"/contact"}
         >
           {" "}

@@ -20,9 +20,11 @@ import "../../App.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    marginTop: "50px",
+    margin: "auto",
     flexGrow: 1,
-    width: "50%",
-  }
+    width: "90%",
+  },
 }));
 
 export default function Gallery() {
@@ -30,14 +32,18 @@ export default function Gallery() {
 
   return (
     <>
-      <NavBar />
-      <div className="serviceLogoContainer">
-        <img className="logo2" src={logo} alt="Logo" />
-        <div className="tagLineDesktop">Building Quality Organizations.</div>
-      </div>
+        <div className="serviceLogoContainer">
+          <a href="/">
+            <img className="logo2" src={logo} alt="Logo" />
+          </a>
+          <div className="tagLineDesktop">Building Quality Organizations.</div>
+        </div>
+        <div className="navbarPositioner">
+          <NavBar />
+        </div>
 
       <div className={classes.root}>
-        <Grid container spacing={2}>
+        <Grid container spacing={1}>
           <Grid className="photoGrid" className="photoGrid" item xs={6} sm={4}>
             <img width="100%" src={image4} alt="conference" />
           </Grid>{" "}

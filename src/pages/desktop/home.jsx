@@ -15,12 +15,10 @@ export default function Home() {
       </div>
       <div
         style={{
-          margin: " 0px 10px 0px 10px",
           overflow: "hidden",
           minHeight: "200px",
           height: "35vw",
           maxHeight: "600px",
-          borderRadius: "7px",
         }}
       >
         <Parallax y={[-20, 20]}>

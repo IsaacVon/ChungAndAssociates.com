@@ -41,18 +41,22 @@ export default function TestimonialsDesktop() {
 
   return (
     <div className={classes.root}>
-      <div className="serviceLogoContainer">
-        <div>
-          <a href="/">
-            <img className="logo2" src={logo} alt="Logo" />
-          </a>
-          <div className="tagLineDesktop">Building Quality Organizations.</div>
+      <div className="navbarPositionerStickyDesktop">
+        <div className="serviceLogoContainer">
+          <div>
+            <a href="/">
+              <img className="logo2" src={logo} alt="Logo" />
+            </a>
+            <div className="tagLineDesktop">
+              Building Quality Organizations.
+            </div>
+          </div>
+        </div>
+        <div className="navbarPositioner">
+          <NavBar />
         </div>
       </div>
-      <div className="navbarPositioner">
-        <NavBar />
-      </div>
-      <Typography style={{ textAlign: "center", paddingTop: "83px" }}>
+      <Typography style={{ textAlign: "center", paddingTop: "183px" }}>
         <span
           style={{
             fontSize: "25px",

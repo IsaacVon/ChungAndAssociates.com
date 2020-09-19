@@ -45,8 +45,9 @@ export default function Testimonials() {
               borderRadius: 10,
               marginTop: "25px",
               textTransform: "none",
-              fontSize: "17px",
+              fontSize: "14px",
               fontWeight: "500",
+              width: "100%"
             }}
           >
             Contacts@Chungandassociates.com

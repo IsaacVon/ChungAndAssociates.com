@@ -45,7 +45,6 @@ export default function NavBar() {
     if (path === "/*") return "navBackgroundHomeCollapsed";
   };
 
-  console.log("path for navbar home", path);
   const navBackgroundExpanded = () => {
     if (path === "/testamonials") return "navBackgroundTestamonialsExpanded";
     if (path === "/contact") return "navBackgroundContactExpanded";
@@ -60,17 +59,15 @@ export default function NavBar() {
     if (!navbarExpanded) toggleNavbar(true);
   };
 
-  const navSticky = () => { 
+  const navSticky = () => {
     if (path === "/contact") return "navNotSticky";
     else return "navSticky";
-  }
+  };
 
-  const navSpacer = () => { 
+  const navSpacer = () => {
     if (path === "/contact") return "navSpacer2";
     else return "navSpacer";
-  }
-
-  
+  };
 
   if (navbarExpanded)
     return (

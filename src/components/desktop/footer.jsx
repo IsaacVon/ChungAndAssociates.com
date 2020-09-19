@@ -2,30 +2,25 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import "../../App.css";
 
-const path = window.location.pathname;
-
-const footerStyle = () => {
-  // For github
-
-
-
-  if (path === "/testimonials") return "desktopFooterBlue";
-  if (path === "/TestimonialsDesktop") return "desktopFooterBlue";
-  if (path === "/team") return "desktopFooterBlue";
-  if (path === "/services") return "desktopFooterWhite";
-  if (path === "/gallery") return "desktopFooterBlue";
-  if (path === "/") return "desktopFooterBlue";
-
-
-  if (path === "/*") return "desktopFooterBlue";
-  if (path === "/chungandassociates/") return "desktopFooterBlue";
-};
-
 export default function Footer() {
+  const path = window.location.pathname;
+
+  const footerStyle = () => {
+    // For github
+
+    if (path === "/testimonials") return "desktopFooterBlueTestimonials";
+    if (path === "/team") return "desktopFooterBlue";
+    if (path === "/services") return "desktopFooterWhite";
+    if (path === "/gallery") return "desktopFooterBlue";
+    if (path === "/") return "desktopFooterBlue";
+
+    if (path === "/*") return "desktopFooterBlue";
+    if (path === "/chungandassociates/") return "desktopFooterBlue";
+  };
 
   return (
     <div className={footerStyle()}>
-    {/* <div className="desktopFooterBlue"> */}
+      {/* <div className="desktopFooterBlue"> */}
       <div style={{ fontSize: "18px", marginTop: "50px", fontWeight: "300" }}>
         For more information, please contact us.
       </div>
@@ -52,7 +47,14 @@ export default function Footer() {
       >
         Contacts@Chungandassociates.com
       </Button>
-      <div style={{ fontSize: "11px ", fontWeight: "300", marginTop: "80px", marginBottom: "10px" }}>
+      <div
+        style={{
+          fontSize: "11px ",
+          fontWeight: "300",
+          marginTop: "80px",
+          marginBottom: "10px",
+        }}
+      >
         MMXX Chung and Associates, LLC. All rights reserved.{" "}
       </div>
     </div>

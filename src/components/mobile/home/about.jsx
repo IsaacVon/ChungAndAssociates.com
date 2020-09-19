@@ -6,10 +6,11 @@ import { Parallax } from "react-scroll-parallax";
 export default function About() {
   return (
     <div>
-      <Typography style={{ textAlign: "center", marginTop: "38px" }}>
+      <Typography
+        style={{ fontSize: "24px", textAlign: "center", marginTop: "38px" }}
+      >
         <span
           style={{
-            fontSize: "25px",
             fontWeight: "900",
             lineHeight: "29px",
           }}
@@ -18,7 +19,6 @@ export default function About() {
         </span>
         <span
           style={{
-            fontSize: "25px",
             fontWeight: "300",
             lineHeight: "29px",
           }}
@@ -34,6 +34,7 @@ export default function About() {
           marginTop: "20px",
           fontSize: "25px",
           marginBottom: "28px",
+          paddingBottom: "20px",
         }}
         color="secondary"
       >
@@ -48,12 +49,12 @@ export default function About() {
         }}
       >
         {/* <Parallax y={[-40, 0]}> */}
-          <img
-            style={{ margin: "-30px 20px 0px -20px" }}
-            width="120%"
-            src={image2}
-            alt="Bamboo"
-          />
+        <img
+          style={{ margin: "-30px 20px 0px -20px" }}
+          width="120%"
+          src={image2}
+          alt="Bamboo"
+        />
         {/* </Parallax> */}
       </div>
 

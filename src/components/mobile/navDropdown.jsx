@@ -89,11 +89,26 @@ export default function NavDropdown({ navExpander }) {
         to="/testimonials"
         onClick={() => navExpander()}
         className={
-          hash ? classes.standard : (path === "/testimonials" ? classes.selected : classes.standard)
+          hash
+            ? classes.standard
+            : path === "/testimonials"
+            ? classes.selected
+            : classes.standard
         }
       >
         <span className="light">PEOPLE</span>
         <span className="bold"> SAY </span>
+      </Button>
+      <Button
+        disableTouchRipple
+        className={path === "/contact" ? classes.selected : classes.standard}
+        component={Link}
+        to={"/contact"}
+        onClick={() => navExpander()}
+      >
+        {" "}
+        <span className="light">EVENT </span>
+        <span className="bold"> GALLERY </span>
       </Button>
       <Button
         disableTouchRipple

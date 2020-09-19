@@ -32,9 +32,10 @@ export default function NavBar() {
   const [navbarExpanded, toggleNavbar] = useState(false);
 
   const navBackgroundExpanded = () => {
-    if (path === "/services") return "navBackgroundServicesExpandedDesktop";
-    if (path === "/testimonials") return "navBackgroundTeamExpandedDesktop";
-    if (path === "/team") return "navBackgroundTeamExpandedDesktop";
+    if (path === "/services") return "navBackgroundContactExpandedDesktop";
+    if (path === "/gallery") return "navBackgroundContactExpandedDesktop";
+    if (path === "/testimonials") return "navBackgroundContactExpandedDesktop";
+    if (path === "/team") return "navBackgroundContactExpandedDesktop";
     if (path === "/contact") return "navBackgroundContactExpandedDesktop";
     if (path === "/chungandassociates/") return "desktopNavBackground";
     if (path === "/") return "desktopNavBackground";

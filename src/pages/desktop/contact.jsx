@@ -34,12 +34,12 @@ export default function Contact() {
 
           <hr className="hrContactUs"></hr>
 
-          <div style={{ fontSize: "30px ", marginTop: "40px" }}>
+          <div style={{ fontSize: "30px ", marginTop: "45px" }}>
             <span style={{ fontWeight: "500" }}>Contact</span>
             <span style={{ fontWeight: "300" }}> Us </span>
           </div>
           <div
-            style={{ fontSize: "18px", marginTop: "60px", fontWeight: "300" }}
+            style={{ fontSize: "18px", marginTop: "45px", fontWeight: "300" }}
           >
             We would love to hear from you!
           </div>

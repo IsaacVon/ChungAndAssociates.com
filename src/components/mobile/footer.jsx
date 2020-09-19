@@ -3,7 +3,7 @@ import Typography from "@material-ui/core/Typography";
 
 export default function Footer() {
   return (
-    <div style={{ textAlign: "center", paddingBottom: "28px" }}>
+    <div style={{ textAlign: "center", paddingBottom: "28px", paddingTop: "20px" }}>
       <Typography style={{ fontSize: "19px ", fontWeight: "600" }}>
         Chung & Associates, LLC
       </Typography>{" "}

@@ -26,16 +26,6 @@ export default function Main() {
             their vision.
           </span>
         </Typography>
-        <div
-          style={{
-            fontSize: "11px ",
-            fontWeight: "300",
-            marginTop: "40px",
-            textAlign: "center",
-          }}
-        >
-          MMXX Chung and Associates, LLC. All rights reserved.{" "}
-        </div>
       </div>
     </>
   );

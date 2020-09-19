@@ -21,17 +21,22 @@ export default function Services() {
 
   return (
     <>
-      <div className="serviceLogoContainer">
-        <a href="/">
-          <img className="logo2" src={logo} alt="Logo" />
-        </a>
-        <div className="tagLineDesktop">Building Quality Organizations.</div>
+      <div className="navbarPositionerStickyDesktop">
+        <div className="serviceLogoContainer">
+          <a href="/">
+            <img className="logo2" src={logo} alt="Logo" />
+          </a>
+          <div className="tagLineDesktop">Building Quality Organizations.</div>
+        </div>
+        <div className="navbarPositioner">
+          <NavBar />
+        </div>
       </div>
-      <div className="navbarPositioner">
-        <NavBar />
-      </div>
+
+      <div className="teamSpacer"></div>
+
       <Grid container spacing={2}>
-        <Grid item xs={6}>
+        <Grid item xs={6} md={5} xl={4}>
           <div className="teamImages">
             <div className="teamImageWrapper">
               <img
@@ -52,7 +57,7 @@ export default function Services() {
             </div>
           </div>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={6} md={7} xl={8}>
           <div className="teamWrapper">
             <span
               style={{
