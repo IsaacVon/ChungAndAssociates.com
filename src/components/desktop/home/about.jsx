@@ -25,7 +25,7 @@ export default function About() {
           We Are
         </span>
       </div>
-      <Grid style={{ margin: "30px 0px "}} container>
+      <Grid style={{ margin: "30px 0px " }} container>
         <Grid item xs={6}>
           <div
             style={{
@@ -46,7 +46,7 @@ export default function About() {
           <div
             style={{
               float: "left",
-              textAlign: "left",
+              textAlign: "justify",
               maxWidth: "500px",
               width: "40vw",
               marginLeft: "30px",
@@ -66,10 +66,11 @@ export default function About() {
             </p>
             <p>
               {" "}
-              We facilitate toward building a solid leadership team and
+              We facilitate towards building a solid leadership team and
               operating infrastructure to continuously scale the organization
               towards growth and profit.{" "}
             </p>
+           
           </div>
         </Grid>
       </Grid>

@@ -9,6 +9,7 @@ import SteveS from "../../components/mobile/testimonials/steveS";
 import JimP from "../../components/mobile/testimonials/jimP";
 import JanetL from "../../components/mobile/testimonials/janetL";
 import MaryA from "../../components/mobile/testimonials/maryA";
+import JohnK from "../../components/mobile/testimonials/johnK";
 import Contact from "../../components/mobile/testimonials/contact";
 import Footer from "../../components/mobile/footer";
 import { makeStyles } from "@material-ui/core/styles";
@@ -52,7 +53,7 @@ export default function Testimonials() {
           }}
         >
           {" "}
-          People Are Saying.
+          People Are Saying
         </span>
       </Typography>
 
@@ -95,12 +96,15 @@ export default function Testimonials() {
         {/* </Parallax> */}
       </div>
       <JimP desktop={false} />
+      <JohnK desktop={false} />
+
       <div style={{ background: "#E9EDFD" }}>
         <hr className="hrTestimonials"></hr>
         <JanetL desktop={false} />
         <hr className="hrTestimonials"></hr>
       </div>
       <MaryA desktop={false} />
+      
 
       <div id="contactUs" className="footerBackground">
         <div className="footerContent">

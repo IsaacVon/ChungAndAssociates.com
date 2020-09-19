@@ -55,7 +55,7 @@ export default function Footer() {
           marginBottom: "10px",
         }}
       >
-        MMXX Chung and Associates, LLC. All rights reserved.{" "}
+        MMXX Chung and Associates. All rights reserved.{" "}
       </div>
     </div>
   );

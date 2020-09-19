@@ -36,7 +36,7 @@ export default function Gallery() {
           <a href="/">
             <img className="logo2" src={logo} alt="Logo" />
           </a>
-          <div className="tagLineDesktop">Building Quality Organizations.</div>
+          <div className="tagLineDesktop">Building Quality Organizations</div>
         </div>
         <div className="navbarPositioner">
           <NavBar />

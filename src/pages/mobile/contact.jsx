@@ -47,27 +47,27 @@ export default function Testimonials() {
               textTransform: "none",
               fontSize: "14px",
               fontWeight: "500",
-              width: "100%"
+              width: "100%",
             }}
           >
             Contacts@Chungandassociates.com
           </Button>
         </div>
       </div>
-        <div
-          style={{
-            backgroundColor: "#73d3e1",
-            width: "100%",
-            paddingTop: "80px",
-            paddingBottom: "30px",
-            position: "relative",
-            textAlign: "center",
-            fontSize: "11px ",
-            fontWeight: "300",
-          }}
-        >
-          MMXX Chung and Associates, LLC. All rights reserved.{" "}
-        </div>
+      <div
+        style={{
+          backgroundColor: "#73d3e1",
+          width: "100%",
+          paddingTop: "80px",
+          paddingBottom: "30px",
+          position: "relative",
+          textAlign: "center",
+          fontSize: "11px ",
+          fontWeight: "300",
+        }}
+      >
+        MMXX Chung and Associates. All rights reserved.{" "}
+      </div>
     </div>
   );
 }

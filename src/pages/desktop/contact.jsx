@@ -27,9 +27,7 @@ export default function Contact() {
             <a href="/">
               <img className="logo2" src={logo} alt="Logo" />
             </a>
-            <div className="tagLineDesktop">
-              Building Quality Organizations.
-            </div>
+            <div className="tagLineDesktop">Building Quality Organizations</div>
           </div>
 
           <hr className="hrContactUs"></hr>
@@ -68,7 +66,7 @@ export default function Contact() {
             marginBottom: "10px",
           }}
         >
-          MMXX Chung and Associates, LLC. All rights reserved.{" "}
+          MMXX Chung and Associates. All rights reserved.{" "}
         </div>
       </div>
     </>

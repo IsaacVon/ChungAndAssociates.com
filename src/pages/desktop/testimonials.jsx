@@ -12,6 +12,7 @@ import SteveS from "../../components/mobile/testimonials/steveS";
 import JimP from "../../components/mobile/testimonials/jimP";
 import JanetL from "../../components/mobile/testimonials/janetL";
 import MaryA from "../../components/mobile/testimonials/maryA";
+import JohnK from "../../components/mobile/testimonials/johnK";
 import Contact from "../../components/mobile/testimonials/contact";
 import Footer from "../../components/desktop/footer";
 import { makeStyles } from "@material-ui/core/styles";
@@ -48,7 +49,7 @@ export default function TestimonialsDesktop() {
               <img className="logo2" src={logo} alt="Logo" />
             </a>
             <div className="tagLineDesktop">
-              Building Quality Organizations.
+              Building Quality Organizations
             </div>
           </div>
         </div>
@@ -74,7 +75,7 @@ export default function TestimonialsDesktop() {
           }}
         >
           {" "}
-          People Are Saying.
+          People Are Saying
         </span>
       </Typography>
       <div className="testimonialCardDesktop">
@@ -137,6 +138,10 @@ export default function TestimonialsDesktop() {
       </div>
       <div className="testimonialCardDesktop">
         <MaryA desktop={true} />
+      </div>  
+      
+      <div className="testimonialCardDesktopBottom">
+        <JohnK desktop={true} />
       </div>
       <div className="imgDiv5">
         <img className="waterfall" width="100%" src={image9} alt="waterfall" />

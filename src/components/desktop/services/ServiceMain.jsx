@@ -12,7 +12,7 @@ export default function ServiceMain() {
               <img className="logo2" src={logo} alt="Logo" />
             </a>
             <div className="tagLineDesktop">
-              Building Quality Organizations.
+              Building Quality Organizations
             </div>
           </div>
           <div className="serviceContainer">

@@ -8,12 +8,16 @@ export default function Main() {
     <>
       <div className="navContentHomeWrapper">
         <div className="navBackgroundHomeDesktop">
-          <NavBar />
+          <div className="navbarPositionerStickyDesktopHome">
+            <div className="navbarPositionerHome">
+              <NavBar />
+            </div>
+          </div>
+
+          {/* <NavBar /> */}
           <div className="logoTaglineContainer">
             <img className="logo2" src={logo} alt="Logo" />
-            <div className="tagLineDesktop">
-              Building Quality Organizations.
-            </div>
+            <div className="tagLineDesktop">Building Quality Organizations</div>
           </div>
         </div>
       </div>

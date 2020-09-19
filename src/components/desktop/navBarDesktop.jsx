@@ -37,8 +37,7 @@ export default function NavBar() {
     if (path === "/testimonials") return "navBackgroundContactExpandedDesktop";
     if (path === "/team") return "navBackgroundContactExpandedDesktop";
     if (path === "/contact") return "navBackgroundContactExpandedDesktop";
-    if (path === "/chungandassociates/") return "desktopNavBackground";
-    if (path === "/") return "desktopNavBackground";
+    if (path === "/") return "navBackgroundContactExpandedDesktopHome";
   };
 
   const navExpander = () => {
