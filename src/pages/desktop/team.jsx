@@ -27,7 +27,7 @@ export default function Services() {
       <div className="teamSpacer"></div>
 
       <Grid container spacing={2}>
-        <Grid item xs={6} md={5} xl={4}>
+        <Grid item xs={6} md={5} >
           <div className="teamImages">
             <div className="teamImageWrapper">
               <img
@@ -48,7 +48,7 @@ export default function Services() {
             </div>
           </div>
         </Grid>
-        <Grid item xs={6} md={7} xl={8}>
+        <Grid item xs={6} md={7} >
           <div className="teamWrapper">
             <span
               style={{
