@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import ChipC from "../../components/mobile/testimonials/chipC";
 import MikeR from "../../components/mobile/testimonials/mikeR";
 import JohnL from "../../components/mobile/testimonials/johnL";
@@ -45,9 +44,7 @@ export default function TestimonialsDesktop() {
             <a href="/">
               <img className="logo2" src={logo} alt="Logo" />
             </a>
-            <div className="tagLineDesktop">
-              Building Quality Organizations
-            </div>
+            <div className="tagLineDesktop">Building Quality Organizations</div>
           </div>
         </div>
         <div className="navbarPositioner">
@@ -135,14 +132,21 @@ export default function TestimonialsDesktop() {
       </div>
       <div className="testimonialCardDesktop">
         <MaryA desktop={true} />
-      </div>  
-      
-      <div className="testimonialCardDesktopBottom">
+      </div>
+
+      <div
+        className="testimonialCardDesktopBottom"
+        style={{
+          background: "#e4faff",
+        }}
+      >
         <JohnK desktop={true} />
       </div>
+
       <div className="imgDiv5">
         <img className="waterfall" width="100%" src={image9} alt="waterfall" />
       </div>
+
       <Footer />
     </div>
   );
