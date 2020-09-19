@@ -6,7 +6,6 @@ import logo from "../../logos/chung-logo.svg";
 import { NavHashLink as NavLink } from "react-router-hash-link";
 
 import "../../App.css";
-import Testimonials from "../../pages/mobile/testimonials";
 
 const useStyles = makeStyles((theme) => ({
   selected: {
@@ -101,9 +100,9 @@ export default function NavDropdown({ navExpander }) {
       </Button>
       <Button
         disableTouchRipple
-        className={path === "/contact" ? classes.selected : classes.standard}
+        className={path === "/gallery" ? classes.selected : classes.standard}
         component={Link}
-        to={"/contact"}
+        to={"/gallery"}
         onClick={() => navExpander()}
       >
         {" "}

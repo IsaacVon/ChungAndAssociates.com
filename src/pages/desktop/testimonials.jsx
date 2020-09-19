@@ -1,6 +1,5 @@
 import React from "react";
 
-import { HashLink as Link } from "react-router-hash-link";
 
 import ChipC from "../../components/mobile/testimonials/chipC";
 import MikeR from "../../components/mobile/testimonials/mikeR";
@@ -13,7 +12,6 @@ import JimP from "../../components/mobile/testimonials/jimP";
 import JanetL from "../../components/mobile/testimonials/janetL";
 import MaryA from "../../components/mobile/testimonials/maryA";
 import JohnK from "../../components/mobile/testimonials/johnK";
-import Contact from "../../components/mobile/testimonials/contact";
 import Footer from "../../components/desktop/footer";
 import { makeStyles } from "@material-ui/core/styles";
 import image6 from "../../images/6.jpg";
@@ -22,7 +20,6 @@ import image8 from "../../images/8.jpg";
 import image9 from "../../images/9.jpg";
 
 import Typography from "@material-ui/core/Typography";
-import { Parallax } from "react-scroll-parallax";
 import NavBar from "../../components/desktop/navBarDesktop";
 import logo from "../../logos/chung-logo.svg";
 

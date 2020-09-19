@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "../../components/desktop/navBarDesktop";
 import logo from "../../logos/chung-logo.svg";
 import Footer from "../../components/desktop/footer";
-import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 
 import image4 from "../../images/4.jpg";
@@ -10,15 +9,7 @@ import image5 from "../../images/5.jpg";
 
 import "../../App.css";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-  },
-}));
-
 export default function Services() {
-  const classes = useStyles();
-
   return (
     <>
       <div className="navbarPositionerStickyDesktop">
@@ -118,7 +109,6 @@ export default function Services() {
                 East Asian Language & Culture from the University of California
                 Los Angeles (UCLA).
               </p>
-  
             </div>
             <div className="teamInfoFooter">
               Associated Partners

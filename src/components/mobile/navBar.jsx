@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -32,6 +31,7 @@ export default function NavBar() {
   const navOpacity = () => {
     if (path === "/team") return "navbarContainerTeam";
     if (path === "/testimonials") return "navbarContainerTestimonials";
+    if (path === "/gallery") return "navbarContainerTestimonials";
     if (path === "/") return "navbarContainerHome";
     if (path === "/chungandassociates/") return "navbarContainerHome";
   };
@@ -40,6 +40,7 @@ export default function NavBar() {
     if (path === "/testamonials") return "navBackgroundTestimonialsCollapsed";
     if (path === "/contact") return "navBackgroundContactCollapsed";
     if (path === "/team") return "navBackgroundTeamCollapsed";
+    if (path === "/gallery") return "navBackgroundTestimonialsCollapsed";
     if (path === "/") return "navBackgroundHomeCollapsed";
     if (path === "/chungandassociates/") return "navBackgroundHomeCollapsed";
     if (path === "/*") return "navBackgroundHomeCollapsed";

@@ -17,7 +17,6 @@ import image6 from "../../images/6.jpg";
 import image7 from "../../images/7.jpg";
 import image8 from "../../images/8.jpg";
 import Typography from "@material-ui/core/Typography";
-import { Parallax } from "react-scroll-parallax";
 import "../../App.css";
 
 const useStyles = makeStyles({

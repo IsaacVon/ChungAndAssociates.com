@@ -1,6 +1,5 @@
 import React from "react";
 import "../../../App.css";
-import NavBar from "../../../components/desktop/navBarDesktop";
 import logo from "../../../logos/chung-logo.svg";
 
 export default function ServiceMain() {

@@ -694,15 +694,6 @@
 
 /* Desktop Gallery */
 
-.photoGrid {
-  overflow: hidden;
-  width: 20vw;
-  height: 25vw;
-
-  position: relative;
-  bottom: 0vw;
-}
-
 /* Desktop Team */
 
 .teamImages {
@@ -984,6 +975,23 @@
   height: 110px;
 }
 
-.galleryPhoto {
-  size: 200px;
+.gallerySpacer {
+  height: 100px;
+}
+
+/* .photoGalleryStyle {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+} */
+
+.photoGrid {
+  overflow: hidden;
+  width: 20vw;
+  height: 20vw;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }

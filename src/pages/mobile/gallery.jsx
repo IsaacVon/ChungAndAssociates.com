@@ -1,11 +1,8 @@
 import React from "react";
+
+import Footer from "../../components/mobile/footer";
 import { makeStyles } from "@material-ui/core/styles";
 import Gallery from "react-photo-gallery";
-
-
-import NavBar from "../../components/desktop/navBarDesktop";
-import Footer from "../../components/desktop/footer";
-import logo from "../../logos/chung-logo.svg";
 
 import image1 from "../../images/events/1.jpeg";
 import image2 from "../../images/events/2.jpeg";
@@ -19,16 +16,14 @@ import image9 from "../../images/events/9.png";
 
 import "../../App.css";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles({
   root: {
-    marginTop: "50px",
-    margin: "auto",
-    flexGrow: 1,
-    width: "90%",
+    width: "100%",
+    maxWidth: 500,
   },
-}));
+});
 
-export default function PhotoGallery() {
+export default function EventGallery() {
   const classes = useStyles();
 
   const photos = [
@@ -80,22 +75,12 @@ export default function PhotoGallery() {
   ];
 
   return (
-    <>
-      <div className="serviceLogoContainer">
-        <a href="/">
-          <img className="logo2" src={logo} alt="Logo" />
-        </a>
-        <div className="tagLineDesktop">Building Quality Organizations</div>
+    <div className={classes.root}>
+      <div className="gallerySpacer"></div>
+      <Gallery margin={2} photos={photos} />
+      <div style={{ background: "#ABE4F0" }}>
+        <Footer />
       </div>
-      <div className="navbarPositioner">
-        <NavBar />
-      </div>
-
-      <div className={classes.root}>
-        <Gallery margin={2} photos={photos} />
-      </div>
-
-      <Footer />
-    </>
+    </div>
   );
 }
