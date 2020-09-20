@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Router, Switch, Route } from "react-router-dom";
 
 import history from "./components/mobile/history";
-import ScrollToTop from "./components/scrollToTop"
+import ScrollToTop from "./components/scrollToTop";
 
 // Mobile Pages
 import Navbar from "./components/mobile/navBar";
@@ -50,12 +50,9 @@ function App() {
   if (!mobile) {
     return (
       <Router history={history}>
-          
         <div className={classes.root}>
-        <ScrollToTop />
-
+          <ScrollToTop />
           <Switch>
-
             <Route path="/team" exact component={TeamDesktop} />
             <Route path="/contact" exact component={ContactDesktop} />
             <Route path="/testimonials" exact component={TestimonialsDesktop} />
@@ -71,10 +68,10 @@ function App() {
 
   if (mobile) {
     return (
-
       <Router history={history}>
         <div className={classes.root}>
           <Navbar />
+          <ScrollToTop />
           <Switch>
             <Route path="/team" exact component={Team} />
             <Route path="/testimonials" exact component={Testimonials} />
