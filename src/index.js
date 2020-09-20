@@ -9,11 +9,11 @@ import { ParallaxProvider } from "react-scroll-parallax";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <ParallaxProvider>
-        <App />
-      </ParallaxProvider>
-    </ThemeProvider>
+      <ThemeProvider theme={theme}>
+        <ParallaxProvider>
+          <App />
+        </ParallaxProvider>
+      </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
