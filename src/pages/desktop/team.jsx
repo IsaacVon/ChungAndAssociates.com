@@ -27,7 +27,7 @@ export default function Services() {
       <div className="teamSpacer"></div>
 
       <Grid container spacing={2}>
-        <Grid item xs={6} md={5} >
+        <Grid item xs={6} md={5}>
           <div className="teamImages">
             <div className="teamImageWrapper">
               <img
@@ -48,7 +48,7 @@ export default function Services() {
             </div>
           </div>
         </Grid>
-        <Grid item xs={6} md={7} >
+        <Grid item xs={6} md={7}>
           <div className="teamWrapper">
             <span
               style={{
@@ -73,15 +73,17 @@ export default function Services() {
               <p>
                 Liennette started her career with PricewaterhouseCoopers (PwC)
                 and lead the practice both locally in Los Angeles as well as
-                globally in Hong Kong. Later, Liennette joined Credit Suisse and
-                was responsible over the performance health of disciplines
-                across Asia Pacific. As opportunities presented after the 2000
-                Asian Financial Crisis, Liennette established Renaissance
-                International Investments in Jakarta, Indonesia and served as
-                one of its two key principals to invest in distressed assets in
-                the Southeast Asia. Upon her return home, she joined Global
-                Imaging in 2005 and served as Senior VP and CFO for their
-                California retail flagship.
+                globally in Hong Kong.
+              </p>
+              <p>
+                Later, Liennette joined Credit Suisse and was responsible over
+                the performance health of disciplines across Asia Pacific. As
+                opportunities presented after the 2000 Asian Financial Crisis,
+                Liennette established Renaissance International Investments in
+                Jakarta, Indonesia and served as one of its two key principals
+                to invest in distressed assets in the Southeast Asia. Upon her
+                return home, she joined Global Imaging in 2005 and served as
+                Senior VP and CFO for their California retail flagship.
               </p>
               <p>
                 Liennette formed Chung & Associates Inc. in late 2012 to
@@ -119,7 +121,7 @@ export default function Services() {
                   marginTop: "10px",
                 }}
               >
-                Riordan and Associates | Sudbay & Associates
+                Riordan and Associates | Reservoir LLC
               </div>
             </div>
           </div>

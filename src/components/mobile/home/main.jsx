@@ -7,7 +7,12 @@ export default function Main() {
     <>
       <div style={{ paddingBottom: "25px" }}>
         <Typography
-          style={{ fontSize: "15px", margin: "24px", marginTop: "0px" }}
+          style={{
+            fontSize: "15px",
+            margin: "24px",
+            marginTop: "0px",
+            textAlign: "justify",
+          }}
         >
           <span
             style={{

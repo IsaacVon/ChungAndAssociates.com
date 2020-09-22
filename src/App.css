@@ -207,7 +207,6 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
 }
 .footerContent {
   margin-top: auto;
@@ -229,6 +228,13 @@
   border-width: 0px;
   height: 3px;
   background-color: #989898;
+}
+
+.hrTestimonialsBottom {
+  border-width: 0px;
+  height: 3px;
+  background-color: #989898;
+  margin-block-end: 0px;
 }
 
 /* /team  */
@@ -481,9 +487,8 @@
   }
   .serviceContainer {
     /* color: red; */
-    bottom: -680px;
+    bottom: -650px;
     left: 40px;
-    white-space: nowrap;
   }
 }
 
@@ -513,7 +518,9 @@
     /* color: red; */
     bottom: -670px;
     left: 80px;
+    white-space: nowrap;
   }
+
   .teamWrapper {
     padding: 0px 50px 0px 0px;
   }
@@ -557,7 +564,7 @@
 }
 
 .tagLineDesktop {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 300;
   margin: 20px 0px 0px 0px;
 }

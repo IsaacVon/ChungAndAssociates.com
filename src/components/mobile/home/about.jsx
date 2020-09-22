@@ -58,7 +58,12 @@ export default function About() {
       </div>
 
       <Typography
-        style={{ margin: "28px", fontWeight: "300", fontSize: "15px" }}
+        style={{
+          margin: "28px",
+          fontWeight: "300",
+          fontSize: "15px",
+          textAlign: "justify",
+        }}
       >
         The core of our services revolves around business planning with a focus
         in the technology and office solutions industry. Whether the mission is

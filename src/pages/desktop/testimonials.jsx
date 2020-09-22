@@ -120,7 +120,7 @@ export default function TestimonialsDesktop() {
         <img className="surf" width="100%" src={image8} alt="surf" />
       </div>
       <div className="testimonialCardDesktop">
-        <JimP desktop={true} />
+        <JohnK desktop={true} />
       </div>
       <div
         className="testimonialCardDesktop"
@@ -140,7 +140,7 @@ export default function TestimonialsDesktop() {
           background: "#e4faff",
         }}
       >
-        <JohnK desktop={true} />
+        <JimP desktop={true} />
       </div>
 
       <div className="imgDiv5">

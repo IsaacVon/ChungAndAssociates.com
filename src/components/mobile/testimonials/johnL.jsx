@@ -6,7 +6,7 @@ export default function JohnL({desktop}) {
     <div className={desktop ? "testimonialContentContainerDesktop" : "testimonialContentContainer" }>
       <div className={desktop ? "testimonialReviewDesktop" : "testimonialReview"}>
         <p>
-          We’ve been working with Liennette Chung for the past 7 years. The
+          We’ve been working with Liennette Chung since 2013. The
           first time Liennette Chung said to me that numbers are a language, I
           just brushed it off as CPA talk. Later I would find out she had a
           special knack for uncovering every businesses processes, operating

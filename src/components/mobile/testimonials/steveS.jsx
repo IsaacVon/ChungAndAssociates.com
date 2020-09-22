@@ -15,7 +15,7 @@ export default function SteveS({ desktop }) {
       >
         <p>
           {" "}
-          We have worked with Liennette for nearly eight years. She brings
+          We have worked with Liennette for nearly eight years, since 2012. She brings
           considerable experience and financial expertise to our business. But
           more importantly, she brings insight and ideas that can only come from
           engaging with a broad cross-section of quality companies in our

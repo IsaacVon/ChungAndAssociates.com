@@ -94,7 +94,6 @@ export default function Testimonials() {
         />
         {/* </Parallax> */}
       </div>
-      <JimP desktop={false} />
       <JohnK desktop={false} />
 
       <div style={{ background: "#E9EDFD" }}>
@@ -103,7 +102,11 @@ export default function Testimonials() {
         <hr className="hrTestimonials"></hr>
       </div>
       <MaryA desktop={false} />
-      
+      <div style={{ background: "#E4FAFF" }}>
+        <hr className="hrTestimonials"></hr>
+        <JimP desktop={false} />
+        <hr className="hrTestimonialsBottom"></hr>
+      </div>
 
       <div id="contactUs" className="footerBackground">
         <div className="footerContent">

@@ -29,41 +29,64 @@ export default function TeamContent() {
       </Typography>
 
       <Typography
-        style={{ margin: "28px", fontWeight: "normal", fontSize: "15px" }}
+        style={{
+          margin: "28px",
+          fontWeight: "normal",
+          fontSize: "15px",
+          textAlign: "justify",
+        }}
       >
-        Liennette started her career with PricewaterhouseCoopers (PwC) and lead
-        the practice both locally in Los Angeles as well as globally in Hong
-        Kong. Her client base included Blue Cross Blue Shield, AIG Corporation,
-        The International Monetary Fund (IMF), AIA Corporation, Peregrine
-        Investments, Barclays Capital, UBS, China Trust and HSBC. In 1999,
-        Liennette joined Credit Suisse and was responsible over the performance
-        assessment and operating health of assigned disciplines across Asia
-        Pacific. She later established Renaissance International Investments in
-        Jakarta, Indonesia and served as one of its two key principals and
-        positioned two private equity funds for investing in distressed assets
-        in the Southeast Asia. Upon her return home, she joined Global Imaging
-        in 2005 and served as Senior VP and CFO for their flagship retail
-        business for Southern California.{" "}
+        <p>
+          Liennette started her career with PricewaterhouseCoopers (PwC) and
+          lead the practice both locally in Los Angeles as well as globally in
+          Hong Kong.
+        </p>
+        <p>
+          Later, Liennette joined Credit Suisse and was responsible over the
+          performance health of disciplines across Asia Pacific. As
+          opportunities presented after the 2000 Asian Financial Crisis,
+          Liennette established Renaissance International Investments in
+          Jakarta, Indonesia and served as one of its two key principals to
+          invest in distressed assets in the Southeast Asia. Upon her return
+          home, she joined Global Imaging in 2005 and served as Senior VP and
+          CFO for their California retail flagship.
+        </p>
+        <p>
+          Liennette formed Chung & Associates Inc. in late 2012 to assisting
+          clients in building quality organizations. Chung and Associates’
+          clients include thirteen of the top twenty-five office dealerships in
+          America. She also served as private counsel to several global family
+          enterprises.
+        </p>
       </Typography>
-        <img width="100%" src={image5} alt="Office" />
+      <img width="100%" src={image5} alt="Office" />
 
       <Typography
-        style={{ margin: "28px", fontWeight: "normal", fontSize: "15px" }}
+        style={{
+          margin: "28px",
+          fontWeight: "normal",
+          fontSize: "15px",
+          textAlign: "justify",
+        }}
       >
-        Liennette formed Chung & Associates Inc. in late 2012 to assisting
-        clients in building quality organizations. Our clients include thirteen
-        of the top twenty-five office dealerships in America. She also served as
-        the private counsel to several international family enterprises. In mid
-        October 2013, Liennette Chung formed Pacific ConnecTeq, a Ricoh
-        dealership to establish independent client representation for southern
-        California. PCT was meant to be an organized stewpot of Liennette’s
-        knowledged and knowhow. The Company was a nationally award-winning
-        establishment and constantly courted for acquisition. Precisely seven
-        years after its formulation, Pacific ConnecTeq was recently was sold to
-        Advance Office, on June 1, 2020. Liennette is a California Certified
-        Public Accountant (CPA) and holds two Bachelor of Arts in 1)
-        International Economics and 2) East Asian Language & Culture from the
-        University of California Los Angeles (UCLA).
+        <p>
+          At the same time, Liennette Chung formed Pacific ConnecTeq (PCT), an
+          IT & Ricoh dealership in 2013 to establish independent client
+          representation for southern California. PCT was meant to be an
+          organized stewpot of Liennette’s knowledge and experiences. The
+          Company became a nationally award-winning establishment and was
+          constantly courted for acquisition. PCT was established for specific
+          growth and divestiture to not only demonstrate knowhow of Chung and
+          Associates, but also the investment opportunity in the imaging
+          industry. Seven years after its formulation, Pacific ConnecTeq was
+          sold to Advance Office, on June 1, 2020.
+        </p>
+        <p>
+          Liennette is a California Certified Public Accountant (CPA) and holds
+          two Bachelor of Arts in 1) International Economics and 2) East Asian
+          Language & Culture from the University of California Los Angeles
+          (UCLA).
+        </p>
       </Typography>
 
       <hr className="hrTeam"></hr>
@@ -94,7 +117,7 @@ export default function TeamContent() {
           marginBottom: "50px",
         }}
       >
-        Sudbay & Associates
+        Reservoir LLC
       </Typography>
     </>
   );
