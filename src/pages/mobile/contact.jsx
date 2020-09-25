@@ -1,7 +1,6 @@
 import React from "react";
-
 import { makeStyles } from "@material-ui/core/styles";
-
+import image5 from "../../images/5.jpg";
 import Button from "@material-ui/core/Button";
 
 import "../../App.css";
@@ -32,7 +31,7 @@ export default function Testimonials() {
             <span style={{ fontWeight: "300" }}> Us </span>
           </div>
           <div
-            style={{ fontSize: "18px", marginTop: "60px", fontWeight: "300" }}
+            style={{ fontSize: "18px", marginTop: "42px", fontWeight: "300" }}
           >
             We would love to hear from you!
           </div>
@@ -54,11 +53,15 @@ export default function Testimonials() {
           </Button>
         </div>
       </div>
+
+      <div className="imgDiv6">
+        <img src={image5} alt="office" />
+      </div>
       <div
         style={{
           backgroundColor: "#73d3e1",
           width: "100%",
-          paddingTop: "80px",
+          paddingTop: "97px",
           paddingBottom: "30px",
           position: "relative",
           textAlign: "center",

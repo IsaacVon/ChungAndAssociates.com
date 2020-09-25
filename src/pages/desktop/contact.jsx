@@ -1,20 +1,19 @@
 import React from "react";
+import logo from "../../logos/chung-logo.svg";
 import NavBar from "../../components/desktop/navBarDesktop";
 import Button from "@material-ui/core/Button";
-
-import logo from "../../logos/chung-logo.svg";
+import image5 from "../../images/5.jpg";
+import Grid from "@material-ui/core/Grid";
 
 import "../../App.css";
 
-
-
 export default function Contact() {
-
   return (
     <>
       <div className="navbarPositioner">
         <NavBar />
       </div>
+
       <div className="contactContainer">
         <div className="contactUsDesktop">
           <div className="serviceLogoContainer">
@@ -31,7 +30,11 @@ export default function Contact() {
             <span style={{ fontWeight: "300" }}> Us </span>
           </div>
           <div
-            style={{ fontSize: "18px", marginTop: "45px", fontWeight: "300" }}
+            style={{
+              fontSize: "18px",
+              marginTop: "45px",
+              fontWeight: "300",
+            }}
           >
             We would love to hear from you!
           </div>
@@ -50,6 +53,14 @@ export default function Contact() {
           >
             Contacts@Chungandassociates.com
           </Button>
+
+          <div className="contactImageWrapper">
+            <img
+              className="office"
+              src={image5}
+              alt="conference"
+            />
+          </div>
         </div>
         <div
           style={{

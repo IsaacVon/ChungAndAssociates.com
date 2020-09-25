@@ -97,7 +97,7 @@ export default function NavDropdown({ navExpander }) {
           <span className="bold"> SAY </span>
         </Button>
         {/* New page */}
-        <Button
+        {/* <Button
           disableTouchRipple
           className={path === "/gallery" ? classes.selected : classes.standard}
           component={Link}
@@ -106,7 +106,7 @@ export default function NavDropdown({ navExpander }) {
           {" "}
           <span className="light">EVENT </span>
           <span className="bold"> GALLERY </span>
-        </Button>
+        </Button> */}
         <Button
           disableTouchRipple
           className={path === "/contact" ? classes.selected : classes.standard}

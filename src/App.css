@@ -564,7 +564,7 @@
 }
 
 .tagLineDesktop {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   margin: 20px 0px 0px 0px;
 }
@@ -881,7 +881,7 @@
   background: rgba(245, 245, 245, 0.8);
   height: 100%;
   width: 200px;
-  height: 470px;
+  height: 405px;
   float: right;
   margin-right: 0px;
   border-radius: 10px;
@@ -895,7 +895,7 @@
   background: rgba(245, 245, 245, 0.8);
   height: 100%;
   width: 200px;
-  height: 470px;
+  height: 405px;
   float: right;
   margin-right: 00px;
   border-radius: 10px;
@@ -907,11 +907,9 @@
 
 .contactUsDesktop {
   text-align: center;
-  padding-bottom: 28px;
   margin-top: 120px;
   padding-top: 28px;
   background-color: #73d3e1;
-  height: 460px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -974,7 +972,6 @@
   margin: auto;
   width: 80%;
   padding: 10px;
-  height: 100vh;
 }
 
 .teamSpacer {
@@ -1000,4 +997,34 @@
   position: relative;
   display: flex;
   flex-wrap: wrap;
+}
+
+.contactImageWrapper {
+  overflow: hidden;
+  position: relative;
+
+  margin-top: 70px;
+  height: 500px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.contactImageWrapper img {
+  position: absolute;
+  left: -100px;
+  width: 120%;
+}
+
+
+.imgDiv6 {
+  
+  margin: 80px 0px 10px 0px;
+  overflow: hidden;
+  max-height: 252px;
+}
+
+.imgDiv6 img {
+  width:135%;
+  margin-top: -100px;
+  margin-left: -100px;
 }
