@@ -96,9 +96,9 @@ export default function TestimonialsDesktop() {
         <JeffE desktop={true} />
       </div>
 
-      <div className="imgDiv4">
+      <div className="imgDiv41">
         {/* <Parallax y={[-60, 0]}> */}
-        <img className="snow" width="100%" src={image7} alt="snow" />
+        <img className="hike" width="100%" src={image7} alt="hike" />
         {/* </Parallax> */}
       </div>
       <div className="testimonialCardDesktop">

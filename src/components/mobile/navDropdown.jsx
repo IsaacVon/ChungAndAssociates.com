@@ -124,7 +124,7 @@ export default function NavDropdown({ navExpander }) {
         <a href="/">
           <img className="logo1" src={logo} alt="Logo" />
         </a>
-        <div className="tagLine">Building Quality Organizations</div>
+        <div className="tagLineMobile">Building Quality Organizations</div>
       </div>
     </div>
   );

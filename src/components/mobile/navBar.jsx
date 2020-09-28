@@ -124,7 +124,7 @@ export default function NavBar() {
                 </a>
               </Grid>
             </Grid>
-            <div className="tagLine">Building Quality Organizations</div>
+            <div className="tagLineMobile">Building Quality Organizations</div>
           </div>
         </div>
       </>

@@ -5,7 +5,6 @@ import Footer from "../../components/desktop/footer";
 import Grid from "@material-ui/core/Grid";
 
 import image4 from "../../images/4.jpg";
-import image5 from "../../images/5.jpg";
 
 import "../../App.css";
 
@@ -38,13 +37,17 @@ export default function Services() {
               />
             </div>
 
-            <div className="teamImageWrapper">
-              <img
-                className="office"
-                height="620px"
-                src={image5}
-                alt="conference"
-              />
+            <div className="teamInfoFooter">
+              Associated Partners
+              <div
+                style={{
+                  fontSize: "19px",
+                  fontWeight: "600",
+                  marginTop: "10px",
+                }}
+              >
+                Riordan and Associates | Reservoir LLC
+              </div>
             </div>
           </div>
         </Grid>
@@ -111,18 +114,6 @@ export default function Services() {
                 East Asian Language & Culture from the University of California
                 Los Angeles (UCLA).
               </p>
-            </div>
-            <div className="teamInfoFooter">
-              Associated Partners
-              <div
-                style={{
-                  fontSize: "19px",
-                  fontWeight: "600",
-                  marginTop: "10px",
-                }}
-              >
-                Riordan and Associates | Reservoir LLC
-              </div>
             </div>
           </div>
         </Grid>

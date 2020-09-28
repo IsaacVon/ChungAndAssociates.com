@@ -3,7 +3,6 @@ import logo from "../../logos/chung-logo.svg";
 import NavBar from "../../components/desktop/navBarDesktop";
 import Button from "@material-ui/core/Button";
 import image5 from "../../images/5.jpg";
-import Grid from "@material-ui/core/Grid";
 
 import "../../App.css";
 
@@ -23,7 +22,7 @@ export default function Contact() {
             <div className="tagLineDesktop">Building Quality Organizations</div>
           </div>
 
-          <hr className="hrContactUs"></hr>
+          {/* <hr className="hrContactUs"></hr> */}
 
           <div style={{ fontSize: "30px ", marginTop: "45px" }}>
             <span style={{ fontWeight: "500" }}>Contact</span>

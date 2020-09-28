@@ -142,6 +142,14 @@
   margin-top: 7px;
   padding-bottom: 20px;
 }
+
+.tagLineMobile {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 7px;
+  padding-bottom: 20px;
+}
 /* /Testimonials */
 
 .testimonialContentContainer {
@@ -299,7 +307,7 @@
   bottom: 73vw;
 }
 
-.snow {
+.hike {
   position: relative;
   bottom: 6vw;
 }
@@ -327,6 +335,8 @@
   max-height: 600px;
 }
 
+
+
 .serviceBackground {
   position: relative;
   background-image: url(./images/3.jpg);
@@ -351,6 +361,16 @@
   white-space: nowrap;
   color: white;
 }
+
+
+.imgDiv41 {
+  margin: 20px, 0px;
+  overflow: hidden;
+  height: 50vw;
+  max-height: 600px;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .navBackgroundHomeDesktop {
@@ -478,7 +498,7 @@
   .surf {
     bottom: 78vw;
   }
-  .snow {
+  .hike {
     bottom: 12vw;
   }
   .desert {
@@ -506,7 +526,7 @@
   .surf {
     bottom: 88vw;
   }
-  .snow {
+  .hike {
     bottom: 19vw;
   }
   .desert {
@@ -537,8 +557,8 @@
   .surf {
     bottom: 86vw;
   }
-  .snow {
-    bottom: 19vw;
+  .hike {
+    bottom: 21vw;
   }
   .desert {
     position: relative;
@@ -706,19 +726,19 @@
 .teamImages {
   overflow: hidden;
   max-width: 460px;
-  height: 1180px;
-  margin: 130px 20px 0px auto;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
+  margin: 130px 20px 80px auto;
+
 }
 
 .teamImageWrapper {
   overflow: hidden;
   position: relative;
   height: 591px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
 
 .team {
@@ -746,7 +766,7 @@
 }
 
 .teamInfoFooter {
-  margin-top: 31%;
+  margin-top: 17%;
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -1015,16 +1035,14 @@
   width: 120%;
 }
 
-
 .imgDiv6 {
-  
   margin: 80px 0px 10px 0px;
   overflow: hidden;
-  max-height: 252px;
+  max-height: 262px;
 }
 
 .imgDiv6 img {
-  width:135%;
-  margin-top: -100px;
-  margin-left: -100px;
+  width: 145%;
+  margin-top: -102px;
+  margin-left: -112px;
 }

@@ -24,9 +24,9 @@ export default function Testimonials() {
     <div className={classes.root}>
       <div className="contactContainerMobile">
         <div className="contactUsMobile">
-          <hr className="hrContactUsMobile"></hr>
+          {/* <hr className="hrContactUsMobile"></hr> */}
 
-          <div style={{ fontSize: "25px ", marginTop: "40px" }}>
+          <div style={{ fontSize: "25px ", marginTop: "0px" }}>
             <span style={{ fontWeight: "500" }}>Contact</span>
             <span style={{ fontWeight: "300" }}> Us </span>
           </div>
@@ -61,7 +61,7 @@ export default function Testimonials() {
         style={{
           backgroundColor: "#73d3e1",
           width: "100%",
-          paddingTop: "97px",
+          paddingTop: "150px",
           paddingBottom: "30px",
           position: "relative",
           textAlign: "center",
