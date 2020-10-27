@@ -40,22 +40,22 @@ export default function About() {
         We work with entrepreneurs to mobilize their resources and bring out the
         full potential of their businesses.
       </Typography>
-      <div
+      {/* <div
         style={{
           margin: " 15px 0px 10px 0px",
           overflow: "hidden",
           maxHeight: "90%",
         }}
       >
-        {/* <Parallax y={[-40, 0]}> */}
+        <Parallax y={[-40, 0]}>
         <img
           style={{ margin: "-30px 20px 0px -20px" }}
           width="120%"
           src={image2}
           alt="Bamboo"
         />
-        {/* </Parallax> */}
-      </div>
+        </Parallax>
+      </div> */}
 
       <Typography
         style={{

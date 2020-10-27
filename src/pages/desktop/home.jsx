@@ -13,7 +13,7 @@ export default function Home() {
       <div id="aboutUs">
         <About />
       </div>
-      <div
+      {/* <div
         style={{
           overflow: "hidden",
           minHeight: "200px",
@@ -24,7 +24,7 @@ export default function Home() {
         <Parallax y={[-20, 20]}>
           <img className="bambooHome" width="120%" src={image2} alt="Bamboo" />
         </Parallax>
-      </div>
+      </div> */}
       <div id="contactUs">
 
       <Footer />
