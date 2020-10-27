@@ -29,7 +29,7 @@ export default function Footer() {
         <span style={{ fontWeight: "500" }}>Chung & Associates, LLC</span>
         <span style={{ fontWeight: "300" }}>
           {" "}
-          | 243 Newport Ave, Long beach CA 90803{" "}
+          | 3646 Long Beach Blvd Unit 102 Long Beach, CA 90807{" "}
         </span>
       </div>
       <Button

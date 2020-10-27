@@ -10,7 +10,7 @@ export default function Footer() {
         Chung & Associates, LLC
       </Typography>{" "}
       <Typography style={{ fontSize: "13px ", fontWeight: "300" }}>
-        243 Newport Ave. | Long beach CA 90803
+        3646 Long Beach Blvd Unit 102 Long Beach, CA 90807
       </Typography>
       <Typography
         style={{ fontSize: "11px ", fontWeight: "300", marginTop: "18px" }}
