@@ -14,7 +14,7 @@ export default function MikeR({desktop}) {
           professional life. For a number of years, I observed Liennette build
           powerful admin and operations teams that increased the production of
           the entire company. Sales and service people alike respect her. Then
-          in 2012 we joined forces in Building Quality Organizations through our
+         we joined forces in Building Quality Organizations through our
           Consulting Practice. Liennette’s principle area of financial expertise
           has benefited many of our clients and greatly impacted their
           profitability. She has maximum respect from all level of individuals
