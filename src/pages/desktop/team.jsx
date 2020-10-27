@@ -98,7 +98,7 @@ export default function Services() {
               <p>
                 At the same time, Liennette Chung formed Pacific ConnecTeq
                 (PCT), an IT & Ricoh dealership in 2013 to establish independent
-                client representation for southern California. PCT was meant to
+                client representation for Southern California. PCT was meant to
                 be an organized stewpot of Liennette’s knowledge and
                 experiences. The Company became a nationally award-winning
                 establishment and was constantly courted for acquisition. PCT
