@@ -12,7 +12,7 @@ export default function JimP({desktop}) {
         continue our growth trajectory, with 10% growth increases each year. Ms.
         Chung is a strategic thinker who is passionate about the businesses she
         works with and creative in providing innovative ideas that help to grow
-        businesses. Her experiences with PwC, in Investment Banking, as a CFO
+        businesses. Her experiences with PwC in Investment Banking, as a CFO
         for Xerox retail, and CEO and President of another dealership, Ms.
         Chung’s resume is an impressive one. Her attention to detail,
         professional approach to helping businesses and wealth of knowledge make
