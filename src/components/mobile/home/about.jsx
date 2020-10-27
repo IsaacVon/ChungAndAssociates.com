@@ -66,7 +66,7 @@ export default function About() {
         }}
       >
         The core of our services revolves around business planning with a focus
-        in the technology and office solutions industry. Whether the mission is
+        in technology and office solutions industry. Whether the mission is
         to advance the Company’s growth or enhance its performance, venture into
         new market territories or expand into new product lines, Chung and
         Associates assists in the preparation and execution to make it happen.
