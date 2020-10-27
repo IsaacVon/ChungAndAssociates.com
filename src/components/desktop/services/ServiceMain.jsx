@@ -16,26 +16,26 @@ export default function ServiceMain() {
           <div className="servicesWeOffer">Services We Offer</div>
 
           <ul className="serviceList">
-            <li>• Financial Performance Assessment</li>
-            <li>• Organization Evaluation</li>
-            <li>• Business Planning and Oversight</li>
-            <li>• Financial Modeling and Benchmark Development</li>
-            <li>• Financial Statement Compilation and Review</li>
+            <li>Financial Performance Assessment</li>
+            <li>Organization Evaluation</li>
+            <li>Business Planning and Oversight</li>
+            <li>Financial Modeling and Benchmark Development</li>
+            <li>Financial Statement Compilation and Review</li>
             <li>
-              • Organization Structure & Process Design and Implementation
+              Organization Structure & Process Design and Implementation
             </li>
-            <li>• Operations & Controls Assessment and Attestation</li>
-            <li>• Business Valuation</li>
+            <li>Operations & Controls Assessment and Attestation</li>
+            <li>Business Valuation</li>
           </ul>
           <ul className="serviceList">
-            <li>• Business Preparation for Acquisition</li>
-            <li>• Due Diligence and Special Attestation</li>
-            <li>• Mergers Implementation & Business Consolidation</li>
-            <li>• Resource and Human Capital Alignment</li>
-            <li>• Leadership Coaching & Development</li>
-            <li>• Professional Outsourcing and Support</li>
-            <li>• Succession Planning</li>
-            <li>• Next Generation Coaching & Development</li>
+            <li>Business Preparation for Acquisition</li>
+            <li>Due Diligence and Special Attestation</li>
+            <li>Mergers Implementation & Business Consolidation</li>
+            <li>Resource and Human Capital Alignment</li>
+            <li>Leadership Coaching & Development</li>
+            <li>Professional Outsourcing and Support</li>
+            <li>Succession Planning</li>
+            <li>Next Generation Coaching & Development</li>
           </ul>
         </div>
       </div>

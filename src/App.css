@@ -647,7 +647,7 @@
 .serviceList {
   font-size: 18px;
   line-height: 21px;
-  list-style: none;
+  /* list-style: none; */
 }
 
 .serviceLogoContainer {
