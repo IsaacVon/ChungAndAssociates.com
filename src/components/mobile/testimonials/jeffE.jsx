@@ -9,7 +9,7 @@ export default function JeffE({desktop}) {
         multiple projects and my expectations have always been exceeded. Her
         timeliness, attention to detail and genuine concern for providing ROI
         are always front and center. However, it’s her knowledge of the industry
-        and sincere care for people that set her apart.
+        and sincere care for people that sets her apart.
       </div>{" "}
       <div className="testimonialName">
         <span className="testimonialIconBlue">■ </span>
