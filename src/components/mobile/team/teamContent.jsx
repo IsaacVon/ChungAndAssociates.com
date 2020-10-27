@@ -52,11 +52,11 @@ export default function TeamContent() {
           CFO for their California retail flagship.
         </p>
         <p>
-          Liennette formed Chung & Associates Inc. in late 2012 to assisting
+          Liennette formed Chung & Associates Inc. in late 2012 to assist
           clients in building quality organizations. Chung and Associates’
           clients include thirteen of the top twenty-five office dealerships in
-          America. She also served as private counsel to several global family
-          enterprises.
+          America. Liennette also serves as a private counsel to several global
+          family enterprises.
         </p>
       </Typography>
       <img width="100%" src={image5} alt="Office" />

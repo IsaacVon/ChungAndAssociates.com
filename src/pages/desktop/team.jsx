@@ -89,10 +89,10 @@ export default function Services() {
                 Senior VP and CFO for their California retail flagship.
               </p>
               <p>
-                Liennette formed Chung & Associates Inc. in late 2012 to
-                assisting clients in building quality organizations. Chung and
-                Associates’ clients include thirteen of the top twenty-five
-                office dealerships in America. She also served as private
+                Liennette formed Chung & Associates Inc. in late 2012 to assist
+                clients in building quality organizations. Chung and Associates’
+                clients include thirteen of the top twenty-five office
+                dealerships in America. Liennette also serves as a private
                 counsel to several global family enterprises.
               </p>
               <p>
