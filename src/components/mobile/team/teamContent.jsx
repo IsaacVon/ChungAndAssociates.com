@@ -76,10 +76,10 @@ export default function TeamContent() {
           organized stewpot of Liennette’s knowledge and experiences. The
           Company became a nationally award-winning establishment and was
           constantly courted for acquisition. PCT was established for specific
-          growth and divestiture to not only demonstrate knowhow of Chung and
-          Associates, but also the investment opportunity in the imaging
-          industry. Seven years after its formulation, Pacific ConnecTeq was
-          sold to Advance Office, on June 1, 2020.
+          growth and divestiture to not only demonstrate Chung and Associates’
+          knowhow, but also the investment opportunity in the imaging industry.
+          Seven years after its formulation, Pacific ConnecTeq was sold to
+          Advance Office, on June 1, 2020.
         </p>
         <p>
           Liennette is a California Certified Public Accountant (CPA) and holds

@@ -103,7 +103,7 @@ export default function Services() {
                 experiences. The Company became a nationally award-winning
                 establishment and was constantly courted for acquisition. PCT
                 was established for specific growth and divestiture to not only
-                demonstrate knowhow of Chung and Associates, but also the
+                demonstrate Chung and Associates’ knowhow, but also the
                 investment opportunity in the imaging industry. Seven years
                 after its formulation, Pacific ConnecTeq was sold to Advance
                 Office, on June 1, 2020.
